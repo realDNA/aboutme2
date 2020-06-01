@@ -1,0 +1,30 @@
+body, html {
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d6e9fd;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+svg {
+    width: 500px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 500px;
+}
+
+.st0{fill:#4C4D5D;}
+.st1{fill:#111111;}
+.st2{fill:#CCE5E8;}
+.st3{fill:#FFFFFF;}
+.st4{fill:#EDF4F9;}
+.st5{fill:none;}
+.st6{fill:#CBE6ED;stroke:#CBE6ED;stroke-width:15;stroke-miterlimit:10;}
+.st7{fill:#F4BD6C;}
+.st8{fill:#F7D548;}
+.st9{fill:#0F0902;}

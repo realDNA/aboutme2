@@ -42,6 +42,9 @@ export default {
     };
   },
   methods: {
+    background() {
+
+    }
   },
 };
 </script>

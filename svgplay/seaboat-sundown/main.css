@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#sunlight {
+    animation-duration: 2s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+    <!--mix-blend-mode: overlay;-->
+}
+
+@keyframes animateSun {
+    from {
+        transform: translateX(0) translateY(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(100px) translateY(10px);
+        opacity: 1;
+    }
+}
+
+#ship {
+    animation-duration: 120s;
+    animation-name: animateShip;
+    animation-iteration-count: infinite;
+    <!--mix-blend-mode: overlay;-->
+}
+
+
+@keyframes animateShip {
+    from {
+        transform: translateX(-450px);
+    }
+    to {
+        transform: translateX(600px);
+    }
+}
+
+.st0{fill:#F9D264;}
+	.st1{fill:#E27B1E;}
+	.st2{fill:#BC5704;}
+	.st3{fill:#CC6315;}
+	.st4{fill:#D8702A;}
+	.st5{fill:#E5813E;}
+	.st6{fill:#F2B130;}
+	.st7{fill:url(#sunlight_1_);}
+	.st8{fill:#A5A5A5;}
+	.st9{fill:#D3D3D3;}
+	.st10{fill:#0F0D04;}
+	.st11{fill:#EFE633;}
+	.st12{fill:#8CAD79;}
+	.st13{fill:#BF0649;}
+	.st14{fill:#DD0B57;}
+	.st15{fill:#65C1EF;}
+	.st16{fill:#92CFE8;}
+	.st17{fill:#FFFFFF;}
+	.st18{fill:#C1C1C1;}
+	.st19{fill:#959696;}

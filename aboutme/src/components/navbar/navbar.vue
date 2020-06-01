@@ -54,6 +54,9 @@
         created () {
             window.addEventListener('scroll', this.isScrollToTop);
         },
+        beforeDestroy() {
+            window.removeEventListener('scroll', this.isScrollToTop);
+        },
         data: () => ({
             isIntersecting: false,
         }),

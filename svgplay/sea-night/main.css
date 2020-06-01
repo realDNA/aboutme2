@@ -1,0 +1,82 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#star1 {
+    animation-duration: 0.3s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#star2 {
+    animation-duration: 0.4s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#star3 {
+    animation-duration: 0.5s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+    <!--mix-blend-mode: overlay;-->
+}
+
+@keyframes animateSun {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#lightbeam {
+    animation-duration: 0.5s;
+    animation-name: animateLightbeam;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    <!--mix-blend-mode: overlay;-->
+}
+
+@keyframes animateLightbeam {
+    from {
+        transform: skewY(0.1deg);
+    }
+    to {
+    }
+}
+
+.st0{fill:#F7EC69;}
+.st1{fill:#082084;}
+.st2{fill:#032E6D;}
+.st3{fill:#044089;}
+.st4{fill:#294989;}
+.st5{fill:#354DA0;}
+.st6{fill:#FFFAA6;}
+.st7{fill:#BF0649;}
+.st8{fill:#DD0B57;}
+.st9{fill:#65C1EF;}
+.st10{fill:#92CFE8;}
+.st11{fill:#FFFFFF;}
+.st12{fill:#C1C1C1;}
+.st13{fill:#959696;}
+.st14{fill:url(#lightbeam_1_);}
+.st15{fill:url(#SVGID_1_);}
+.st16{fill:url(#SVGID_2_);}
+.st17{fill:url(#SVGID_3_);}
+.st18{fill:url(#SVGID_4_);}
+.st19{fill:url(#SVGID_5_);}
+.st20{fill:url(#SVGID_6_);}
+.st21{fill:url(#SVGID_7_);}
+.st22{fill:url(#SVGID_8_);}
+.st23{fill:url(#SVGID_9_);}
