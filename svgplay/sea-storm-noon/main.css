@@ -1,0 +1,94 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#lightening1 {
+    animation-duration: 1.7s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#lightening2 {
+    animation-duration: 1.4s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#lightening3 {
+    animation-duration: 2.1s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#wave1 {
+    animation-duration: 1.2s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#wave2 {
+    animation-duration: 2.1s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#wave3 {
+    animation-duration: 1.6s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    <!--mix-blend-mode: overlay;-->
+}
+
+#wave4 {
+    animation-duration: 1.5s;
+    animation-name: animateSun;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 1;
+    <!--mix-blend-mode: overlay;-->
+}
+
+
+@keyframes animateSun {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#speedboat {
+    animation-duration: 30s;
+    animation-name: animateShip;
+    animation-iteration-count: infinite;
+    <!--mix-blend-mode: overlay;-->
+}
+
+
+@keyframes animateShip {
+    from {
+        transform: translateX(-30px);
+    }
+    to {
+        transform: translateX(1200px);
+    }
+}

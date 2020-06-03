@@ -1,0 +1,43 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#speedboat {
+    animation-duration: 30s;
+    animation-name: animateShip;
+    animation-iteration-count: infinite;
+    <!--mix-blend-mode: overlay;-->
+}
+
+
+@keyframes animateShip {
+    from {
+        transform: translateX(600px);
+    }
+    to {
+        transform: translateX(-300px);
+    }
+}
+
+.st0{fill:#BDE5F9;}
+.st1{fill:#4BC8F9;}
+.st2{fill:#349FB7;}
+.st3{fill:#5DC1D8;}
+.st4{fill:#5ED4EF;}
+.st5{fill:#92D8F4;}
+.st6{fill:url(#sunlight1_1_);}
+.st7{fill:url(#sunlight2_1_);}
+.st8{fill:#3529D3;}
+.st9{fill:#181821;}
+.st10{fill:#FFFFFF;}
+.st11{fill:#2D2D2C;}
+.st12{fill:#EEF411;}
+.st13{fill:#000305;}
+.st14{fill:#BF0649;}
+.st15{fill:#DD0B57;}
+.st16{fill:#65C1EF;}
+.st17{fill:#92CFE8;}
+.st18{fill:#C1C1C1;}
+.st19{fill:#959696;}
