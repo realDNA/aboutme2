@@ -1,47 +1,23 @@
 <template>
     <div class="NavBar">
+
         <v-app-bar
-        :scroll="isScrollToTop"
-        :class="{ fixedNav: isIntersecting }">
+            color="white"
+            height="160"
+            elevation="0"
+        >
 
-          <v-toolbar flat>
-              <v-tabs
-                fixed-tabs
-              >
-                <v-tabs-slider></v-tabs-slider>
-                <v-tab
-                  href="#mobile-tabs-5-1"
-                  class="primary--text"
-                >
-                  <v-icon>mdi-phone</v-icon>
-                  <div class="nav-bar hidden-sm-and-down">GFGDGFDSGSFDG</div>
-                </v-tab>
+            <v-spacer></v-spacer>
+            <router-link :to="home">
+                <img src="@/assets/navbar/about-me-logo.svg" alt="about-me-logo" id="about-me-logo">
+            </router-link>
+            <router-link :to="aboutMe"><a> About Me </a></router-link>
+            <div> About Me | </div>
+            <div> Work Experience | </div>
+            <div> Skills | </div>
+            <div> Projects | </div>
+             <v-spacer></v-spacer>
 
-                <v-tab
-                  href="#mobile-tabs-5-2"
-                  class="primary--text"
-                >
-                  <v-icon>mdi-heart</v-icon>
-                    <div class="nav-bar hidden-sm-and-down"> GFGDGFDSGSFDG </div>
-                </v-tab>
-
-                <v-tab
-                  href="#mobile-tabs-5-3"
-                  class="primary--text"
-                >
-                  <v-icon>mdi-account-box</v-icon>
-                  <div class="nav-bar hidden-sm-and-down"> GFGDGFDSGSFDG </div>
-                </v-tab>
-
-                <v-tab
-                  href="#mobile-tabs-5-4"
-                  class="primary--text"
-                >
-                  <v-icon>mdi-account-box</v-icon>
-                  <div class="nav-bar hidden-sm-and-down"> GFGDGFDSGSFDG </div>
-                </v-tab>
-              </v-tabs>
-          </v-toolbar>
         </v-app-bar>
     </div>
 </template>
@@ -52,31 +28,21 @@
         props: {
         },
         created () {
-            window.addEventListener('scroll', this.isScrollToTop);
         },
         beforeDestroy() {
-            window.removeEventListener('scroll', this.isScrollToTop);
         },
         data: () => ({
-            isIntersecting: false,
+            aboutMe: { name: "AboutMe" },
+            home: { name: "Home" },
         }),
         methods: {
-            isScrollToTop() {
-                if (window.top.scrollY >= 700) {
-                    this.isIntersecting = true;
-                } else {
-                    this.isIntersecting = false;
-                }
-                this.$emit("input", this.isIntersecting);
-            }
+
         },
     };
 </script>
 
 <style>
-.fixedNav {
-  position: fixed;
-  top: 0;
-  z-index:1;
+#about-me-logo {
+    height: 50px;
 }
 </style>

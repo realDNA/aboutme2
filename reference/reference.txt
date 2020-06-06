@@ -1,2 +1,9 @@
 lightening:
 https://codepen.io/micael/pen/Lzgeap
+
+sticky navbar
+https://www.jqueryscript.net/menu/Animated-Sticky-Header-On-Scroll-with-CSS3-Javascript.html
+https://coder-coder.com/sticky-header-animated/
+
+scroll magic:
+https://scrollmagic.io/

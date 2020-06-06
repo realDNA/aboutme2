@@ -1,29 +1,21 @@
 <template>
   <div class="home">
 
-    <v-container fluid class="title">
-      <v-row align="center" justify="center">
-          <div class="display-4">
-            WORK
-          </div>
-      </v-row>
+    <v-container>
+      <v-layout row wrap>
+        <v-flex xs12 sm12 md6>
+            <h1> Aaron Wei </h1>
+            <div>
+                Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
+            </div>
+        </v-flex>
+
+        <v-flex xs12 sm12 md6>
+            <img src="@/assets/main/focus.svg" alt="about-me-logo">
+        </v-flex>
+      </v-layout>
     </v-container>
 
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-    <div class="display-4">fsdfsd</div>
-
-
-    <v-content></v-content>
   </div>
 
 </template>
