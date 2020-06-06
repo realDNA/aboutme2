@@ -76,7 +76,7 @@ body {
     }
 }
 
-#speedboat {
+#yacht {
     animation-duration: 30s;
     animation-name: animateShip;
     animation-iteration-count: infinite;
