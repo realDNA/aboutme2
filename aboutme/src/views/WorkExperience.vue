@@ -18,6 +18,27 @@
       </v-layout>
 
     </v-container>
+
+    <v-container>
+        <div class="work-experience-timeline">
+          <v-timeline>
+            <v-timeline-item
+              v-for="n in 3"
+              :key="n"
+              color="#e1e0ff"
+            >
+              <span slot="opposite">Tus eu perfecto</span>
+              <v-card class="elevation-2">
+                <v-card-title class="headline">Lorem ipsum</v-card-title>
+                <v-card-text>
+                  Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                </v-card-text>
+              </v-card>
+            </v-timeline-item>
+          </v-timeline>
+        </div>
+    </v-container>
+
   </div>
 </template>
 
@@ -49,5 +70,9 @@ export default {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 1.5em;
+}
+
+.work-experience-timeline {
+    padding:150px 0px 150px 0px;
 }
 </style>
