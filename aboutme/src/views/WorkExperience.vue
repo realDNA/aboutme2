@@ -9,11 +9,12 @@
                     <div class="work-experience-introduce-sub">
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                     </div>
+                    <ScrollDownArrow/>
                 </div>
             </v-flex>
 
             <v-flex xs12 sm12 md6 lg6 xl6>
-                <img src="@/assets/images/work-experience/workchat.svg" alt="about-me-logo">
+                <img src="@/assets/images/work-experience/workchat.svg" alt="work-experience">
             </v-flex>
           </v-layout>
 
@@ -68,10 +69,12 @@
 </template>
 
 <script>
+import ScrollDownArrow from "@/components/scrolldown/scrolldown.vue";
 
 export default {
   "name": 'workExperience',
   components: {
+    ScrollDownArrow,
   },
   data() {
     return {
@@ -89,7 +92,8 @@ export default {
 
 <style>
 .work-experience-introduce {
-    margin: 100px;
+    margin: 50px;
+    margin-top: 150px;
 }
 
 .work-experience-introduce-sub {
@@ -110,4 +114,5 @@ export default {
     margin-top: 10px;
     margin-right: 0px;
 }
+
 </style>
