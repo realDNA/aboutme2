@@ -10,7 +10,7 @@
 
             <div id="nav-logo">
                 <router-link :to="home">
-                    <img src="@/assets/navbar/about-me-logo.svg" alt="about-me-logo" id="about-me-logo">
+                    <img src="@/assets/images/navbar/about-me-logo.svg" alt="about-me-logo" id="about-me-logo">
                 </router-link>
             </div>
 
@@ -47,7 +47,7 @@
     };
 </script>
 
-<style>
+<style scoped>
 a {
   text-decoration: none;
   color: grey !important;
