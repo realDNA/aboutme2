@@ -39,7 +39,7 @@
                             <v-row justify="end" class="work-experience-read-more-button">
                               <v-dialog v-model="closeDialog" width="600px">
                                 <template v-slot:activator="{ on }">
-                                  <v-btn color="primary" dark v-on="on"> Read More </v-btn>
+                                  <v-btn color="#6b63ff" dark v-on="on"> Read More </v-btn>
                                 </template>
                                 <v-card>
                                   <v-card-title>
@@ -50,7 +50,7 @@
                                   </v-card-text>
                                   <v-card-actions>
                                     <v-spacer></v-spacer>
-                                    <v-btn color="green darken-1" text @click="closeDialog = false"> Close </v-btn>
+                                    <v-btn color="red darken-1" text @click="closeDialog = false"> Close </v-btn>
                                   </v-card-actions>
                                 </v-card>
                               </v-dialog>
