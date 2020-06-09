@@ -13,13 +13,13 @@
             </div>
         </v-flex>
 
-        <v-flex xs12 sm12 md6 lg6 xl6>
+        <v-flex xs12 sm12 md6 lg6 xl6 class="avatar-section">
             <div class="text-center about-image">
                 <v-avatar size="300">
-                        <img
-                          src="https://cdn.vuetifyjs.com/images/john.jpg"
-                          alt="John"
-                        >
+                    <img
+                      src="https://cdn.vuetifyjs.com/images/john.jpg"
+                      alt="John"
+                    >
                 </v-avatar>
             </div>
         </v-flex>
@@ -59,6 +59,12 @@ export default {
 
 .about-image {
     margin: 100px;
+
+}
+
+.avatar-section {
+    background-image: url("../assets/images/aboutme/avatar-back.svg");
+    background-position: center;
 }
 
 .about-introduce-sub {
@@ -66,4 +72,5 @@ export default {
     margin-bottom: 25px;
     font-size: 1.5em;
 }
+
 </style>
