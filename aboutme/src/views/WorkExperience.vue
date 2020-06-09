@@ -23,7 +23,7 @@
 
         <v-container class="work-experience-timeline-section">
             <div class="work-experience-timeline">
-              <v-timeline>
+              <v-timeline align-top dense>
                 <v-timeline-item
                   v-for="n in 3"
                   :key="n"
@@ -31,34 +31,25 @@
                 >
                   <span slot="opposite">Tus eu perfecto</span>
                   <section  v-scroll-reveal.reset="{ delay: 600 }">
-                      <v-card class="elevation-2">
-                        <v-card-title class="headline">Lorem ipsum</v-card-title>
-                        <v-card-text>
-                            Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-                            Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                      <v-row class="pt-1">
+                          <v-col cols="1">
+                            <strong> 2017 Apr </strong>
+                          </v-col>
+                          <v-col>
+                            <v-card class="elevation-2">
+                                <v-card-title class="headline">Lorem ipsum</v-card-title>
+                                <v-card-text>
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                </v-card-text>
+                              </v-card>
+                          </v-col>
+                       </v-row>
 
-                            <v-row justify="end" class="work-experience-read-more-button">
-                              <v-dialog v-model="closeDialog" width="600px">
-                                <template v-slot:activator="{ on }">
-                                  <v-btn color="#6b63ff" dark v-on="on"> Read More </v-btn>
-                                </template>
-                                <v-card>
-                                  <v-card-title>
-                                    1232312
-                                  </v-card-title>
-                                    2132141341
-                                  <v-card-text>
-                                  </v-card-text>
-                                  <v-card-actions>
-                                    <v-spacer></v-spacer>
-                                    <v-btn color="red darken-1" text @click="closeDialog = false"> Close </v-btn>
-                                  </v-card-actions>
-                                </v-card>
-                              </v-dialog>
-                            </v-row>
-
-                        </v-card-text>
-                      </v-card>
                   </section>
                 </v-timeline-item>
               </v-timeline>
@@ -109,10 +100,4 @@ export default {
 .work-experience-timeline {
     padding:0px 0px 150px 0px;
 }
-
-.work-experience-read-more-button {
-    margin-top: 10px;
-    margin-right: 0px;
-}
-
 </style>
