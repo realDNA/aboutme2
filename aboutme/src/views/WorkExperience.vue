@@ -23,34 +23,20 @@
 
         <v-container class="work-experience-timeline-section">
             <div class="work-experience-timeline">
-              <v-timeline align-top dense>
+              <v-timeline>
                 <v-timeline-item
-                  v-for="n in 3"
-                  :key="n"
+                  v-for="item in workExperienceItems"
+                  :key="item.name"
                   color="#dbdcff"
                 >
-                  <span slot="opposite">Tus eu perfecto</span>
-                  <section  v-scroll-reveal.reset="{ delay: 600 }">
-                      <v-row class="pt-1">
-                          <v-col cols="1">
-                            <strong> 2017 Apr </strong>
-                          </v-col>
-                          <v-col>
-                            <v-card class="elevation-2">
-                                <v-card-title class="headline">Lorem ipsum</v-card-title>
-                                <v-card-text>
-                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-                                </v-card-text>
-                              </v-card>
-                          </v-col>
-                       </v-row>
-
-                  </section>
+                  <span slot="opposite"> {{item.time}} </span>
+                  <timeLineBox
+                    :timeLineCardTitle="item.name"
+                    :timeLineCardContent="item.jobPosition"
+                    :timeLineCardImage="item.imageSrc"
+                    detailCardTitle="sdfsfsdfadsf"
+                    detailCardContent="dfdsafsdafsadfsdfdsafasdfdsf"
+                  />
                 </v-timeline-item>
               </v-timeline>
             </div>
@@ -61,15 +47,36 @@
 
 <script>
 import ScrollDownArrow from "@/components/scrolldown/scrolldown.vue";
+import timeLineBox from "@/components/timelinebox/timelinebox.vue";
 
 export default {
   "name": 'workExperience',
   components: {
     ScrollDownArrow,
+    timeLineBox,
   },
   data() {
     return {
-        closeDialog: false,
+        workExperienceItems: [
+          {
+            name: 'National Cheng Kung University',
+            jobPosition: 'intern',
+            time: "2012 Nov",
+            imageSrc: "work-experience/ncku.svg"
+          },
+          {
+            name: 'Ability',
+            jobPosition: 'Firmware Engineer',
+            time: "2014 Nov",
+            imageSrc: "ncku.svg"
+          },
+          {
+            name: 'Jewel Paymentech',
+            jobPosition: 'Software Developer',
+            time: "2017 Dec",
+            imageSrc: "ncku.svg"
+          }
+        ]
     }
   },
   methods: {
@@ -100,4 +107,5 @@ export default {
 .work-experience-timeline {
     padding:0px 0px 150px 0px;
 }
+
 </style>

@@ -41,3 +41,43 @@
       </v-tabs>
   </v-toolbar>
 </v-app-bar>
+
+
+
+
+
+<v-container class="work-experience-timeline-section">
+            <div class="work-experience-timeline">
+              <v-timeline align-top dense>
+                <v-timeline-item
+                  v-for="n in 3"
+                  :key="n"
+                  color="#dbdcff"
+                >
+                  <span slot="opposite">Tus eu perfecto</span>
+                  <!--<section  v-scroll-reveal.reset="{ delay: 600 }">-->
+                  <section>
+                      <v-row class="pt-1">
+                          <v-col cols="1">
+                            <strong> 2017 Apr </strong>
+                          </v-col>
+                          <v-col>
+                            <v-card class="elevation-2">
+                                <v-card-title class="headline">Lorem ipsum</v-card-title>
+                                <v-card-text>
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                    Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                                </v-card-text>
+                              </v-card>
+                          </v-col>
+                       </v-row>
+
+                  </section>
+                </v-timeline-item>
+              </v-timeline>
+            </div>
+        </v-container>
