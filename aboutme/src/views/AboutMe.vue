@@ -51,7 +51,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .about-introduce {
     margin: 50px;
     margin-top: 150px;

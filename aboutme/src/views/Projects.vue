@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .projects-introduce {
     margin: 50px;
     margin-top: 150px;
