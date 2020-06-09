@@ -44,6 +44,17 @@
                             <polyline id="aS1" class="st4" points="42.5,22.4 41.2,22.8 40.4,23.9 39.7,26 40.4,26.8 41.7,26.8 42.2,26 42.2,24.7 42.5,22.7
                                 "/>
                         </g>
+                        <g id="n_x5F_mask">
+                            <defs>
+                                <path id="n" d="M66.7,28.3c-0.4-0.3-0.7-1.8-0.8-3.2c0-2.6,0-2.6-1.1-0.3c-1.5,3-2.8,2.8-2.8-0.6c0-2.5,0.4-2.9,3-3
+                                    c2.8-0.1,3,0.1,3,3.9C68,29.1,67.8,29.5,66.7,28.3z"/>
+                            </defs>
+                            <clipPath id="n_1_">
+                                <use xlink:href="#n"  style="overflow:visible;"/>
+                            </clipPath>
+                            <polyline id="nS1" class="st5" points="64.1,21 63.5,21.9 63.2,23 62.9,24 62.8,25 62.8,27.1 63.5,25.8 64,24.6 64.2,23.3
+                                64.6,22.6 65.3,22.2 66.4,22.3 66.8,22.6 66.8,23.5 66.9,25 67.1,26.8 67.4,28.2 67.7,29.2 	"/>
+                        </g>
                         <g id="A_x5F_mask">
                             <defs>
                                 <path id="A" d="M17,36.7c0-0.7,1-3,2.1-5.2c1.2-2.2,2.8-5.4,3.5-7.1l1.3-3.1L20.2,22c-2,0.4-4.5,1.1-5.6,1.5
@@ -55,22 +66,11 @@
                             <clipPath id="A_1_">
                                 <use xlink:href="#A"  style="overflow:visible;"/>
                             </clipPath>
-                            <polyline id="AS4" class="st5" points="12.3,23.3 19.1,21.2 24.7,20.4 27.2,20.7 35,20.4 	"/>
-                            <polyline id="AS3" class="st6" points="32.6,21.6 34.6,27.7 37.4,31.5 	"/>
-                            <polyline id="AS2" class="st6" points="25.2,19.3 27.7,13 27.7,10.2 27.7,7.9 29.2,7.4 30.5,8.5 30.8,9.9 29.2,9.2 29.2,11
-                                30.8,11.2 30.8,12.6 31.3,15.3 31.6,17.7 31.8,18.7 	"/>
-                            <line id="AS1" class="st6" x1="16.9" y1="38.6" x2="24.7" y2="21.6"/>
-                        </g>
-                        <g id="n_x5F_mask">
-                            <defs>
-                                <path id="n" d="M66.7,28.3c-0.4-0.3-0.7-1.8-0.8-3.2c0-2.6,0-2.6-1.1-0.3c-1.5,3-2.8,2.8-2.8-0.6c0-2.5,0.4-2.9,3-3
-                                    c2.8-0.1,3,0.1,3,3.9C68,29.1,67.8,29.5,66.7,28.3z"/>
-                            </defs>
-                            <clipPath id="n_1_">
-                                <use xlink:href="#n"  style="overflow:visible;"/>
-                            </clipPath>
-                            <polyline id="nS1" class="st7" points="64.1,21 63.5,21.9 63.2,23 62.9,24 62.8,25 62.8,27.1 63.5,25.8 64,24.6 64.2,23.3
-                                64.6,22.6 65.3,22.2 66.4,22.3 66.8,22.6 66.8,23.5 66.9,25 67.1,26.8 67.4,28.2 67.7,29.2 	"/>
+                            <polyline id="AS4" class="st6" points="12.5,23.5 18,21.6 23.7,20.6 27.7,20.6 34.6,20 	"/>
+                            <polyline id="AS3" class="st7" points="32.6,21.8 34.3,27.1 36,29.5 37.6,31.1 	"/>
+                            <polyline id="AS2" class="st7" points="25.5,18.8 27.5,13.8 27.8,11.3 28.1,8 29.9,8 30.8,9.3 30.4,10.1 29.1,10.7 28.8,11.4
+                                29.7,11.5 30.6,10.5 31,12 31,13.4 31.8,18.2 	"/>
+                            <line id="AS1" class="st8" x1="16.9" y1="38.5" x2="24.7" y2="22"/>
                         </g>
                     </svg>
 
@@ -149,85 +149,84 @@ export default {
 .st2{clip-path:url(#r_1_);fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 .st3{clip-path:url(#a_1_);fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
 .st4{clip-path:url(#a_1_);fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-.st5{clip-path:url(#A_1_);fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
-.st6{clip-path:url(#A_1_);fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
-.st7{clip-path:url(#n_1_);fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+.st5{clip-path:url(#n_1_);fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+.st6{clip-path:url(#A_1_);fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+.st7{clip-path:url(#A_1_);fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+.st8{clip-path:url(#A_1_);fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
 
-@keyframes test {
+@keyframes nameAnimation {
     100% {
         stroke-dashoffset: 0;
     }
 }
 
-/*
 #AS1 {
     stroke-dasharray:150;
     stroke-dashoffset:150;
     stroke-width: 4;
-    animation: test 1s linear forwards 0.2s;
+    animation: nameAnimation 1s linear forwards 0.1s;
 }
 
 #AS2 {
     stroke-dasharray:150;
     stroke-dashoffset:150;
     stroke-width: 14;
-    animation: test 1s linear forwards 0.4s;
+    animation: nameAnimation 1s linear forwards 0.3s;
 }
 
 #AS3 {
     stroke-dasharray:150;
     stroke-dashoffset:150;
     stroke-width: 4;
-    animation: test 1s linear forwards 0.6s;
+    animation: nameAnimation 1s linear forwards 0.5s;
 }
 
 #AS4 {
     stroke-dasharray:150;
     stroke-dashoffset:150;
     stroke-width: 4;
-    animation: test 1s linear forwards;
+    animation: nameAnimation 3s linear forwards;
 }
-*/
 
 #aS1 {
     stroke-dasharray:50;
     stroke-dashoffset:50;
     stroke-width: 4;
-    animation: test 0.5s linear forwards 0.5s;
+    animation: nameAnimation 0.5s linear forwards 0.5s;
 }
 
 #aS2 {
     stroke-dasharray:50;
     stroke-dashoffset:50;
     stroke-width: 4;
-    animation: test 1s linear forwards 0.6s;
+    animation: nameAnimation 1s linear forwards 0.6s;
 }
 
 #rS1 {
     stroke-dasharray:50;
     stroke-dashoffset:50;
     stroke-width: 4;
-    animation: test 0.5s linear forwards 0.8s;
+    animation: nameAnimation 0.5s linear forwards 0.8s;
 }
 
 #rS2 {
     stroke-dasharray:50;
     stroke-dashoffset:50;
     stroke-width: 4;
-    animation: test 0.5s linear forwards 0.9s;
+    animation: nameAnimation 0.5s linear forwards 0.9s;
 }
 
 #oS1 {
     stroke-dasharray:50;
     stroke-dashoffset:50;
     stroke-width: 4;
-    animation: test 0.5s linear forwards 1.1s;
+    animation: nameAnimation 0.5s linear forwards 1.1s;
 }
 
 #nS1 {
     stroke-dasharray:50;
     stroke-dashoffset:50;
     stroke-width: 4;
-    animation: test 0.5s linear forwards 1.3s;
+    animation: nameAnimation 0.5s linear forwards 1.3s;
 }
 </style>

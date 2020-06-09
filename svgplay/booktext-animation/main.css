@@ -30,8 +30,8 @@
 }
 
 #AS4 {
-    stroke-dasharray:150;
-    stroke-dashoffset:150;
+    stroke-dasharray:50;
+    stroke-dashoffset:50;
     stroke-width: 4;
     animation: test 1s linear forwards;
 }

@@ -1,5 +1,5 @@
 <template>
-<div class="work-experience">
+<div class="skills">
 
     <v-container>
       <v-layout row wrap>
@@ -14,7 +14,7 @@
         </v-flex>
 
         <v-flex xs12 sm12 md6 lg6 xl6>
-            <img src="@/assets/images/skills/skill.svg" alt="skills">
+            <img src="@/assets/images/skills/skills.svg" alt="skills">
         </v-flex>
       </v-layout>
 
@@ -25,6 +25,7 @@
 
 <script>
 import ScrollDownArrow from "@/components/scrolldown/scrolldown.vue";
+
 export default {
   "name": 'skills',
   components: {
