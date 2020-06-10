@@ -25,6 +25,7 @@
                         Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
                      </h3>
                 </div>
+                <slot></slot>
             </v-card-text>
 
             <v-card-actions>
