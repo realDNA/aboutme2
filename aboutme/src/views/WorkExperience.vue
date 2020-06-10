@@ -29,13 +29,15 @@
                   :key="item.name"
                   color="#dbdcff"
                 >
-                  <span slot="opposite"> {{item.time}} </span>
+                  <span slot="opposite"> {{item.startTime}} </span>
                   <timeLineBox
                     :timeLineCardTitle="item.name"
-                    :timeLineCardContent="item.jobPosition"
                     :timeLineCardImage="item.imageSrc"
-                    detailCardTitle="sdfsfsdfadsf"
-                    detailCardContent="dfdsafsdafsadfsdfdsafasdfdsf"
+                    :timeLineCardJob="item.jobPosition"
+                    :timeLineCardPeriod="item.period"
+                    :timeLineCardUrlDescription="item.urlDescription"
+                    :detailCardTitle="item.detailCardTitle"
+                    :detailCardContent="item.detailCardContent"
                   />
                 </v-timeline-item>
               </v-timeline>
@@ -60,21 +62,42 @@ export default {
         workExperienceItems: [
           {
             name: 'National Cheng Kung University',
-            jobPosition: 'intern',
-            time: "2012 Nov",
-            imageSrc: "work-experience/ncku.svg"
+            imageSrc: "work-experience/ncku.svg",
+            jobPosition: 'Intern',
+            startTime: "2012 Nov",
+            period: "2012 Nov - 2014 Jun",
+            urlDescription: {
+                title: "NCKU",
+                url: "https://web.ncku.edu.tw/"
+            },
+            detailCardTitle: "National Cheng Kung University",
+            detailCardContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam. Ultrices mi tempus imperdiet nulla malesuada. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Egestas sed sed risus pretium. Lorem dolor sed viverra ipsum. Gravida rutrum quisque non tellus. Rutrum tellus pellentesque eu tincidunt tortor. Sed blandit libero volutpat sed cras ornare. Et netus et malesuada fames ac. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Lacus sed viverra tellus in. Sollicitudin ac orci phasellus egestas. Purus in mollis nunc sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Interdum consectetur libero id faucibus nisl tincidunt eget."
           },
           {
             name: 'Ability',
             jobPosition: 'Firmware Engineer',
-            time: "2014 Nov",
-            imageSrc: "ncku.svg"
+            imageSrc: "work-experience/camera.svg",
+            startTime: "2014 Nov",
+            period: "2014 Nov - 2017 Oct",
+            urlDescription: {
+                title: "Ability",
+                url: "http://www.abilitycorp.com.tw/html/index.php"
+            },
+            detailCardTitle: "Ability",
+            detailCardContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam. Ultrices mi tempus imperdiet nulla malesuada. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Egestas sed sed risus pretium. Lorem dolor sed viverra ipsum. Gravida rutrum quisque non tellus. Rutrum tellus pellentesque eu tincidunt tortor. Sed blandit libero volutpat sed cras ornare. Et netus et malesuada fames ac. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Lacus sed viverra tellus in. Sollicitudin ac orci phasellus egestas. Purus in mollis nunc sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Interdum consectetur libero id faucibus nisl tincidunt eget."
           },
           {
             name: 'Jewel Paymentech',
             jobPosition: 'Software Developer',
-            time: "2017 Dec",
-            imageSrc: "ncku.svg"
+            imageSrc: "work-experience/jewel.svg",
+            startTime: "2017 Dec",
+            period: "2017 Dec - Now",
+            urlDescription: {
+                title: "Jewel Paymentech",
+                url: "https://www.jewelpaymentech.com/"
+            },
+            detailCardTitle: "Jewel Paymentech",
+            detailCardContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam. Ultrices mi tempus imperdiet nulla malesuada. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Egestas sed sed risus pretium. Lorem dolor sed viverra ipsum. Gravida rutrum quisque non tellus. Rutrum tellus pellentesque eu tincidunt tortor. Sed blandit libero volutpat sed cras ornare. Et netus et malesuada fames ac. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Lacus sed viverra tellus in. Sollicitudin ac orci phasellus egestas. Purus in mollis nunc sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Interdum consectetur libero id faucibus nisl tincidunt eget."
           }
         ]
     }

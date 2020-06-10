@@ -2,14 +2,32 @@
     <div class="timelinebox">
         <section>
           <v-card class="elevation-2">
-            <v-card-title class="headline">{{timeLineCardTitle}}</v-card-title>
+            <v-card-title class="justify-center">
+                <h4> {{timeLineCardTitle}} </h4>
+            </v-card-title>
             <v-card-text>
-                Job title: {{timeLineCardContent}}
-                <div>
-                    <img :src="require(`@/assets/images/${timeLineCardImage}`)"
-                         width="200px"
-                         alt="work-experience">
-                </div>
+                <v-layout row wrap>
+                    <v-flex xs12 sm12 md12 lg6 xl6>
+                        <div class="card-content">
+                            <img :src="require(`@/assets/images/${timeLineCardImage}`)"
+                                 alt="work-experience"
+                                 height="200px"
+                            />
+                        </div>
+                    </v-flex>
+                    <v-flex xs12 sm12 md12 lg6 xl6>
+                        <div class="container">
+                            <h3 class="card-content-item"> Job title: {{timeLineCardJob}} </h3>
+                            <h3 class="card-content-item"> Period: {{timeLineCardPeriod}} </h3>
+                            <h3 class="card-content-item">
+                                Url:
+                                <a :href="timeLineCardUrlDescription.url" target="_blank" alt="company url">
+                                    {{timeLineCardUrlDescription.title}}
+                                </a>
+                            </h3>
+                        </div>
+                    </v-flex>
+                </v-layout>
 
                 <v-row justify="end" class="work-experience-read-more-button">
                   <v-dialog v-model="closeDialog" width="600px">
@@ -17,11 +35,14 @@
                       <v-btn color="#6b63ff" dark v-on="on"> Read More </v-btn>
                     </template>
                     <v-card>
-                      <v-card-title>
-                        {{detailCardTitle}}
+                      <v-card-title class="justify-center">
+                        <h4> {{detailCardTitle}} </h4>
                       </v-card-title>
+                      <v-divider/>
                       <v-card-text>
-                         {{detailCardContent}}
+                        <div class="job-detail-text">
+                            <h3 class="job-detail-content-item"> {{detailCardContent}} </h3>
+                        </div>
                       </v-card-text>
                       <v-card-actions>
                         <v-spacer></v-spacer>
@@ -37,7 +58,7 @@
     </div>
 </template>
 
-<script>
+<script scoped>
     export default {
         name: "timeLineBox",
         props: {
@@ -45,13 +66,21 @@
               type: String,
               required: true
             },
-            timeLineCardContent: {
-              type: String,
-              required: true
-            },
             timeLineCardImage: {
               type: String,
               required: true
+            },
+            timeLineCardJob: {
+              type: String,
+              required: true
+            },
+            timeLineCardPeriod: {
+              type: String,
+              required: true
+            },
+            timeLineCardUrlDescription: {
+              type: Object,
+              required: true,
             },
             detailCardTitle: {
               type: String,
@@ -72,8 +101,30 @@
 </script>
 
 <style>
+a {
+    text-decoration: none !important;
+}
+
 .work-experience-read-more-button {
     margin-top: 10px;
     margin-right: 0px;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content-item {
+      line-height: 50px;
+}
+
+.job-detail-text {
+    padding: 15px;
+}
+
+.job-detail-content-item {
+    line-height: 30px;
 }
 </style>
