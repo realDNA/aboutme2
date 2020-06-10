@@ -12,7 +12,7 @@
     };
 </script>
 
-<style>
+<style scoped>
 .scroll-down {
     margin: auto;
     display: block;

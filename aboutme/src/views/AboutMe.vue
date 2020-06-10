@@ -1,7 +1,7 @@
 <template>
 <div class="about-me">
 
-    <div id="landing-about">
+    <div id="about-landing">
         <v-container>
           <v-layout row wrap>
             <v-flex xs12 sm12 md6 lg6 xl6>
@@ -146,7 +146,7 @@ export default {
     padding-bottom:0px;
 }
 
-#landing-about {
+#about-landing {
     padding-bottom:100px;
 }
 
