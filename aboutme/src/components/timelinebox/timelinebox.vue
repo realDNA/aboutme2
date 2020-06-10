@@ -41,7 +41,9 @@
                       <v-divider/>
                       <v-card-text>
                         <div class="job-detail-text">
-                            <h3 class="job-detail-content-item"> {{detailCardContent}} </h3>
+                            <div class="job-detail-content-item">
+                                <slot></slot>
+                            </div>
                         </div>
                       </v-card-text>
                       <v-card-actions>
@@ -83,10 +85,6 @@
               required: true,
             },
             detailCardTitle: {
-              type: String,
-              required: true
-            },
-            detailCardContent: {
               type: String,
               required: true
             },

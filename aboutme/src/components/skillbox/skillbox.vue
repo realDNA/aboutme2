@@ -21,11 +21,10 @@
 
             <v-card-text>
                 <div class="skill-detail-text">
-                    <h3 class="skill-detail-content-item">
-                        Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.
-                     </h3>
+                    <div class="skill-detail-content-item">
+                        <slot></slot>
+                     </div>
                 </div>
-                <slot></slot>
             </v-card-text>
 
             <v-card-actions>

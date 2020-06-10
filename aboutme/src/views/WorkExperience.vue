@@ -37,8 +37,9 @@
                     :timeLineCardPeriod="item.period"
                     :timeLineCardUrlDescription="item.urlDescription"
                     :detailCardTitle="item.detailCardTitle"
-                    :detailCardContent="item.detailCardContent"
-                  />
+                  >
+                    <div v-html="item.detailCardContent"></div>
+                  </timeLineBox>
                 </v-timeline-item>
               </v-timeline>
             </div>
@@ -71,7 +72,30 @@ export default {
                 url: "https://web.ncku.edu.tw/"
             },
             detailCardTitle: "National Cheng Kung University",
-            detailCardContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam. Ultrices mi tempus imperdiet nulla malesuada. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Egestas sed sed risus pretium. Lorem dolor sed viverra ipsum. Gravida rutrum quisque non tellus. Rutrum tellus pellentesque eu tincidunt tortor. Sed blandit libero volutpat sed cras ornare. Et netus et malesuada fames ac. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Lacus sed viverra tellus in. Sollicitudin ac orci phasellus egestas. Purus in mollis nunc sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Interdum consectetur libero id faucibus nisl tincidunt eget."
+            detailCardContent:
+            `
+            <h3>
+                Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Dapibus ultrices in iaculis nunc sed augue lacus.
+                Quam nulla porttitor massa id neque aliquam.
+                Ultrices mi tempus imperdiet nulla malesuada.
+                Eros in cursus turpis massa tincidunt dui ut ornare lectus.
+                Egestas sed sed risus pretium.
+                Lorem dolor sed viverra ipsum.
+                Gravida rutrum quisque non tellus.
+                Rutrum tellus pellentesque eu tincidunt tortor.
+                Sed blandit libero volutpat sed cras ornare.
+                Et netus et malesuada fames ac.
+                Ultrices eros in cursus turpis massa tincidunt dui ut ornare.
+                Lacus sed viverra tellus in.
+                Sollicitudin ac orci phasellus egestas.
+                Purus in mollis nunc sed.
+                Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.
+                Interdum consectetur libero id faucibus nisl tincidunt eget.
+            </h3>
+            `
           },
           {
             name: 'Ability',
@@ -84,7 +108,30 @@ export default {
                 url: "http://www.abilitycorp.com.tw/html/index.php"
             },
             detailCardTitle: "Ability",
-            detailCardContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam. Ultrices mi tempus imperdiet nulla malesuada. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Egestas sed sed risus pretium. Lorem dolor sed viverra ipsum. Gravida rutrum quisque non tellus. Rutrum tellus pellentesque eu tincidunt tortor. Sed blandit libero volutpat sed cras ornare. Et netus et malesuada fames ac. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Lacus sed viverra tellus in. Sollicitudin ac orci phasellus egestas. Purus in mollis nunc sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Interdum consectetur libero id faucibus nisl tincidunt eget."
+            detailCardContent:
+            `
+            <h3>
+                Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Dapibus ultrices in iaculis nunc sed augue lacus.
+                Quam nulla porttitor massa id neque aliquam.
+                Ultrices mi tempus imperdiet nulla malesuada.
+                Eros in cursus turpis massa tincidunt dui ut ornare lectus.
+                Egestas sed sed risus pretium.
+                Lorem dolor sed viverra ipsum.
+                Gravida rutrum quisque non tellus.
+                Rutrum tellus pellentesque eu tincidunt tortor.
+                Sed blandit libero volutpat sed cras ornare.
+                Et netus et malesuada fames ac.
+                Ultrices eros in cursus turpis massa tincidunt dui ut ornare.
+                Lacus sed viverra tellus in.
+                Sollicitudin ac orci phasellus egestas.
+                Purus in mollis nunc sed.
+                Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.
+                Interdum consectetur libero id faucibus nisl tincidunt eget.
+            </h3>
+            `
           },
           {
             name: 'Jewel Paymentech',
@@ -97,7 +144,30 @@ export default {
                 url: "https://www.jewelpaymentech.com/"
             },
             detailCardTitle: "Jewel Paymentech",
-            detailCardContent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam. Ultrices mi tempus imperdiet nulla malesuada. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Egestas sed sed risus pretium. Lorem dolor sed viverra ipsum. Gravida rutrum quisque non tellus. Rutrum tellus pellentesque eu tincidunt tortor. Sed blandit libero volutpat sed cras ornare. Et netus et malesuada fames ac. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Lacus sed viverra tellus in. Sollicitudin ac orci phasellus egestas. Purus in mollis nunc sed. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Interdum consectetur libero id faucibus nisl tincidunt eget."
+            detailCardContent:
+            `
+            <h3>
+                Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Dapibus ultrices in iaculis nunc sed augue lacus.
+                Quam nulla porttitor massa id neque aliquam.
+                Ultrices mi tempus imperdiet nulla malesuada.
+                Eros in cursus turpis massa tincidunt dui ut ornare lectus.
+                Egestas sed sed risus pretium.
+                Lorem dolor sed viverra ipsum.
+                Gravida rutrum quisque non tellus.
+                Rutrum tellus pellentesque eu tincidunt tortor.
+                Sed blandit libero volutpat sed cras ornare.
+                Et netus et malesuada fames ac.
+                Ultrices eros in cursus turpis massa tincidunt dui ut ornare.
+                Lacus sed viverra tellus in.
+                Sollicitudin ac orci phasellus egestas.
+                Purus in mollis nunc sed.
+                Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.
+                Interdum consectetur libero id faucibus nisl tincidunt eget.
+            </h3>
+            `
           }
         ]
     }

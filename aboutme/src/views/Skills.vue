@@ -36,8 +36,6 @@
                             :skillBoxName="skillItem.name"
                             :skillDetailTitle="skillItem.name"
                             >
-                                <p>fdfdsafdsfasfas</p>
-                                {{skillItem.skillDetailContent}}
                                 <div v-html="skillItem.skillDetailContent"></div>
                             </skillBox>
                         </div>
@@ -68,32 +66,58 @@ export default {
           {
             name: 'Full-Stack Web Development',
             imageSrc: "skills/web.svg",
-            skillDetailContent: "<h2>fdfafdfads</h2>"
+            skillDetailContent:
+            `
+            <h3> Let Google help
+                apps determine location.
+                This means sending anonymous location data to
+                 Google, even when no apps are running.
+            </h3>
+            <hr/>
+            <h2>fdfadsfasd ffa </h2>
+            <h2>fdfadsfasd ffa </h2>
+            <h2>fdfadsfasd ffa </h2>
+            `
           },
           {
             name: 'Data Engineering',
             imageSrc: "skills/data.svg",
-            skillDetailContent: "<h2>fdfafdfads</h2>"
+            skillDetailContent:
+            `
+            <h2>fdfafdfads</h2>
+            `
           },
           {
             name: 'Firmware Development',
             imageSrc: "skills/firmware.svg",
-            skillDetailContent: "<h2>fdfafdfads</h2>"
+            skillDetailContent:
+            `
+            <h3>fdfafdfads</h3>
+            `
           },
           {
             name: 'DevOps',
             imageSrc: "skills/devops.svg",
-            skillDetailContent: "<h2>fdfafdfads</h2>"
+            skillDetailContent:
+            `
+            <h2>fdfafdfads</h2>
+            `
           },
           {
             name: 'Web Scraping',
             imageSrc: "skills/spider.svg",
-            skillDetailContent: "<h2>fdfafdfads</h2>"
+            skillDetailContent:
+            `
+            <h2>fdfafdfads</h2>
+            `
           },
           {
             name: 'Artificial Intelligence',
             imageSrc: "skills/ai.svg",
-            skillDetailContent: "<h2>fdfafdfads</h2>"
+            skillDetailContent:
+            `
+            <h2>fdfafdfads</h2>
+            `
           },
         ]
     }
