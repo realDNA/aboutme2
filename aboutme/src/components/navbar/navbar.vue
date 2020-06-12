@@ -57,7 +57,6 @@
             getNavClassLogo() {
                 if(this.offsetTop > 10 ) {
                     if(this.showCompleteNavbar) {
-                        console.log("fdfdsfdsfafdsfa")
                         return "about-me-logo-medium"
                     } else {
                         return "about-me-logo-small"
@@ -69,7 +68,6 @@
             getNavClassItem() {
                 if(this.offsetTop > 10 ) {
                     if(this.showCompleteNavbar) {
-                        console.log("fdfdsfdsfafdsfa")
                         return "nav-item-medium"
                     } else {
                         return "nav-item"
