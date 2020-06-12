@@ -1,14 +1,14 @@
 <template>
     <div class="navBar">
         <v-app-bar
-            app
-            color="#f5f9ff"
-            shrink-on-scroll
-            hide-on-scroll
-            elevate-on-scroll
-            height="160"
-            class="nav-padding"
-            v-model="showCompleteNavbar"
+        app
+        color="#f5f9ff"
+        shrink-on-scroll
+        hide-on-scroll
+        elevate-on-scroll
+        height="160"
+        class="nav-padding"
+        v-model="showCompleteNavbar"
         >
             <v-spacer></v-spacer>
 
@@ -57,34 +57,34 @@
             getNavClassLogo() {
                 if(this.offsetTop > 10 ) {
                     if(this.showCompleteNavbar) {
-                        return "about-me-logo-medium"
+                        return "about-me-logo-medium";
                     } else {
-                        return "about-me-logo-small"
+                        return "about-me-logo-small";
                     }
                 } else {
-                    return "about-me-logo"
+                    return "about-me-logo";
                 }
             },
             getNavClassItem() {
                 if(this.offsetTop > 10 ) {
                     if(this.showCompleteNavbar) {
-                        return "nav-item-medium"
+                        return "nav-item-medium";
                     } else {
-                        return "nav-item"
+                        return "nav-item";
                     }
                 } else {
-                    return "nav-item"
+                    return "nav-item";
                 }
             },
             getNavClassItemLast() {
                 if(this.offsetTop > 10 ) {
                     if(this.showCompleteNavbar) {
-                        return "nav-item-medium last-nav-item"
+                        return "nav-item-medium last-nav-item";
                     } else {
-                        return "nav-item last-nav-item"
+                        return "nav-item last-nav-item";
                     }
                 } else {
-                    return "nav-item last-nav-item"
+                    return "nav-item last-nav-item";
                 }
             }
         },
@@ -121,6 +121,7 @@ a {
 
 .nav-padding {
     padding:50px;
+    color: #f5f9ff;
 }
 
 .about-me-logo {
