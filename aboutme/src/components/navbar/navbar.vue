@@ -1,24 +1,31 @@
 <template>
     <div class="NavBar">
-
         <v-app-bar
+            app
             color="#f5f9ff"
+            shrink-on-scroll
+            hide-on-scroll
+            elevate-on-scroll
             height="160"
-            elevation="0"
+            class="nav-padding"
+            v-model="showCompleteNavbar"
         >
             <v-spacer></v-spacer>
 
             <div id="nav-logo">
                 <router-link :to="home">
-                    <img src="@/assets/images/navbar/about-me-logo.svg" alt="about-me-logo" id="about-me-logo">
+                    <img
+                    src="@/assets/images/navbar/about-me-logo.svg"
+                    alt="about-me-logo"
+                    :class="getNavClassLogo()"
+                    />
                 </router-link>
             </div>
 
-            <div class="nav-item"><router-link :to="aboutMe"> About Me </router-link></div>
-            <div class="nav-item"><router-link :to="workExperience"> Work Experience </router-link></div>
-            <div class="nav-item"><router-link :to="skills"> Skills </router-link></div>
-            <div class="nav-item last-nav-item"><router-link :to="projects"> Projects </router-link></div>
-
+            <div :class="getNavClassItem()"><router-link :to="aboutMe"> About Me </router-link></div>
+            <div :class="getNavClassItem()"><router-link :to="workExperience"> Work Experience </router-link></div>
+            <div :class="getNavClassItem()"><router-link :to="skills"> Skills </router-link></div>
+            <div :class="getNavClassItemLast()"><router-link :to="projects"> Projects </router-link></div>
             <v-spacer></v-spacer>
 
         </v-app-bar>
@@ -29,6 +36,10 @@
     export default {
         name: "NavbarComponent",
         props: {
+            offsetTop: {
+              type: Number,
+              required: true
+            },
         },
         created () {
         },
@@ -40,9 +51,44 @@
             workExperience: { name: "WorkExperience" },
             skills: { name: "Skills" },
             projects: { name: "Projects" },
+            showCompleteNavbar: true,
         }),
         methods: {
-
+            getNavClassLogo() {
+                if(this.offsetTop > 10 ) {
+                    if(this.showCompleteNavbar) {
+                        console.log("fdfdsfdsfafdsfa")
+                        return "about-me-logo-medium"
+                    } else {
+                        return "about-me-logo-small"
+                    }
+                } else {
+                    return "about-me-logo"
+                }
+            },
+            getNavClassItem() {
+                if(this.offsetTop > 10 ) {
+                    if(this.showCompleteNavbar) {
+                        console.log("fdfdsfdsfafdsfa")
+                        return "nav-item-medium"
+                    } else {
+                        return "nav-item"
+                    }
+                } else {
+                    return "nav-item"
+                }
+            },
+            getNavClassItemLast() {
+                if(this.offsetTop > 10 ) {
+                    if(this.showCompleteNavbar) {
+                        return "nav-item-medium last-nav-item"
+                    } else {
+                        return "nav-item last-nav-item"
+                    }
+                } else {
+                    return "nav-item last-nav-item"
+                }
+            }
         },
     };
 </script>
@@ -54,8 +100,18 @@ a {
 }
 
 .nav-item {
-    font-size: 1.2em;
+    font-size: 0.75em;
     margin-left:5px;
+    margin-top:7px;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 1px solid #c7c2c2;
+}
+
+.nav-item-medium {
+    font-size: 0.75em;
+    margin-left:5px;
+    margin-top:-12px;
     padding: 5px;
     padding-right: 10px;
     border-right: 1px solid #c7c2c2;
@@ -65,11 +121,34 @@ a {
     border-right: 0;
 }
 
-#nav-logo {
-    margin-right:15px;
+.nav-padding {
+    padding:50px;
 }
 
-#about-me-logo {
+.about-me-logo {
     height: 50px;
+}
+
+.about-me-logo-small {
+    height: 30px;
+    margin-top:8px;
+}
+
+.about-me-logo-medium {
+    height: 40px;
+    margin-top:-70px;
+}
+
+.about-me-logo-small,
+.about-me-logo-medium,
+.about-me-logo,
+.nav-item,
+.nav-item-medium
+{
+    transition: all .5s ease-in-out;
+}
+
+#nav-logo {
+    margin-right:15px;
 }
 </style>

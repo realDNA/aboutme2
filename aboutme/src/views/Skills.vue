@@ -74,6 +74,7 @@ export default {
                  Google, even when no apps are running.
             </h3>
             <hr/>
+            <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
             <h2>fdfadsfasd ffa </h2>
             <h2>fdfadsfasd ffa </h2>
             <h2>fdfadsfasd ffa </h2>

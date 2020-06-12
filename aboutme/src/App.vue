@@ -1,8 +1,11 @@
 <template>
-  <v-app style="
-    background: #f5f9ff;
-  ">
-    <NavbarComponent/>
+  <v-app
+    style="background: #f5f9ff;"
+    v-scroll="onScroll"
+  >
+    <NavbarComponent
+    :offsetTop="offsetTop"
+    />
 
     <v-content>
       <router-view />
@@ -23,9 +26,14 @@ export default {
   },
   data() {
     return {
+        offsetTop: 0,
     };
   },
   methods: {
+    onScroll () {
+      this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
+      console.log("this.offsetTop = ", this.offsetTop);
+    }
   },
 };
 </script>
