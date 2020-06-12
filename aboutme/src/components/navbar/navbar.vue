@@ -1,5 +1,5 @@
 <template>
-    <div class="NavBar">
+    <div class="navBar">
         <v-app-bar
             app
             color="#f5f9ff"
@@ -143,7 +143,7 @@ a {
 .nav-item,
 .nav-item-medium
 {
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 #nav-logo {
