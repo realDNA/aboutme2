@@ -32,7 +32,6 @@ export default {
   methods: {
     onScroll () {
       this.offsetTop = window.pageYOffset || document.documentElement.scrollTop
-      console.log("this.offsetTop = ", this.offsetTop);
     }
   },
 };
