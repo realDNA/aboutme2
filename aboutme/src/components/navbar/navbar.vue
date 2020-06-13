@@ -1,34 +1,44 @@
 <template>
     <div class="navBar">
+
         <v-app-bar
-        app
-        color="#f5f9ff"
-        shrink-on-scroll
-        hide-on-scroll
-        elevate-on-scroll
-        height="160"
-        class="nav-padding"
-        v-model="showCompleteNavbar"
+            color="#f5f9ff"
+            height="160"
+            elevation="0"
         >
             <v-spacer></v-spacer>
-
             <div id="nav-logo">
                 <router-link :to="home">
-                    <img
-                    src="@/assets/images/navbar/about-me-logo.svg"
-                    alt="about-me-logo"
-                    :class="getNavClassLogo()"
-                    />
+                    <img src="@/assets/images/navbar/about-me-logo.svg" alt="about-me-logo" id="about-me-logo">
                 </router-link>
             </div>
-
-            <div :class="getNavClassItem()"><router-link :to="aboutMe"> About </router-link></div>
-            <div :class="getNavClassItem()"><router-link :to="workExperience"> Experience </router-link></div>
-            <div :class="getNavClassItem()"><router-link :to="skills"> Skills </router-link></div>
-            <div :class="getNavClassItem()"><router-link :to="projects"> Projects </router-link></div>
+            <div class="nav-item"><router-link :to="aboutMe"> About </router-link></div>
+            <div class="nav-item"><router-link :to="workExperience"> Experience </router-link></div>
+            <div class="nav-item"><router-link :to="skills"> Skills </router-link></div>
+            <div class="nav-item last-nav-item"><router-link :to="projects"> Projects </router-link></div>
             <v-spacer></v-spacer>
-
         </v-app-bar>
+
+        <transition
+        name="fade"
+        mode="out-in"
+        >
+            <v-app-bar
+                v-if="offsetTop > 150 && !isScrollingDown()"
+                fixed
+                color="#f5f9ff"
+                height="60"
+                elevation="5"
+            >
+                <v-spacer></v-spacer>
+                <div class="nav-item"><router-link :to="aboutMe"> About </router-link></div>
+                <div class="nav-item"><router-link :to="workExperience"> Experience </router-link></div>
+                <div class="nav-item"><router-link :to="skills"> Skills </router-link></div>
+                <div class="nav-item"><router-link :to="projects"> Projects </router-link></div>
+                <v-spacer></v-spacer>
+            </v-app-bar>
+        </transition>
+
     </div>
 </template>
 
@@ -37,8 +47,7 @@
         name: "NavbarComponent",
         props: {
             offsetTop: {
-              type: Number,
-              required: true
+                type: Number, required: true
             },
         },
         created () {
@@ -51,31 +60,21 @@
             workExperience: { name: "WorkExperience" },
             skills: { name: "Skills" },
             projects: { name: "Projects" },
-            showCompleteNavbar: true,
+            lastOffset: 0,
+            scrollingDown: false,
         }),
         methods: {
-            getNavClassLogo() {
-                if(this.offsetTop > 10 ) {
-                    if(this.showCompleteNavbar) {
-                        return "about-me-logo-medium";
+            isScrollingDown() {
+                if(this.offsetTop != this.lastOffset){
+                    if(this.offsetTop - this.lastOffset > 0){
+                    this.scrollingDown = true;
                     } else {
-                        return "about-me-logo-small";
+                        this.scrollingDown = false;
                     }
-                } else {
-                    return "about-me-logo";
+                    this.lastOffset = this.offsetTop;
                 }
-            },
-            getNavClassItem() {
-                if(this.offsetTop > 10 ) {
-                    if(this.showCompleteNavbar) {
-                        return "nav-item-medium";
-                    } else {
-                        return "nav-item";
-                    }
-                } else {
-                    return "nav-item";
-                }
-            },
+                return this.scrollingDown;
+            }
         },
     };
 </script>
@@ -85,52 +84,30 @@ a {
   text-decoration: none;
   color: grey !important;
 }
-
 .nav-item {
-    font-size: 0.75em;
-    margin-left:10px;
-    margin-top:7px;
+    font-size: 1.2em;
+    margin-left:5px;
     padding: 5px;
     padding-right: 10px;
+    font-weight: bold;
 }
 
-.nav-item-medium {
-    font-size: 0.75em;
-    margin-left:10px;
-    margin-top:-12px;
-    padding: 5px;
-    padding-right: 10px;
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
 }
 
-.nav-padding {
-    padding:50px;
-    color: #f5f9ff;
-}
-
-.about-me-logo {
-    height: 50px;
-}
-
-.about-me-logo-small {
-    height: 30px;
-    margin-top:8px;
-}
-
-.about-me-logo-medium {
-    height: 40px;
-    margin-top:-70px;
-}
-
-.about-me-logo-small,
-.about-me-logo-medium,
-.about-me-logo,
-.nav-item,
-.nav-item-medium
-{
-    transition: all .3s ease-in-out;
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 
 #nav-logo {
     margin-right:15px;
+}
+#about-me-logo {
+    height: 50px;
 }
 </style>
