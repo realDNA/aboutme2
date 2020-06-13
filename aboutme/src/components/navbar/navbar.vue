@@ -22,10 +22,10 @@
                 </router-link>
             </div>
 
-            <div :class="getNavClassItem()"><router-link :to="aboutMe"> About Me </router-link></div>
-            <div :class="getNavClassItem()"><router-link :to="workExperience"> Work Experience </router-link></div>
+            <div :class="getNavClassItem()"><router-link :to="aboutMe"> About </router-link></div>
+            <div :class="getNavClassItem()"><router-link :to="workExperience"> Experience </router-link></div>
             <div :class="getNavClassItem()"><router-link :to="skills"> Skills </router-link></div>
-            <div :class="getNavClassItemLast()"><router-link :to="projects"> Projects </router-link></div>
+            <div :class="getNavClassItem()"><router-link :to="projects"> Projects </router-link></div>
             <v-spacer></v-spacer>
 
         </v-app-bar>
@@ -76,17 +76,6 @@
                     return "nav-item";
                 }
             },
-            getNavClassItemLast() {
-                if(this.offsetTop > 10 ) {
-                    if(this.showCompleteNavbar) {
-                        return "nav-item-medium last-nav-item";
-                    } else {
-                        return "nav-item last-nav-item";
-                    }
-                } else {
-                    return "nav-item last-nav-item";
-                }
-            }
         },
     };
 </script>
@@ -99,24 +88,18 @@ a {
 
 .nav-item {
     font-size: 0.75em;
-    margin-left:5px;
+    margin-left:10px;
     margin-top:7px;
     padding: 5px;
     padding-right: 10px;
-    border-right: 1px solid #c7c2c2;
 }
 
 .nav-item-medium {
     font-size: 0.75em;
-    margin-left:5px;
+    margin-left:10px;
     margin-top:-12px;
     padding: 5px;
     padding-right: 10px;
-    border-right: 1px solid #c7c2c2;
-}
-
-.last-nav-item {
-    border-right: 0;
 }
 
 .nav-padding {
