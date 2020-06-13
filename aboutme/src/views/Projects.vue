@@ -21,7 +21,7 @@
         </v-container>
     </div>
 
-    <div class="projects-section-white">
+    <div class="projects-section-white" v-scrollanimation>
         <div id="app">
           <v-app id="inspire">
             <v-row justify="center">

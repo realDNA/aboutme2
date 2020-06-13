@@ -8,7 +8,12 @@
     />
 
     <v-content>
-      <router-view />
+        <transition
+        name="slide-right"
+        mode="out-in"
+        >
+            <router-view />
+        </transition>
     </v-content>
 
   </v-app>
@@ -38,6 +43,23 @@ export default {
 </script>
 
 <style>
+.slide-right-enter-active {
+  transition-duration: 0.5s;
+  transition-property: height, opacity, transform;
+  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+  overflow: hidden;
+}
+
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translate(2em, 0);
+}
+
+.slide-right-enter {
+  opacity: 0;
+  transform: translate(-2em, 0);
+}
+
 .before-enter {
     opacity: 0;
     transform: translateY(50px);
