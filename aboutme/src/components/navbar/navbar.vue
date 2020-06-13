@@ -2,9 +2,9 @@
     <div class="navBar">
 
         <v-app-bar
-            color="#f5f9ff"
-            height="160"
-            elevation="0"
+        color="#f5f9ff"
+        height="160"
+        elevation="0"
         >
             <v-spacer></v-spacer>
             <div id="nav-logo">
@@ -24,11 +24,11 @@
         mode="out-in"
         >
             <v-app-bar
-                v-if="offsetTop > 150 && !isScrollingDown()"
-                fixed
-                color="#f5f9ff"
-                height="60"
-                elevation="5"
+            v-if="offsetTop > 150 && !isScrollingDown()"
+            fixed
+            color="#f5f9ff"
+            height="60"
+            elevation="5"
             >
                 <v-spacer></v-spacer>
                 <div id="nav-logo">
@@ -100,14 +100,14 @@ a {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-timing-function: ease;
 }
 
 .fade-enter,
 .fade-leave-active {
-  opacity: 0
+    opacity: 0
 }
 
 #nav-logo {
