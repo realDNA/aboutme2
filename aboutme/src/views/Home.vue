@@ -78,11 +78,22 @@
                 <div class="home-introduce-sub">
                     Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                 </div>
-                <div id="social-icons">
-                    <img src="@/assets/images/social-icon/linkedin.svg" alt="linkedin-logo" class="social-icon">
-                    <img src="@/assets/images/social-icon/github.svg" alt="github-logo" class="social-icon">
-                    <img src="@/assets/images/social-icon/facebook.svg" alt="facebook-logo" class="social-icon">
-                    <img src="@/assets/images/social-icon/gmail.svg" alt="gmail-logo" class="social-icon">
+                <div id="home-social-icons">
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img src="@/assets/images/social-icon/linkedin.svg" alt="linkedin-logo" class="home-social-icon">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img src="@/assets/images/social-icon/github.svg" alt="github-logo" class="home-social-icon">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img src="@/assets/images/social-icon/facebook.svg" alt="facebook-logo" class="home-social-icon">
+                    </a>
+
+                    <a href="https://www.w3schools.com" target="_blank">
+                        <img src="@/assets/images/social-icon/gmail.svg" alt="gmail-logo" class="home-social-icon">
+                    </a>
                 </div>
             </div>
         </v-flex>
@@ -134,13 +145,18 @@ export default {
     font-size: 1.5em;
 }
 
-.social-icon {
+.home-social-icon {
     width: 40px;
     margin-right: 25px;
-
+    transition: all 0.3s ease-in-out;
 }
 
-#social-icons {
+.home-social-icon:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: scale(1.15);
+}
+
+#home-social-icons {
     margin-top: 40px;
 }
 
