@@ -3,9 +3,10 @@ import App from "./App.vue";
 import router from "./router";
 import vuetify from "./plugins/vuetify";
 import vueScrollReveal from 'vue-scroll-reveal';
-
+import ScollAnimation from "./directives/scrollanimation"
 Vue.config.productionTip = false;
 
+Vue.directive("scrollanimation", ScollAnimation);
 // Using ScrollReveal's default configuration
 Vue.use(vueScrollReveal);
 

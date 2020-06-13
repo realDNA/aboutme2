@@ -28,7 +28,7 @@
         </v-container>
     </div>
 
-    <div class="about-me-description-section-white">
+    <div class="about-me-description-section-white" v-scrollanimation>
         <v-container>
             <v-flex xs12 sm12 md12 lg12 xl12>
                 <div class="about-introduce">
@@ -144,6 +144,17 @@ export default {
 
 .about-me-last-description-section {
     padding-bottom:0px;
+}
+
+.before-enter {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 2s ease-out;
+}
+
+.enter {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 #about-landing {
