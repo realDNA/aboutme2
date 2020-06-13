@@ -36,10 +36,10 @@
                         <img src="@/assets/images/navbar/about-me-logo.svg" alt="about-me-logo" id="about-me-logo-scroll">
                     </router-link>
                 </div>
-                <div class="nav-item"><router-link :to="aboutMe"> About </router-link></div>
-                <div class="nav-item"><router-link :to="workExperience"> Experience </router-link></div>
-                <div class="nav-item"><router-link :to="skills"> Skills </router-link></div>
-                <div class="nav-item"><router-link :to="projects"> Projects </router-link></div>
+                <div class="nav-item-scroll"><router-link :to="aboutMe"> About </router-link></div>
+                <div class="nav-item-scroll"><router-link :to="workExperience"> Experience </router-link></div>
+                <div class="nav-item-scroll"><router-link :to="skills"> Skills </router-link></div>
+                <div class="nav-item-scroll"><router-link :to="projects"> Projects </router-link></div>
                 <v-spacer></v-spacer>
             </v-app-bar>
         </transition>
@@ -92,6 +92,14 @@ a {
 
 .nav-item {
     font-size: 1.2em;
+    margin-left:5px;
+    padding: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.nav-item-scroll {
+    font-size: 1.1em;
     margin-left:5px;
     padding: 5px;
     padding-right: 10px;

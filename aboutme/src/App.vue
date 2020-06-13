@@ -1,10 +1,9 @@
 <template>
     <v-app
-    class="main-background"
+    style="background: #f5f9ff;"
     v-scroll="onScroll">
         <NavbarComponent
         :offsetTop="offsetTop"/>
-
         <v-content>
             <transition
             name="slide-right"
