@@ -31,6 +31,11 @@
                 elevation="5"
             >
                 <v-spacer></v-spacer>
+                <div id="nav-logo">
+                    <router-link :to="home">
+                        <img src="@/assets/images/navbar/about-me-logo.svg" alt="about-me-logo" id="about-me-logo-scroll">
+                    </router-link>
+                </div>
                 <div class="nav-item"><router-link :to="aboutMe"> About </router-link></div>
                 <div class="nav-item"><router-link :to="workExperience"> Experience </router-link></div>
                 <div class="nav-item"><router-link :to="skills"> Skills </router-link></div>
@@ -84,6 +89,7 @@ a {
   text-decoration: none;
   color: grey !important;
 }
+
 .nav-item {
     font-size: 1.2em;
     margin-left:5px;
@@ -107,6 +113,12 @@ a {
 #nav-logo {
     margin-right:15px;
 }
+
+#about-me-logo-scroll {
+    height: 40px;
+    margin-top: 5px;
+}
+
 #about-me-logo {
     height: 50px;
 }
