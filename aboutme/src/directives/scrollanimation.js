@@ -1,3 +1,8 @@
+const config = {
+    root: null,
+    threshold: 0.3,
+}
+
 const animatedScrollObserver = new IntersectionObserver(
     (entries, animatedScrollObserver) => {
         entries.forEach((entry) => {
@@ -6,7 +11,7 @@ const animatedScrollObserver = new IntersectionObserver(
                 animatedScrollObserver.unobserve(entry.target);
             }
         });
-    }
+    }, config
 );
 
 export default {

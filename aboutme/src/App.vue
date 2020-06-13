@@ -38,5 +38,14 @@ export default {
 </script>
 
 <style>
+.before-enter {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s cubic-bezier(.54,-0.11,.57,1.45);
+}
 
+.enter {
+    opacity: 1;
+    transform: translateY(0px);
+}
 </style>

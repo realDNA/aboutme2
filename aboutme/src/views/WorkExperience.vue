@@ -37,6 +37,7 @@
                     :timeLineCardPeriod="item.period"
                     :timeLineCardUrlDescription="item.urlDescription"
                     :detailCardTitle="item.detailCardTitle"
+                    v-scrollanimation
                   >
                     <div v-html="item.detailCardContent"></div>
                   </timeLineBox>

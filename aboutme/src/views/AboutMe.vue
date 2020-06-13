@@ -28,12 +28,12 @@
         </v-container>
     </div>
 
-    <div class="about-me-description-section-white" v-scrollanimation>
+    <div class="about-me-description-section-white" >
         <v-container>
             <v-flex xs12 sm12 md12 lg12 xl12>
                 <div class="about-introduce">
                     <h1 class="text-center"> Who Am I </h1>
-                    <div class="about-introduce-sub">
+                    <div class="about-introduce-sub" v-scrollanimation>
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
@@ -51,7 +51,7 @@
             <v-flex xs12 sm12 md12 lg12 xl12>
                 <div class="about-introduce">
                     <h1 class="text-center"> What Do I Do </h1>
-                    <div class="about-introduce-sub">
+                    <div class="about-introduce-sub" v-scrollanimation>
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
@@ -69,7 +69,7 @@
             <v-flex xs12 sm12 md12 lg12 xl12>
                 <div class="about-introduce">
                     <h1 class="text-center"> Faith Is The Strength </h1>
-                    <div class="about-introduce-sub">
+                    <div class="about-introduce-sub" v-scrollanimation>
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
@@ -144,17 +144,6 @@ export default {
 
 .about-me-last-description-section {
     padding-bottom:0px;
-}
-
-.before-enter {
-    opacity: 0;
-    transform: translateY(100px);
-    transition: all 2s ease-out;
-}
-
-.enter {
-    opacity: 1;
-    transform: translateY(0px);
 }
 
 #about-landing {
