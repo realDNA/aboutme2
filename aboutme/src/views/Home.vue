@@ -79,19 +79,19 @@
                     Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                 </div>
                 <div id="home-social-icons">
-                    <a href="https://www.w3schools.com" target="_blank">
+                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
                         <img src="@/assets/images/social-icon/linkedin.svg" alt="linkedin-logo" class="home-social-icon">
                     </a>
 
-                    <a href="https://www.w3schools.com" target="_blank">
+                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
                         <img src="@/assets/images/social-icon/github.svg" alt="github-logo" class="home-social-icon">
                     </a>
 
-                    <a href="https://www.w3schools.com" target="_blank">
+                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
                         <img src="@/assets/images/social-icon/facebook.svg" alt="facebook-logo" class="home-social-icon">
                     </a>
 
-                    <a href="https://www.w3schools.com" target="_blank">
+                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
                         <img src="@/assets/images/social-icon/gmail.svg" alt="gmail-logo" class="home-social-icon">
                     </a>
                 </div>
