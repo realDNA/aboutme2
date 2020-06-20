@@ -68,16 +68,49 @@ export default {
             imageSrc: "skills/web.svg",
             skillDetailContent:
             `
-            <h3> Let Google help
-                apps determine location.
-                This means sending anonymous location data to
-                 Google, even when no apps are running.
+            <h3>
+                Full stack development refers to the development of both front end and back end portions of an application.
+                This web development process involves all three layer- Presentation layer(front end part that deals with the user interface),
+                Business Logic Layer(back end part that deals with data validation) and the database Layer.
+                <br/><br/>
+                The tools involved are :
+                <br/>
+
+                Frontend languages -
+                <strong style="color:red;">HTML</strong>,
+                <strong style="color:red;">CSS</strong>,
+                <strong style="color:red;">Javascript</strong>,
+                <strong style="color:red;">Jquery</strong>
+
+                <br/>
+                Frontend Framework -
+                <strong style="color:red;">VueJs</strong>
+
+                <br/>
+                Backend languages -
+                <strong style="color:red;">Python</strong>,
+                <strong style="color:red;">Scala</strong>
+
+                <br/>
+                Backend Framework -
+                <strong style="color:red;">Django</strong>,
+                <strong style="color:red;">Flask</strong>
+
+                <br/>
+                DataBase -
+                <strong style="color:red;">Mongo</strong>,
+                <strong style="color:red;">Arango</strong>,
+                <strong style="color:red;">Postgres</strong>
+
+                <br/>
+                Webserver - <strong style="color:red;">Nginx</strong>
+
+                <br/>
+                WSGI server - <strong style="color:red;">Gunicorn</strong>
+
+                <br/>
+                Web Hosting - <strong style="color:red;">AWS</strong>
             </h3>
-            <hr/>
-            <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
-            <h2>fdfadsfasd ffa </h2>
-            <h2>fdfadsfasd ffa </h2>
-            <h2>fdfadsfasd ffa </h2>
             `
           },
           {
@@ -91,12 +124,14 @@ export default {
                 <br/><br/>
                 The tool involved are :
                 <br/>
+
                 Big data tool -
                 <strong style="color:red;">ELK Stack</strong> (
                 <strong style="color:red;">Elasticsearch</strong>,
                 <strong style="color:red;">Kibana</strong>,
                 <strong style="color:red;">Logstash</strong> )
                 <br/>
+
                 Messaging system - <strong style="color:red;">Apache Kafka</strong>
             </h3>
             `
@@ -112,12 +147,14 @@ export default {
                 <br/><br/>
                 The tool involved are :
                 <br/>
+
                 chips used -
                 <strong style="color:red;">Microcontroller 8051</strong>,
                 <strong style="color:red;">iCatch V35</strong>,
                 <strong style="color:red;">iCatch V50</strong>,
                 <strong style="color:red;">Ambrella Amba chip</strong>
                 <br/>
+
                 Programming language -
                 <strong style="color:red;">C</strong>,
                 <strong style="color:red;">C++</strong>
@@ -150,6 +187,7 @@ export default {
                 <br/><br/>
                 The tools involved for each phases are:
                 <br/>
+
                 Continuous Development - <strong style="color:red;">Git</strong>
                 <br/>
                 Continuous Integration -
