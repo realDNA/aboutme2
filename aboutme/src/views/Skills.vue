@@ -87,6 +87,12 @@ export default {
                 <strong style="color:red;">VueJs</strong>
 
                 <br/>
+                Frontend Design tools -
+                <strong style="color:red;">Adobe Illustrator</strong>,
+                <strong style="color:red;">Adobe XD</strong>,
+                <strong style="color:red;">Adobe Photoshop</strong>
+
+                <br/>
                 Backend languages -
                 <strong style="color:red;">Python</strong>,
                 <strong style="color:red;">Scala</strong>

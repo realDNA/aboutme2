@@ -1,0 +1,78 @@
+Devops is a software development methodology which improves the collaboration between developers and operations team using various automation tool.
+The process includes :
+Dev -
+1. Continuous Development: Plan, Code
+2. Continuous Testing: Build, Test
+
+Ops -
+1. Continuous Deployment: Release, Deploy
+2. Continuous Monitoring: Operate, Monitor
+
+and Continuous integration sits between Dev and Ops.
+
+
+
+
+Firmware literally means a software running inside an application specific chip
+(like microcontroller). So development of such software is firmware development.
+
+The chips I have used are microcontroller 8051, icatch V35, icatch V50, Ambrella Amba chip
+The language I have used for firmware development are C, C++
+
+
+
+Data engineering is to develop the architecture that helps analyze and process data
+in the way the organization needs it, and make sure those systems are performing smoothly.
+
+I have used:
+Big data tool : ELK Stack (Elasticsearch, Kibana, Logstash)
+Messaging system : Apache Kafka
+
+
+Web scraping is a technique to automatically access and extract large amounts of information
+from a website. This information is collected and then exported into a format that is more useful for the user.
+
+The tool i used for web scraping are : Selenium, BeautifulSoup
+
+
+Full stack development refers to the development of both front end and back end portions of an application.
+This web development process involves all three layer- Presentation layer(front end part that deals with the user interface),
+Business Logic Layer(back end part that deals with data validation) and the database Layer.
+
+The tools involved are :
+Frontend languages - HTML, CSS, Javascript, Jquery
+Frontend Framework - VueJs
+Backend languages - Python, Scala
+Backend Framework - Django, Flask
+DataBase - Mongo, Arango, Postgres
+Webserver - Nginx
+WSGI server - Gunicorn
+Web Hosting - AWS
+
+
+
+ncku:
+
+
+ability:
+. Having considerable close work experience with multinational corporation clients like Nikon, Panasonic to meet client's requirements.
+. Having considerable close work experience with chip provider like iCatch and Ambarella(AMBA) with middleware improvement.
+. Experience of benchmarking product on market and design specification with Nikon together.
+. Design firmware architecture and conversion of abstract specifications into executable code by C language onto camera chips.
+. Image processing by using OpenCV with C++ for high-quality display of image.
+. Implement different functionality for images and videos like edit, display and so on with good UX.
+. Implement efficient algorithms to optimize speed for UI operation of cameras.
+. Make loadtesting scripts and work closely with QA to make sure every functionality on camera pass over 10k test.
+. Strong troubleshooting ability to troubleshoot bug which appears in 1/10000 possibility across hardware and firmware.
+
+
+jewel:
+. Develop and improve payment fraud detection system by following PCI-DSS with CI/CD process and Scrum.
+. Having considerable close work experience with Oceanpayment and gather client's requirements.
+. Having considerable close work experience with NETS by delivering and deploying payment fraud detection product on premise of NETS under severe security environment.
+. Plan and Conduct of upgrading production system with no downtime.
+. Design and Implemented CQRS (Command Query Responsibility Segregation) by segregating the query model to an elasticsearch cluster improving the query performance of the system
+. Implement Kibana Dashbords for monitoring fraudulent transactions trends and alerts.
+. Provide solution for transaction laundering with 3 other members and make idea adopted by company.
+. Work closely with data engineer leader and implement a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker, multi-model Arangodb data cluster and kubernetes which improved the overall performance of the system.
+. Endorsed by CTO and data engineer leader for fast learner
