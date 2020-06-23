@@ -52,6 +52,10 @@ Web Hosting - AWS
 
 
 ncku:
+. Work as intern in NCKU library system management department.
+. Troubleshooting and repair all malfuction computers.
+. Maintain and upgrade necessary softwares on computers.
+. Install and reinstall operating system and necessary softwares on computers.
 
 
 ability:
@@ -76,3 +80,6 @@ jewel:
 . Provide solution for transaction laundering with 3 other members and make idea adopted by company.
 . Work closely with data engineer leader and implement a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker, multi-model Arangodb data cluster and kubernetes which improved the overall performance of the system.
 . Endorsed by CTO and data engineer leader for fast learner
+
+
+fraudwall:
