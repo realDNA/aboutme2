@@ -51,14 +51,17 @@ Web Hosting - AWS
 
 
 
-ncku:
+
+--------- company --------
+
+Ncku:
 . Work as intern in NCKU library system management department.
 . Troubleshooting and repair all malfuction computers.
 . Maintain and upgrade necessary softwares on computers.
 . Install and reinstall operating system and necessary softwares on computers.
 
 
-ability:
+Ability:
 . Having considerable close work experience with multinational corporation clients like Nikon, Panasonic to meet client's requirements.
 . Having considerable close work experience with chip provider like iCatch and Ambarella(AMBA) with middleware improvement.
 . Experience of benchmarking product on market and design specification with Nikon together.
@@ -70,8 +73,8 @@ ability:
 . Strong troubleshooting ability to troubleshoot bug which appears in 1/10000 possibility across hardware and firmware.
 
 
-jewel:
-. Develop and improve payment fraud detection system by following PCI-DSS with CI/CD process and Scrum.
+Jewel:
+. Develop and improve payment fraud detection system by following PCI-DSS and OWASP with CI/CD process and Scrum.
 . Having considerable close work experience with Oceanpayment and gather client's requirements.
 . Having considerable close work experience with NETS by delivering and deploying payment fraud detection product on premise of NETS under severe security environment.
 . Plan and Conduct of upgrading production system with no downtime.
@@ -79,7 +82,104 @@ jewel:
 . Implement Kibana Dashbords for monitoring fraudulent transactions trends and alerts.
 . Provide solution for transaction laundering with 3 other members and make idea adopted by company.
 . Work closely with data engineer leader and implement a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker, multi-model Arangodb data cluster and kubernetes which improved the overall performance of the system.
-. Endorsed by CTO and data engineer leader for fast learner
 
 
-fraudwall:
+--------- product -----------
+
+Fraudwall:
+. Product in Jewelpaymentech
+. Payment fraud detection product follows PCI-DSS and OWASP
+. Developed by flask python framework and python following pep8
+. CI/CD (Git, Ansible, Jenkins, Travis, Sonarqube, Zabbix) for Software Development lifecycle
+. Apache2 as webserver
+. MongoDB as NOSQL database
+. AWS EC2 and S3 for web hosting
+. Implement elasticsearch and kibana with CQRS as search engine
+
+
+Quicksilver:
+. Product in Jewelpaymentech
+. Payment fraud detection scoring engine follows PCI-DSS and OWASP
+. Microservices structure to separate different functionality
+. Apply application container technology by using docker and kubernetes to make applications more portable and efficient
+. Developed by scala with TDD(test driven development)
+. CI/CD for Software Development lifecycle
+. Kafka and Alpakka for message streaming
+. AWS ECR, EKS and MKS for Deployment
+. Arango as multi-model database
+
+
+otnhotnews:
+. Info
+. Personal side project
+. An web application that people can discuss news and make friends.
+. Developed by Django python framework and python following pep8
+. Apply application container technology by using docker and docker-compose to make applications more portable and efficient
+. Django-channel and websocket for messaging system
+. AWS EC2, S3, Route53 for web hosting
+. Nginx + gunicorn as webserver
+. Postgres as SQL database
+. Wsgi for recieving normal requests, Asgi for recieving messages
+. Redis as message broker
+
+
+keymission170:
+. Info
+. Nikon Product developed by Ability corp (ODM)
+. Developed by C
+. Development on Ambarella Amba chip
+. closely work with Amba chip vendor
+. performance-critical  product. Implement great methods and algorithms to optimise speed and memory.
+. Charge in playback all functions on camera and on monitor with hdmi
+. Manipulate image and video file data to achieve various function like display, edit and so on, all playback functions that can be found on camera
+. Closely design and discussion for spec with Nikon
+. Loadtest for and highly troubleshooting skill for extremely strict quality assurance
+
+
+panasonic:
+. Info
+. Panasonic Product developed by Ability corp (ODM)
+. developed by C
+. development on iCatch V50 chip
+. closely work with iCatch chip vendor
+. performance-critical product. Implement great methods and algorithms to optimise speed and memory.
+. charge in playback all functions on camera and on monitor with hdmi
+. Manipulate image and video file data to achieve various function like display, edit and so on, all playback functions that can be found on camera
+. loadtest for and highly troubleshooting skill for extremely strict quality assurance
+
+Lego:
+. Info
+. A combat lego robot
+. Project in university
+. Developed by a paid sdk provided by university (I forgot the SDK name, the programming language used like matlab)
+. Control sound and vision sensor and robot's logical activity
+
+
+
+Who I AM:
+Having electrical engineering background, but I also like software and am working in software industry now.
+Have been firmware engineer 3 years and software engineer 2 years and 7 months.
+Enjoy providing robust software and firmware solutions very much.
+An autodidact. Like to learn new knowledge and put it into practice.
+Having solid knowledge across hardware, firmware and software.
+Having master's degree of electrical engineering.
+Come from Taiwan, a beautiful, democratic and enthusiastic country.
+
+
+What have i done:
+Develop on payment fraud detection product and scoring engine
+Develop on sport and digital cameras for Nikon and Panasonic
+Optimize performance and features on products
+Deliver mission-critical and time-critical products
+Attend Kaggle AI competition
+Self-motivated to learn new technologies and get hands dirty
+
+
+Believe:
+Use my ability to contribute to the world and change the game.
+Lifetime learning is way important and keep sticking to it
+Stay hungry, stay foolish
+Get hands dirty and try to fail as more as possible. Mistake is always a good teacher
+Happiness comes from how much you can impact others, how much value you provide to others
+
+
