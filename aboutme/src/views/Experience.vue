@@ -218,7 +218,7 @@ export default {
         educationExperienceItems: [
           {
             name: 'National Cheng Kung University',
-            imageSrc: "work-experience/ncku.svg",
+            imageSrc: "education-experience/nckues.svg",
             degree: 'Bachelor',
             department: 'Engineering Science',
             startTime: "2008 Sep",
@@ -255,7 +255,7 @@ export default {
           },
           {
             name: 'National Cheng Kung University',
-            imageSrc: "work-experience/camera.svg",
+            imageSrc: "education-experience/nckuee.svg",
             degree: 'Master',
             department: 'Electrical Engineering',
             startTime: "2012 Sep",
