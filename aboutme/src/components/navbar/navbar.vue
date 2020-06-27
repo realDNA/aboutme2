@@ -62,7 +62,7 @@
         data: () => ({
             home: { name: "Home" },
             aboutMe: { name: "AboutMe" },
-            workExperience: { name: "WorkExperience" },
+            workExperience: { name: "Experience" },
             skills: { name: "Skills" },
             projects: { name: "Projects" },
             lastOffset: 0,

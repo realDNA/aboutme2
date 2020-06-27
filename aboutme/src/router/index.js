@@ -17,8 +17,8 @@ const routes = [
   },
   {
     path: "/experience",
-    name: "WorkExperience",
-    component: () => import("../views/WorkExperience.vue")
+    name: "Experience",
+    component: () => import("../views/Experience.vue")
   },
   {
     path: "/skills",

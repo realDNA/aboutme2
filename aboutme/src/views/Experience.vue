@@ -1,12 +1,12 @@
 <template>
-  <div class="work-experience">
+  <div class="experience">
 
         <v-container>
           <v-layout row wrap>
             <v-flex xs12 sm12 md6 lg6 xl6>
-                <div class="text-center work-experience-introduce">
+                <div class="text-center experience-introduce">
                     <h1 > Experience </h1>
-                    <div class="work-experience-introduce-sub">
+                    <div class="experience-introduce-sub">
                         Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                     </div>
                     <ScrollDownArrow/>
@@ -21,8 +21,16 @@
         </v-container>
 
 
-        <v-container class="work-experience-timeline-section">
-            <div class="work-experience-timeline">
+        <v-container class="experience-work-timeline-section">
+            <v-layout row wrap align-center>
+                <v-row align="center"
+                justify="center"
+                class="experience-timeline-work-title">
+                    <h2> Work </h2>
+                </v-row>
+            </v-layout>
+
+            <div class="experience-timeline">
               <v-timeline>
                 <v-timeline-item
                   v-for="item in workExperienceItems"
@@ -30,7 +38,7 @@
                   color="#dbdcff"
                 >
                   <span slot="opposite"> {{item.startTime}} </span>
-                  <timeLineBox
+                  <workTimelinebox
                     :timeLineCardTitle="item.name"
                     :timeLineCardImage="item.imageSrc"
                     :timeLineCardJob="item.jobPosition"
@@ -40,7 +48,41 @@
                     v-scrollanimation
                   >
                     <div v-html="item.detailCardContent"></div>
-                  </timeLineBox>
+                  </workTimelinebox>
+                </v-timeline-item>
+              </v-timeline>
+            </div>
+        </v-container>
+
+        <v-container class="experience-education-timeline-section">
+            <v-layout row wrap align-center>
+                <v-row align="center"
+                justify="center"
+                class="experience-timeline-work-title">
+                    <h2> Education </h2>
+                </v-row>
+            </v-layout>
+
+            <div class="experience-timeline">
+              <v-timeline reverse>
+                <v-timeline-item
+                  v-for="item in educationExperienceItems"
+                  :key="item.name"
+                  color="#dbdcff"
+                >
+                  <span slot="opposite"> {{item.startTime}} </span>
+                  <educationTimelinebox
+                    :timeLineCardTitle="item.name"
+                    :timeLineCardImage="item.imageSrc"
+                    :timeLineCardDegree="item.degree"
+                    :timeLineCardDepartment="item.department"
+                    :timeLineCardPeriod="item.period"
+                    :timeLineCardUrlDescription="item.urlDescription"
+                    :detailCardTitle="item.detailCardTitle"
+                    v-scrollanimation
+                  >
+                    <div v-html="item.detailCardContent"></div>
+                  </educationTimelinebox>
                 </v-timeline-item>
               </v-timeline>
             </div>
@@ -51,13 +93,15 @@
 
 <script>
 import ScrollDownArrow from "@/components/scrolldown/scrolldown.vue";
-import timeLineBox from "@/components/timelinebox/timelinebox.vue";
+import workTimelinebox from "@/components/timelinebox/workTimelinebox.vue";
+import educationTimelinebox from "@/components/timelinebox/educationTimelinebox.vue";
 
 export default {
   "name": 'workExperience',
   components: {
     ScrollDownArrow,
-    timeLineBox,
+    workTimelinebox,
+    educationTimelinebox
   },
   data() {
     return {
@@ -170,6 +214,82 @@ export default {
             </h3>
             `
           }
+        ],
+        educationExperienceItems: [
+          {
+            name: 'National Cheng Kung University',
+            imageSrc: "work-experience/ncku.svg",
+            degree: 'Bachelor',
+            department: 'Engineering Science',
+            startTime: "2008 Sep",
+            period: "2008 Sep - 2012 Jun",
+            urlDescription: {
+                title: "NCKU ES",
+                url: "http://www.es.ncku.edu.tw/esncku/en/"
+            },
+            detailCardTitle: "National Cheng Kung University",
+            detailCardContent:
+            `
+            <h3>
+                Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Dapibus ultrices in iaculis nunc sed augue lacus.
+                Quam nulla porttitor massa id neque aliquam.
+                Ultrices mi tempus imperdiet nulla malesuada.
+                Eros in cursus turpis massa tincidunt dui ut ornare lectus.
+                Egestas sed sed risus pretium.
+                Lorem dolor sed viverra ipsum.
+                Gravida rutrum quisque non tellus.
+                Rutrum tellus pellentesque eu tincidunt tortor.
+                Sed blandit libero volutpat sed cras ornare.
+                Et netus et malesuada fames ac.
+                Ultrices eros in cursus turpis massa tincidunt dui ut ornare.
+                Lacus sed viverra tellus in.
+                Sollicitudin ac orci phasellus egestas.
+                Purus in mollis nunc sed.
+                Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.
+                Interdum consectetur libero id faucibus nisl tincidunt eget.
+            </h3>
+            `
+          },
+          {
+            name: 'National Cheng Kung University',
+            imageSrc: "work-experience/camera.svg",
+            degree: 'Master',
+            department: 'Electrical Engineering',
+            startTime: "2012 Sep",
+            period: "2012 Sep - 2014 July",
+            urlDescription: {
+                title: "NCKU EE",
+                url: "https://www.ee.ncku.edu.tw/en/"
+            },
+            detailCardTitle: "Ability",
+            detailCardContent:
+            `
+            <h3>
+                Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Dapibus ultrices in iaculis nunc sed augue lacus.
+                Quam nulla porttitor massa id neque aliquam.
+                Ultrices mi tempus imperdiet nulla malesuada.
+                Eros in cursus turpis massa tincidunt dui ut ornare lectus.
+                Egestas sed sed risus pretium.
+                Lorem dolor sed viverra ipsum.
+                Gravida rutrum quisque non tellus.
+                Rutrum tellus pellentesque eu tincidunt tortor.
+                Sed blandit libero volutpat sed cras ornare.
+                Et netus et malesuada fames ac.
+                Ultrices eros in cursus turpis massa tincidunt dui ut ornare.
+                Lacus sed viverra tellus in.
+                Sollicitudin ac orci phasellus egestas.
+                Purus in mollis nunc sed.
+                Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque.
+                Interdum consectetur libero id faucibus nisl tincidunt eget.
+            </h3>
+            `
+          }
         ]
     }
   },
@@ -183,23 +303,31 @@ export default {
 </script>
 
 <style scoped>
-.work-experience-introduce {
+.experience-introduce {
     margin: 50px;
     margin-top: 150px;
 }
 
-.work-experience-introduce-sub {
+.experience-introduce-sub {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 1.5em;
 }
 
-.work-experience-timeline-section {
+.experience-work-timeline-section {
     margin-top: 150px;
 }
 
-.work-experience-timeline {
-    padding:0px 0px 150px 0px;
+.experience-education-timeline-section {
+    margin-top: 50px;
+}
+
+.experience-timeline {
+    padding:0px 0px 100px 0px;
+}
+
+.experience-timeline-work-title {
+    margin-bottom: 5%;
 }
 
 </style>

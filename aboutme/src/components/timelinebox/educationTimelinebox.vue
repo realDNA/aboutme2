@@ -10,14 +10,15 @@
                     <v-flex xs12 sm12 md12 lg6 xl6>
                         <div class="card-content">
                             <img :src="require(`@/assets/images/${timeLineCardImage}`)"
-                                 alt="work-experience"
+                                 alt="education-experience"
                                  height="200px"
                             />
                         </div>
                     </v-flex>
                     <v-flex xs12 sm12 md12 lg6 xl6>
                         <div class="container">
-                            <h3 class="card-content-item"> Job title: {{timeLineCardJob}} </h3>
+                            <h3 class="card-content-item"> Degree: {{timeLineCardDegree}} </h3>
+                            <h3 class="card-content-item"> Dept.: {{timeLineCardDepartment}} </h3>
                             <h3 class="card-content-item"> Period: {{timeLineCardPeriod}} </h3>
                             <h3 class="card-content-item">
                                 Url:
@@ -29,7 +30,7 @@
                     </v-flex>
                 </v-layout>
 
-                <v-row justify="end" class="work-experience-read-more-button">
+                <v-row justify="end" class="education-experience-read-more-button">
                   <v-dialog v-model="closeDialog" width="600px">
                     <template v-slot:activator="{ on }">
                       <v-btn color="#6b63ff" dark v-on="on"> Read More </v-btn>
@@ -72,7 +73,11 @@
               type: String,
               required: true
             },
-            timeLineCardJob: {
+            timeLineCardDegree: {
+              type: String,
+              required: true
+            },
+            timeLineCardDepartment : {
               type: String,
               required: true
             },
@@ -92,18 +97,17 @@
         data() {
             return {
                 closeDialog: false,
-                testUrl: "@/assets/images/work-experience/workchat.svg"
             }
         },
     };
 </script>
 
-<style>
+<style scoped>
 a {
     text-decoration: none !important;
 }
 
-.work-experience-read-more-button {
+.education-experience-read-more-button {
     margin-top: 10px;
     margin-right: 0px;
 }
@@ -115,7 +119,7 @@ a {
 }
 
 .card-content-item {
-      line-height: 50px;
+      line-height: 40px;
 }
 
 .job-detail-text {
