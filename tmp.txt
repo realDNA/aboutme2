@@ -167,7 +167,7 @@ Come from Taiwan, a beautiful, democratic and enthusiastic country.
 
 
 What have i done:
-Develop on payment fraud detection product and scoring engine
+Develop on payment fraud detection product and scoring engine to prevent and catch fraud
 Develop on sport and digital cameras for Nikon and Panasonic
 Optimize performance and features on products
 Deliver mission-critical and time-critical products
@@ -184,3 +184,8 @@ Get hands dirty and try to fail as more as possible. Mistake is always a good te
 Happiness comes from how much you can impact others, how much value you provide to others
 
 
+ncku EE:
+
+
+
+ncku ES:

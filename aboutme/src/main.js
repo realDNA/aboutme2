@@ -6,6 +6,7 @@ import ScollAnimation from "./directives/scrollanimation"
 
 Vue.config.productionTip = false;
 
+Vue.use(require('vue-moment'));
 Vue.directive("scrollanimation", ScollAnimation);
 
 new Vue({

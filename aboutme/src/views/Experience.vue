@@ -34,7 +34,7 @@
               <v-timeline>
                 <v-timeline-item
                   v-for="item in workExperienceItems"
-                  :key="item.name"
+                  :key="item.name+item.jobPosition"
                   color="#dbdcff"
                 >
                   <span slot="opposite"> {{item.startTime}} </span>
@@ -67,7 +67,7 @@
               <v-timeline reverse>
                 <v-timeline-item
                   v-for="item in educationExperienceItems"
-                  :key="item.name"
+                  :key="item.name+item.degree"
                   color="#dbdcff"
                 >
                   <span slot="opposite"> {{item.startTime}} </span>
