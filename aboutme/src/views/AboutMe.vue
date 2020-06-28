@@ -35,7 +35,7 @@
                     <h1 class="text-center"> Who Am I </h1>
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
-                            <li>Having electrical engineering academy background and like programming.</li>
+                            <li>Having electrical engineering academic background and like programming.</li>
                             <li>Having been a firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
                             <li>Enjoy providing robust software and firmware solutions very much.</li>
                             <li>An autodidact. Like to learn new knowledge and put it into practice.</li>
