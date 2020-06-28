@@ -270,7 +270,36 @@ export default {
             imageSrc: "skills/ai.svg",
             skillDetailContent:
             `
-            <h2>fdfafdfads</h2>
+            <h3>
+                Artificial intelligence is a science like mathematics or biology. It studies ways to build intelligent programs and machines that can creatively solve problems.
+                <br/>
+                People usually heard of Machine learning and Deep learning, what are them?
+                <br/>
+                Machine learning is a subset of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience.
+                <br/>
+                Deep learning, is a subset of machine learning, which uses the neural networks to analyze different factors with a structure that is similar to the human neural system.
+                <br/><br/>
+                There are three main types of tasks within Machine learning and Deep learning :
+                <ul>
+                    <li>
+                        Supervised learning - We need to label data, and the process of an algorithm learning from the training dataset.
+                    </li>
+                    <li>
+                        Unsupervised learning - We do not need to label data, and the process of an algorithm learning will work on its own to discover information.
+                    </li>
+                    <li>
+                        Semi-supervised learning - similar to supervised learning, but it only combines a small amount of labeled data with a large amount of unlabeled data during training.
+                    </li>
+                </ul>
+                Moreover, there is also Reinforcement learning which is dynamically learning by adjusting actions based in continuous feedback to maximize a reward. for example: Alpha Go.
+                <br/><br/>
+                The tool involved is :
+                <ul>
+                    <li>
+                        Neural-network library : <strong style="color:red;">Keras</strong>
+                    </li>
+                </ul>
+            </h3>
             `
           },
         ]

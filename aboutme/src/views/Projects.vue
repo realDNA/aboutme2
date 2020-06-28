@@ -207,7 +207,26 @@ export default {
             imageSrc: "projects/more.svg",
             projectDetailContent:
             `
-            <h2>fdfafdfads</h2>
+            <h3>
+                <ul>
+                    <li> <a href="https://dna-31494.herokuapp.com/" target="_blank">NodeJs practice</a> </li>
+                    <li>
+                        web Scraper:
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/realDNA/stockFilter" target="_blank">Filter Taiwan stocks which have robust financial basis</a>
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/realDNA/webScrawler/blob/master/scootscrawler.py" target="_blank">Filter cheaper scoot flight ticket for one way or round trip</a>
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/realDNA/webScrawler/blob/master/catchPTTtitle_driver.py" target="_blank">Find news and pretty girls images then share to friends</a>
+                        <br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://github.com/realDNA/webScrawler/blob/master/weatherscrawler.py" target="_blank">Get Taiwan weather information</a>
+                    </li>
+                    <li> <a href="https://github.com/realWHY/Java_Practice" target="_blank">Java practive</a> </li>
+                    <li> <a href="https://github.com/realWHY/Android-practice" target="_blank">Android practice</a> </li>
+                    <li> <a href="https://github.com/realWHY/Machine-learning" target="_blank">Machine learning practice</a> </li>
+                    <li> <a href="https://github.com/realWHY/Deep_learning" target="_blank">Deep learning practice</a> </li>
+                </ul>
+            </h3>
             `
           },
         ]

@@ -53,9 +53,17 @@ Web Hosting - AWS
 Artificial intelligence is a science like mathematics or biology. It studies ways to build intelligent programs and machines that can creatively solve problems.
 People usually heard of Machine learning and Deep learning, what are them?
 Machine learning is a subset of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience.
-Deep learning, or deep neural learning, is a subset of machine learning, which uses the neural networks to analyze different factors with a structure that is similar to the human neural system.
+Deep learning, is a subset of machine learning, which uses the neural networks to analyze different factors with a structure that is similar to the human neural system.
 
-There are two main types of tasks within Machine learning and Deep learning : supervised learning and unsupervised learning
+There are three main types of tasks within Machine learning and Deep learning :
+Supervised learning - We need to label data, and the process of an algorithm learning from the training dataset.
+Unsupervised learning - We do not need to label data, and the process of an algorithm learning will work on its own to discover information.
+Semi-supervised learning - similar to supervised learning, but it only combines a small amount of labeled data with a large amount of unlabeled data during training.
+
+Moreover, there is also Reinforcement learning which is dynamically learning by adjusting actions based in continuous feedback to maximize a reward. for example: Alpha Go.
+
+The tool involved is :
+Neural-network library : Keras
 --------- company --------
 
 Ncku:
@@ -165,6 +173,34 @@ Cactus identification:
 . accuracy 0.9998
 . Rank 480 out of 1225 teams
 
+
+nodeJs practice:
+https://dna-31494.herokuapp.com/
+
+web Scraper:
+.Filter stocks which have robust financial basis:
+https://github.com/realDNA/stockFilter
+
+.Filter cheaper scoot flight ticket:
+https://github.com/realDNA/webScrawler/blob/master/scootscrawler.py
+
+.Find news and pretty girls images then share to friends:
+https://github.com/realDNA/webScrawler/blob/master/catchPTTtitle_driver.py & https://github.com/realDNA/webScrawler/blob/master/emailtea.py
+
+.Get weather information:
+https://github.com/realDNA/webScrawler/blob/master/weatherscrawler.py
+
+.Java practive:
+https://github.com/realWHY/Java_Practice
+
+.Android practice:
+https://github.com/realWHY/Android-practice
+
+.Machine learning practice:
+https://github.com/realWHY/Machine-learning
+
+.Deep learning practice:
+https://github.com/realWHY/Deep_learning
 
 
 Who I AM:
