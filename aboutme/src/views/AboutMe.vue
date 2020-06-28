@@ -18,8 +18,8 @@
                 <div class="text-center about-image">
                     <v-avatar size="300">
                         <img
-                          src="https://cdn.vuetifyjs.com/images/john.jpg"
-                          alt="John"
+                          src="@/assets/images/aboutme/avatar.jpg"
+                          alt="avatar"
                         >
                     </v-avatar>
                 </div>
@@ -56,12 +56,12 @@
                     <h1 class="text-center"> What Have I Done </h1>
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
-                            <li>Develop on payment fraud detection product and scoring engine to prevent and catch fraud.</li>
-                            <li>Develop and collaborate with Nikon / Panasonic on sport / digital cameras.</li>
-                            <li>Optimize performance and features for products to improve user experience.</li>
-                            <li>Deliver mission-critical and time-critical products.</li>
-                            <li>Attend Kaggle AI competition to identify cactus.</li>
-                            <li>Self-motivated to learn new technologies and get hands dirty.</li>
+                            <li> Develop on payment fraud detection product and scoring engine to prevent and catch fraud. </li>
+                            <li> Develop and collaborate with Nikon / Panasonic on sport / digital cameras. </li>
+                            <li> Optimize performance and features for products to improve user experience. </li>
+                            <li> Deliver mission-critical and time-critical products. </li>
+                            <li> Self-motivated to learn new technologies and get hands dirty. </li>
+                            <li> Hold several large events. </li>
                         </ul>
                     </div>
                 </div>

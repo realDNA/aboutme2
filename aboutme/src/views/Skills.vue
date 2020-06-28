@@ -75,47 +75,58 @@ export default {
                 <br/><br/>
                 The tools involved are :
                 <br/>
+                <ul>
+                    <li>
+                        Frontend languages -
+                        <strong style="color:red;">HTML</strong>,
+                        <strong style="color:red;">CSS</strong>,
+                        <strong style="color:red;">Javascript</strong>,
+                        <strong style="color:red;">Jquery</strong>
+                    </li>
 
-                Frontend languages -
-                <strong style="color:red;">HTML</strong>,
-                <strong style="color:red;">CSS</strong>,
-                <strong style="color:red;">Javascript</strong>,
-                <strong style="color:red;">Jquery</strong>
+                    <li>
+                        Frontend Framework -
+                        <strong style="color:red;">VueJs</strong>
+                    </li>
 
-                <br/>
-                Frontend Framework -
-                <strong style="color:red;">VueJs</strong>
+                    <li>
+                        Frontend Design tools -
+                        <strong style="color:red;">Adobe Illustrator</strong>,
+                        <strong style="color:red;">Adobe XD</strong>,
+                        <strong style="color:red;">Adobe Photoshop</strong>
+                    </li>
 
-                <br/>
-                Frontend Design tools -
-                <strong style="color:red;">Adobe Illustrator</strong>,
-                <strong style="color:red;">Adobe XD</strong>,
-                <strong style="color:red;">Adobe Photoshop</strong>
+                    <li>
+                        Backend languages -
+                        <strong style="color:red;">Python</strong>,
+                        <strong style="color:red;">Scala</strong>
+                    </li>
 
-                <br/>
-                Backend languages -
-                <strong style="color:red;">Python</strong>,
-                <strong style="color:red;">Scala</strong>
+                    <li>
+                        Backend Framework -
+                        <strong style="color:red;">Django</strong>,
+                        <strong style="color:red;">Flask</strong>
+                    </li>
 
-                <br/>
-                Backend Framework -
-                <strong style="color:red;">Django</strong>,
-                <strong style="color:red;">Flask</strong>
+                    <li>
+                        DataBase -
+                        <strong style="color:red;">Mongo</strong>,
+                        <strong style="color:red;">Arango</strong>,
+                        <strong style="color:red;">Postgres</strong>
+                    </li>
 
-                <br/>
-                DataBase -
-                <strong style="color:red;">Mongo</strong>,
-                <strong style="color:red;">Arango</strong>,
-                <strong style="color:red;">Postgres</strong>
+                    <li>
+                        Webserver - <strong style="color:red;">Nginx</strong>
+                    </li>
 
-                <br/>
-                Webserver - <strong style="color:red;">Nginx</strong>
+                    <li>
+                        WSGI server - <strong style="color:red;">Gunicorn</strong>
+                    </li>
 
-                <br/>
-                WSGI server - <strong style="color:red;">Gunicorn</strong>
-
-                <br/>
-                Web Hosting - <strong style="color:red;">AWS</strong>
+                    <li>
+                        Web Hosting - <strong style="color:red;">AWS</strong>
+                    </li>
+                </ul>
             </h3>
             `
           },
@@ -130,15 +141,18 @@ export default {
                 <br/><br/>
                 The tool involved are :
                 <br/>
-
-                Big data tool -
-                <strong style="color:red;">ELK Stack</strong> (
-                <strong style="color:red;">Elasticsearch</strong>,
-                <strong style="color:red;">Kibana</strong>,
-                <strong style="color:red;">Logstash</strong> )
-                <br/>
-
-                Messaging system - <strong style="color:red;">Apache Kafka</strong>
+                <ul>
+                    <li>
+                        Big data tool -
+                        <strong style="color:red;">ELK Stack</strong> (
+                        <strong style="color:red;">Elasticsearch</strong>,
+                        <strong style="color:red;">Kibana</strong>,
+                        <strong style="color:red;">Logstash</strong> )
+                    </li>
+                    <li>
+                        Messaging system - <strong style="color:red;">Apache Kafka</strong>
+                    </li>
+                </ul>
             </h3>
             `
           },
@@ -152,18 +166,21 @@ export default {
                 (like microcontroller). So development of such software is firmware development.
                 <br/><br/>
                 The tool involved are :
-                <br/>
+                <ul>
+                    <li>
+                        chips used -
+                        <strong style="color:red;">Microcontroller 8051</strong>,
+                        <strong style="color:red;">iCatch V35</strong>,
+                        <strong style="color:red;">iCatch V50</strong>,
+                        <strong style="color:red;">Ambrella Amba chip</strong>
+                    </li>
 
-                chips used -
-                <strong style="color:red;">Microcontroller 8051</strong>,
-                <strong style="color:red;">iCatch V35</strong>,
-                <strong style="color:red;">iCatch V50</strong>,
-                <strong style="color:red;">Ambrella Amba chip</strong>
-                <br/>
-
-                Programming language -
-                <strong style="color:red;">C</strong>,
-                <strong style="color:red;">C++</strong>
+                    <li>
+                        Programming language -
+                        <strong style="color:red;">C</strong>,
+                        <strong style="color:red;">C++</strong>
+                    </li>
+                </ul>
             </h3>
             `
           },
@@ -192,27 +209,35 @@ export default {
                 and Continuous Integration sits between Dev and Ops.
                 <br/><br/>
                 The tools involved for each phases are:
-                <br/>
 
-                Continuous Development - <strong style="color:red;">Git</strong>
-                <br/>
-                Continuous Integration -
-                <strong style="color:red;">Jenkins</strong>,
-                <strong style="color:red;">Travis</strong>
-                <br/>
-                Continuous Deployment -
-                <br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;* Virtualization & Containerization -
-                    <strong style="color:red;">Docker</strong>,
-                    <strong style="color:red;">Docker Compose</strong>,
-                    <strong style="color:red;">Kubernetes</strong>,
-                    <strong style="color:red;">Virtual Machine</strong>
-                    <br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;* Configuration Management - <strong style="color:red;">Ansible</strong>
-                    <br/>
-                Continuous Monitoring - <strong style="color:red;">Zabbix</strong>
-                <br/>
-                Continuous Testing: <strong style="color:red;">Selenium</strong>
+                <ul>
+                    <li>
+                        Continuous Development - <strong style="color:red;">Git</strong>
+                    </li>
+                    <li>
+                        Continuous Integration -
+                        <strong style="color:red;">Jenkins</strong>,
+                        <strong style="color:red;">Travis</strong>
+                    </li>
+                    <li>
+                        Continuous Deployment -
+                        <br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;- Virtualization & Containerization -
+                            <strong style="color:red;">Docker</strong>,
+                            <strong style="color:red;">Docker Compose</strong>,
+                            <strong style="color:red;">Kubernetes</strong>,
+                            <strong style="color:red;">Virtual Machine</strong>
+                            <br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;- Configuration Management - <strong style="color:red;">Ansible</strong>
+                            <br/>
+                    </li>
+                    <li>
+                        Continuous Monitoring - <strong style="color:red;">Zabbix</strong>
+                    </li>
+                    <li>
+                        Continuous Testing: <strong style="color:red;">Selenium</strong>
+                    </li>
+                </ul>
             </h3>
             `
           },
@@ -226,12 +251,17 @@ export default {
                 from a website. This information is collected and then exported into a format that is more useful for the user.
                 <br/><br/>
                 The tool involved are :
-                <br/>
-                Web driver - <strong style="color:red;">Selenium web driver</strong>
-                <br/>
-                HTML parser - <strong style="color:red;">BeautifulSoup</strong>
-                <br/>
-                Programming language - <strong style="color:red;">Python</strong>
+                <ul>
+                    <li>
+                        Web driver - <strong style="color:red;">Selenium web driver</strong>
+                    </li>
+                    <li>
+                        HTML parser - <strong style="color:red;">BeautifulSoup</strong>
+                    </li>
+                    <li>
+                        Programming language - <strong style="color:red;">Python</strong>
+                    </li>
+                </ul>
             </h3>
             `
           },

@@ -50,8 +50,12 @@ WSGI server - Gunicorn
 Web Hosting - AWS
 
 
+Artificial intelligence is a science like mathematics or biology. It studies ways to build intelligent programs and machines that can creatively solve problems.
+People usually heard of Machine learning and Deep learning, what are them?
+Machine learning is a subset of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience.
+Deep learning, or deep neural learning, is a subset of machine learning, which uses the neural networks to analyze different factors with a structure that is similar to the human neural system.
 
-
+There are two main types of tasks within Machine learning and Deep learning : supervised learning and unsupervised learning
 --------- company --------
 
 Ncku:
@@ -124,7 +128,7 @@ otnhotnews:
 
 
 keymission170:
-. Info
+. Info https://www.youtube.com/watch?v=sbGPTOa6USI
 . Nikon Product developed by Ability corp (ODM)
 . Developed by C
 . Development on Ambarella Amba chip
@@ -133,11 +137,11 @@ keymission170:
 . Charge in playback all functions on camera and on monitor with hdmi
 . Manipulate image and video file data to achieve various function like display, edit and so on, all playback functions that can be found on camera
 . Closely design and discussion for spec with Nikon
-. Loadtest for and highly troubleshooting skill for extremely strict quality assurance
+. Loadtest and highly troubleshooting skill for extremely strict quality assurance
 
 
 panasonic:
-. Info
+. Info https://www.youtube.com/watch?v=5MLdQKI6DSM
 . Panasonic Product developed by Ability corp (ODM)
 . developed by C
 . development on iCatch V50 chip
@@ -145,14 +149,21 @@ panasonic:
 . performance-critical product. Implement great methods and algorithms to optimise speed and memory.
 . charge in playback all functions on camera and on monitor with hdmi
 . Manipulate image and video file data to achieve various function like display, edit and so on, all playback functions that can be found on camera
-. loadtest for and highly troubleshooting skill for extremely strict quality assurance
+. loadtest and highly troubleshooting skill for extremely strict quality assurance
 
 Lego:
-. Info
+. Info https://youtu.be/9GhMWX2hOTw
 . A combat lego robot
 . Project in university
 . Developed by a paid sdk provided by university (I forgot the SDK name, the programming language used like matlab)
 . Control sound and vision sensor and robot's logical activity
+
+
+Cactus identification:
+. A competition on Kaggle (https://www.kaggle.com/c/aerial-cactus-identification/)
+. Supervised learning neural networks with kekas was used
+. accuracy 0.9998
+. Rank 480 out of 1225 teams
 
 
 
@@ -185,7 +196,19 @@ Happiness comes from how much you can impact others, how much value you provide 
 
 
 ncku EE:
-
-
+.Major in Control engineering
+. Thesis : Optimal Iterative-Learning Control with Disturbances
+- Thesis abstraction http://etds.lib.ncku.edu.tw/etdservice/view_metadata?etdun=U0026-2807201420214000&query_field1=&query_word1=Optimal%20Iterative-Learning%20Control%20with%20Disturbances
+- Implemented to deal with steady state error from a known or an unknown system with disturbances.
+- Design a prediction-based digital observer to estimate the states from the system and then apply OECILC.
+- Apply Observer/Kalman filter identification to deal with unknow systems (an blackbox system we only know input and output).
+- Digital redesign to design the controller to improve performance.
+- Lower degree system model from OKID to control higher degree real system with OECILC.
+. Tool used - Matlab
 
 ncku ES:
+	Cadre of Pop Dance Club - Education officer
+	Coordinate and manage affairs for over 300 members with other 10+ cadres.
+	arranged educational program and teaching for members.
+	Hold big activities like the end of the semester performance, public dance battle sessions and so on.
+

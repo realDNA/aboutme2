@@ -79,19 +79,19 @@
                     Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
                 </div>
                 <div id="home-social-icons">
-                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
+                    <a href="https://www.linkedin.com/in/wei-hungyu-599454141/" target="_blank">
                         <img src="@/assets/images/social-icon/linkedin.svg" alt="linkedin-logo" class="home-social-icon">
                     </a>
 
-                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
+                    <a href="https://github.com/realDNA" target="_blank">
                         <img src="@/assets/images/social-icon/github.svg" alt="github-logo" class="home-social-icon">
                     </a>
 
-                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
+                    <a href="https://www.facebook.com/d.n.a.58" target="_blank">
                         <img src="@/assets/images/social-icon/facebook.svg" alt="facebook-logo" class="home-social-icon">
                     </a>
 
-                    <a href="https://cli.vuejs.org/guide/deployment.html#general-guidelines" target="_blank">
+                    <a href="mailto:e94971360@livemail.tw">
                         <img src="@/assets/images/social-icon/gmail.svg" alt="gmail-logo" class="home-social-icon">
                     </a>
                 </div>

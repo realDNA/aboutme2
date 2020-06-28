@@ -30,7 +30,7 @@
                 </v-layout>
 
                 <v-row justify="end" class="work-experience-read-more-button">
-                  <v-dialog v-model="closeDialog" width="600px">
+                  <v-dialog v-model="closeDialog" width="1100px">
                     <template v-slot:activator="{ on }">
                       <v-btn color="#6b63ff" dark v-on="on"> Read More </v-btn>
                     </template>
@@ -98,10 +98,6 @@
 </script>
 
 <style scoped>
-a {
-    text-decoration: none !important;
-}
-
 .work-experience-read-more-button {
     margin-top: 10px;
     margin-right: 0px;

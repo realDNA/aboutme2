@@ -38,6 +38,10 @@ export default {
 </script>
 
 <style>
+a {
+    text-decoration: none !important;
+}
+
 .main-background {
     background: #f5f9ff;
 }

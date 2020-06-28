@@ -68,16 +68,18 @@ export default {
             imageSrc: "projects/fraudwall.svg",
             projectDetailContent:
             `
-            <h3> Let Google help
-                apps determine location.
-                This means sending anonymous location data to
-                 Google, even when no apps are running.
+            <h3>
+                <ul>
+                    <li> Product in Jewelpaymentech. </li>
+                    <li> Payment fraud detection product follows PCI-DSS and OWASP. </li>
+                    <li> Developed by flask python framework and python language following pep8. </li>
+                    <li> CI/CD (Git, Ansible, Jenkins, Travis, Sonarqube, Zabbix) for Software Development lifecycle. </li>
+                    <li> Apache2 as webserver. </li>
+                    <li> MongoDB as NOSQL database. </li>
+                    <li> AWS EC2 and S3 for web hosting. </li>
+                    <li> Implement elasticsearch and kibana with CQRS as search engine for transactions. </li>
+                </ul>
             </h3>
-            <hr/>
-            <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
-            <h2>fdfadsfasd ffa </h2>
-            <h2>fdfadsfasd ffa </h2>
-            <h2>fdfadsfasd ffa </h2>
             `
           },
           {
@@ -85,7 +87,18 @@ export default {
             imageSrc: "projects/quicksilver.png",
             projectDetailContent:
             `
-            <h2>fdfafdfads</h2>
+            <h3>
+                <ul>
+                    <li> Payment fraud detection scoring engine follows PCI-DSS and OWASP. </li>
+                    <li> Microservices structure to separate different functionality. </li>
+                    <li> Apply application container technology by using docker and kubernetes to make applications more portable and efficient. </li>
+                    <li> Developed by scala language with TDD (test driven development). </li>
+                    <li> CI/CD for Software Development lifecycle. </li>
+                    <li> Kafka and Alpakka for message streaming. </li>
+                    <li> AWS ECR, EKS and MKS for Deployment. </li>
+                    <li> Arango as multi-model database. </li>
+                </ul>
+            </h3>
             `
           },
           {
@@ -93,15 +106,22 @@ export default {
             imageSrc: "projects/otnhotnews.png",
             projectDetailContent:
             `
-            <h2>fdfafdfads</h2>
-            `
-          },
-          {
-            name: 'Cactus Identification',
-            imageSrc: "projects/cactus.png",
-            projectDetailContent:
-            `
-            <h2>fdfafdfads</h2>
+            <h3>
+                <ul>
+                    <li> <a href="https://otnhotnews.com/" target="_blank">Website url</a> </li>
+                    <li> Personal side project. </li>
+                    <li> A news combines social media web application that people can discuss news and make friends. </li>
+                    <li> Developed by Django python framework and python language following pep8. </li>
+                    <li> Apply application container technology by using docker and docker-compose to make applications more portable and efficient. </li>
+                    <li> Django-channel and websocket for messaging system. </li>
+                    <li> Natural language processing for wordcloud. </li>
+                    <li> AWS EC2, S3, Route53 for web hosting. </li>
+                    <li> Nginx + gunicorn as webserver. </li>
+                    <li> Postgres as SQL database. </li>
+                    <li> Wsgi for recieving normal requests, Asgi for recieving messages. </li>
+                    <li> Redis as message broker. </li>
+                </ul>
+            </h3>
             `
           },
           {
@@ -109,7 +129,22 @@ export default {
             imageSrc: "projects/lumix-FT7.png",
             projectDetailContent:
             `
-            <h3>fdfafdfads</h3>
+            <h3>
+                <ul>
+                    <li>
+                        <a href="https://www.panasonic.com/uk/consumer/cameras-camcorders/lumix-digital-cameras/tough-compact-cameras/dc-ft7.html" target="_blank">Website url</a> /
+                        <a href="https://www.youtube.com/watch?v=5MLdQKI6DSM" target="_blank">Video url</a>
+                    </li>
+                    <li> Panasonic Product developed by Ability corp (ODM). </li>
+                    <li> developed by C language. </li>
+                    <li> Development on iCatch V50 chip. </li>
+                    <li> Closely work with iCatch chip vendor. </li>
+                    <li> performance-critical  product. Implement great methods and algorithms to optimise speed and memory. </li>
+                    <li> Charge in playback all functions on camera and on monitor with hdmi. </li>
+                    <li> Manipulate image and video file data to achieve various function like display, edit and so on, all playback functions that can be found on camera. </li>
+                    <li> Loadtest and highly troubleshooting skill for extremely strict quality assurance. </li>
+                </ul>
+            </h3>
             `
           },
           {
@@ -117,7 +152,38 @@ export default {
             imageSrc: "projects/keyMission170.png",
             projectDetailContent:
             `
-            <h2>fdfafdfads</h2>
+            <h3>
+                <ul>
+                    <li>
+                        <a href="http://www.nikon.com.sg/en_SG/product/action-cameras/keymission-170" target="_blank">Website url</a> /
+                        <a href="https://www.youtube.com/watch?v=sbGPTOa6USI" target="_blank">Video url</a>
+                    </li>
+                    <li> Nikon Product developed by Ability corp (ODM). </li>
+                    <li> Developed by C language. </li>
+                    <li> Development on Ambarella Amba chip. </li>
+                    <li> Closely work with Amba chip vendor. </li>
+                    <li> performance-critical  product. Implement great methods and algorithms to optimise speed and memory. </li>
+                    <li> Charge in playback all functions on camera and on monitor with hdmi. </li>
+                    <li> Manipulate image and video file data to achieve various function like display, edit and so on, all playback functions that can be found on camera. </li>
+                    <li> Closely design and discussion for spec with Nikon. </li>
+                    <li> Loadtest and highly troubleshooting skill for extremely strict quality assurance. </li>
+                </ul>
+            </h3>
+            `
+          },
+          {
+            name: 'Cactus Identification',
+            imageSrc: "projects/cactus.png",
+            projectDetailContent:
+            `
+            <h3>
+                <ul>
+                <li> <a href="https://www.kaggle.com/c/aerial-cactus-identification/" target="_blank"> A competition on Kaggle </a> </li>
+                <li> Neural network with kekas was used. </li>
+                <li> Accuracy 0.9998. </li>
+                <li> Rank 480 out of 1225 teams. </li>
+                </ul>
+            </h3>
             `
           },
           {
@@ -125,7 +191,15 @@ export default {
             imageSrc: "projects/lego.png",
             projectDetailContent:
             `
-            <h2>fdfafdfads</h2>
+            <h3>
+                <ul>
+                    <li> <a href="https://youtu.be/9GhMWX2hOTw" target="_blank">Video url</a> </li>
+                    <li> A combat lego robot. </li>
+                    <li> Project in university. </li>
+                    <li> Developed by a paid sdk provided by university (I forgot the SDK name, the programming language used like matlab). </li>
+                    <li> Control sound and vision sensor and robot's logical activity. </li>
+                </ul>
+            </h3>
             `
           },
           {
