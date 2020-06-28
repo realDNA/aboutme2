@@ -8,7 +8,7 @@
                 <div class="text-center skills-introduce">
                     <h1 > Skills </h1>
                     <div class="skills-introduce-sub">
-                        Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
+                        Learning is a nonstop process for me in life and I will never outdate myself. Learn, practice, and master.
                     </div>
                     <ScrollDownArrow/>
                 </div>

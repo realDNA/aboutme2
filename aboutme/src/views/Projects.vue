@@ -8,7 +8,7 @@
                 <div class="text-center projects-introduce">
                     <h1 > Projects </h1>
                     <div class="projects-introduce-sub">
-                        Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
+                        Never stop believing and striving to make things better, make the world better, and make the game changed.
                     </div>
                     <ScrollDownArrow/>
                 </div>

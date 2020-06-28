@@ -8,7 +8,7 @@
                 <div class="text-center about-introduce">
                     <h1 > About </h1>
                     <div class="about-introduce-sub">
-                        Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
+                        I am from Taiwan and like to explore the world. My knowledge is across hardware, firmware, and software in the area of IT.
                     </div>
                     <ScrollDownArrow/>
                 </div>

@@ -7,7 +7,7 @@
                 <div class="text-center experience-introduce">
                     <h1 > Experience </h1>
                     <div class="experience-introduce-sub">
-                        Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
+                        Keep overcoming challenges and everything I experienced is meant to make me stronger and better.
                     </div>
                     <ScrollDownArrow/>
                 </div>
