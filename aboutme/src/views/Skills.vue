@@ -69,9 +69,9 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Full stack development refers to the development of both front end and back end portions of an application.
-                This web development process involves all three layer- Presentation layer(front end part that deals with the user interface),
-                Business Logic Layer(back end part that deals with data validation) and the database Layer.
+                Full-stack development refers to the development of both front end and back end portions of an application.
+                This web development process involves all three-layer: The presentation layer(front end part that deals with the user interface),
+                Business Logic Layer(back end part that deals with data validation), and the Database Layer.
                 <br/><br/>
                 The tools involved are :
                 <br/>
@@ -162,8 +162,8 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Firmware literally means a software running inside an application specific chip
-                (like microcontroller). So development of such software is firmware development.
+                Firmware means a software running inside an application-specific chip (like microcontroller).
+                So the development of such software is firmware development.
                 <br/><br/>
                 The tool involved are :
                 <ul>
@@ -190,8 +190,8 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Devops is a software development methodology which improves the collaboration between developers and
-                operations team using various automation tool. The process includes :
+                DevOps is a software development methodology which improves the collaboration between developers and
+                operations team using various automation tools. The process includes :
                 <br/><br/>
                 Dev -
                 <br/>
@@ -208,7 +208,7 @@ export default {
                 <br/><br/>
                 and Continuous Integration sits between Dev and Ops.
                 <br/><br/>
-                The tools involved for each phases are:
+                The tools involved in each phase are:
 
                 <ul>
                     <li>
@@ -247,7 +247,7 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Web scraping is a technique to automatically access and extract large amounts of information
+                Web scraping is a technique to automatically access and extracts large amounts of information
                 from a website. This information is collected and then exported into a format that is more useful for the user.
                 <br/><br/>
                 The tool involved are :
@@ -279,7 +279,7 @@ export default {
                 <br/>
                 Deep learning, is a subset of machine learning, which uses the neural networks to analyze different factors with a structure that is similar to the human neural system.
                 <br/><br/>
-                There are three main types of tasks within Machine learning and Deep learning :
+                There are three main types of tasks in Machine learning and Deep learning :
                 <ul>
                     <li>
                         Supervised learning - We need to label data, and the process of an algorithm learning from the training dataset.
@@ -291,12 +291,12 @@ export default {
                         Semi-supervised learning - similar to supervised learning, but it only combines a small amount of labeled data with a large amount of unlabeled data during training.
                     </li>
                 </ul>
-                Moreover, there is also Reinforcement learning which is dynamically learning by adjusting actions based in continuous feedback to maximize a reward. for example: Alpha Go.
+                Moreover, there is also Reinforcement learning dynamically learning by adjusting actions based on continuous feedback to maximize a reward. for example, Alpha Go.
                 <br/><br/>
                 The tool involved is :
                 <ul>
                     <li>
-                        Neural-network library : <strong style="color:red;">Keras</strong>
+                        Neural-network library: <strong style="color:red;">Keras</strong>
                     </li>
                 </ul>
             </h3>

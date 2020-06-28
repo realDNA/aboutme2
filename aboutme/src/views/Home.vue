@@ -76,7 +76,7 @@
 
                  </div>
                 <div class="home-introduce-sub">
-                    Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida arcu
+                    Hi, I am Aaron, a software engineer with a strong love of learning, and want to contribute my ability to make the world better!
                 </div>
                 <div id="home-social-icons">
                     <a href="https://www.linkedin.com/in/wei-hungyu-599454141/" target="_blank">

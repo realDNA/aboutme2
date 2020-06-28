@@ -36,12 +36,12 @@
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
                             <li>Having electrical engineering academy background and like programming.</li>
-                            <li>Have been firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
+                            <li>Having been a firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
                             <li>Enjoy providing robust software and firmware solutions very much.</li>
                             <li>An autodidact. Like to learn new knowledge and put it into practice.</li>
-                            <li>Having solid knowledge across hardware, firmware and software.</li>
-                            <li>Having master's degree of electrical engineering.</li>
-                            <li>Come from Taiwan, a beautiful, democratic and enthusiastic country.</li>
+                            <li>Having solid knowledge across hardware, firmware, and software.</li>
+                            <li>Having a master's degree in electrical engineering.</li>
+                            <li>Come from Taiwan, a beautiful, democratic, and enthusiastic country.</li>
                         </ul>
                     </div>
                 </div>
@@ -77,10 +77,10 @@
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
                             <li>Use my ability to contribute to the world and change the game.</li>
-                            <li>Stay hungry, stay foolish. Lifetime learning is way important and keep sticking to it.</li>
-                            <li>Mistake is always a good teacher. Get hands dirty and try to fail as more as possible.</li>
+                            <li>Stay hungry, stay foolish. Lifetime learning is way important and keeps sticking to it.</li>
+                            <li>Mistakes is always a good teacher. Get hands dirty and try to fail as more as possible.</li>
                             <li>Happiness comes from how much you can impact others, how much value you provide to others.</li>
-                            <li>Everyone is a genius if put them into right position.</li>
+                            <li>Everyone is a genius if they are in the right position.</li>
                         </ul>
                     </div>
                 </div>

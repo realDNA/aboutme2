@@ -121,11 +121,11 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Work as intern in NCKU library system management department. </li>
-                    <li> Troubleshooting and repair all malfuction computers. </li>
-                    <li> Make sure internet is ok across library.</li>
-                    <li> Maintain and upgrade necessary softwares on computers. </li>
-                    <li> Install and reinstall operating system and necessary softwares on computers. </li>
+                    <li> Work as an intern in the NCKU library system management department. </li>
+                    <li> Troubleshooting and repair all malfunction computers. </li>
+                    <li> Make sure the internet is ok across the library.</li>
+                    <li> Maintain and upgrade the necessary software on computers. </li>
+                    <li> Install and reinstall the operating system and necessary software on computers. </li>
                 </ul>
             </h3>
             `
@@ -146,13 +146,13 @@ export default {
             <h3>
                 <ul>
                     <li> Having considerable close work experience with multinational corporation clients like Nikon, Panasonic to meet client's requirements. </li>
-                    <li> Having considerable close work experience with chip provider like iCatch and Ambarella(AMBA) with middleware improvement. </li>
+                    <li> Having considerable close work experience with chip providers like iCatch and Ambarella(AMBA) with middleware improvement. </li>
                     <li> Experience of benchmarking product on market and design specification with Nikon together. </li>
                     <li> Design firmware architecture and conversion of abstract specifications into executable code by C language onto camera chips. </li>
-                    <li> Image processing by using OpenCV with C++ for high-quality display of image. </li>
-                    <li> Implement different functionality for images and videos like edit, display and so on with good UX. </li>
+                    <li> Image processing by using OpenCV with C++ for a high-quality display of an image. </li>
+                    <li> Implement different functionality for images and videos like edit, display, and so on with good UX. </li>
                     <li> Implement efficient algorithms to optimize speed for UI operation of cameras. </li>
-                    <li> Make loadtesting scripts and work closely with QA to make sure every functionality on camera pass over 10k test. </li>
+                    <li> Make load testing scripts and work closely with QA to make sure every functionality on camera passes over 10k times test. </li>
                     <li> Strong troubleshooting ability to troubleshoot bug which appears in 1/10000 possibility across hardware and firmware. </li>
                 </ul>
             </h3>
@@ -175,14 +175,14 @@ export default {
                 <ul>
                     <li> Develop and improve payment fraud detection system by following PCI-DSS and OWASP with CI/CD process and Scrum. </li>
                     <li> Having considerable close work experience with Oceanpayment and gather client's requirements. </li>
-                    <li> Having considerable close work experience with NETS by delivering and deploying payment fraud detection product at NETS under severe security environment. </li>
-                    <li> Plan and Conduct of upgrading production system with no downtime. </li>
+                    <li> Having considerable close work experience with NETS by delivering and deploying the payment fraud detection product at NETS under a severe security environment. </li>
+                    <li> Plan and Conduct of upgrading the production system with no downtime. </li>
                     <li> Design and Implemented CQRS (Command Query Responsibility Segregation) by segregating the query model to an elasticsearch cluster improving the query performance of the system. </li>
-                    <li> Implement Kibana Dashbords for monitoring fraudulent transactions trends and alerts. </li>
-                    <li> Provide solution for transaction laundering with 3 colleagues and make idea adopted by company. </li>
+                    <li> Implement Kibana dashboards for monitoring fraudulent transaction trends and alerts. </li>
+                    <li> Provide solution for transaction laundering with 3 colleagues and make the idea adopted by the company. </li>
                     <li>
                         Work closely with data engineer leader and implement a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker,
-                        multi-model Arangodb data cluster and kubernetes which improved the overall performance of the system.
+                        multi-model Arangodb data cluster, and kubernetes which improved the overall performance of the system.
                     </li>
                 </u>
             </h3>
@@ -205,11 +205,11 @@ export default {
             detailCardContent:
             `
             <h3>
-                Cadre of Pop Dance Club - Education officer
+                A cadre of Pop Dance Club - Education officer
                 <ul>
                     <li> Coordinate and manage affairs for 300+ new members each year with other 10+ cadres. </li>
-                    <li> Arranged educational program and teaching for members. </li>
-                    <li> Hold large events like the end of the semester performance, public dance battle competitions and so on. </li>
+                    <li> Arranged educational programs and teaching for members. </li>
+                    <li> Hold large events like the end of the semester performance, public dance battle competitions, and so on. </li>
                 </ul>
             </h3>
             `
@@ -231,20 +231,20 @@ export default {
             <h3>
                 <ul>
                 <li> Major in Control engineering. </li>
-                <li> Thesis : Optimal Iterative-Learning Control with Disturbances </li>
+                <li> Thesis: Optimal Iterative-Learning Control with Disturbances </li>
                 &nbsp;&nbsp;&nbsp;&nbsp;- <a href="http://etds.lib.ncku.edu.tw/etdservice/view_metadata?etdun=U0026-2807201420214000&query_field1=&query_word1=Optimal%20Iterative-Learning%20Control%20with%20Disturbances" target="_blank"> Thesis abstract </a>
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Implemented to deal with steady state error from a known or an unknown system with disturbances.
+                &nbsp;&nbsp;&nbsp;&nbsp;- Implemented to deal with steady-state error from a known or an unknown system with disturbances.
                 <br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;- Design a prediction-based digital observer to estimate the states from the system and then apply OECILC.
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Apply Observer/Kalman filter identification to deal with unknow systems (a blackbox system with only known input and output).
+                &nbsp;&nbsp;&nbsp;&nbsp;- Apply Observer/Kalman filter identification to deal with unknown systems (a black box system with only known input and output).
                 <br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;- Digital redesign to design the controller to improve performance.
                 <br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;- Lower degree system model from OKID to control higher degree real system with OECILC.
                 <br/>
-                <li> Tool used - Matlab, Simulink. </li>
+                <li> The Tool used - Matlab, Simulink. </li>
                 </ul>
             </h3>
             `
