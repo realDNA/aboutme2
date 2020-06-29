@@ -86,7 +86,7 @@ export default {
 
                     <li>
                         Frontend Framework -
-                        <strong style="color:red;">VueJs</strong>
+                        <strong style="color:red;">Vue.js</strong>
                     </li>
 
                     <li>
