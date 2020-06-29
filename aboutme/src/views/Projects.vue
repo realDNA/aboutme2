@@ -64,7 +64,7 @@ export default {
     return {
         projectsItems: [
           {
-            name: 'FraudWall',
+            name: 'Fraud Wall',
             imageSrc: "projects/fraudwall.svg",
             projectDetailContent:
             `
@@ -198,7 +198,7 @@ export default {
                     <li> A combat lego robot. </li>
                     <li> Project in university. </li>
                     <li> Developed by a paid SDK provided by the university (I forgot the SDK name, the programming language used like Matlab). </li>
-                    <li> Control sound and vision sensor and robot's logical activity. </li>
+                    <li> Control sound, vision sensor and robot's logical activity. </li>
                 </ul>
             </h3>
             `
