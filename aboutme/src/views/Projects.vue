@@ -120,6 +120,7 @@ export default {
                     <li> Postgres as SQL database. </li>
                     <li> WSGI for receiving normal requests, Asgi for receiving messages. </li>
                     <li> Redis as a message broker. </li>
+                    <li> Google Analytics for tracking website traffic. </li>
                 </ul>
             </h3>
             `

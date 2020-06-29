@@ -168,7 +168,7 @@ export default {
                 The tool involved are :
                 <ul>
                     <li>
-                        chips used -
+                        Chips used -
                         <strong style="color:red;">Microcontroller 8051</strong>,
                         <strong style="color:red;">iCatch V35</strong>,
                         <strong style="color:red;">iCatch V50</strong>,
@@ -297,6 +297,9 @@ export default {
                 <ul>
                     <li>
                         Neural-network library: <strong style="color:red;">Keras</strong>
+                    </li>
+                    <li>
+                        Programming language: <strong style="color:red;">R</strong>
                     </li>
                 </ul>
             </h3>

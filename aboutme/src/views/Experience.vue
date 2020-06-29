@@ -123,7 +123,7 @@ export default {
                 <ul>
                     <li> Work as an intern in the NCKU library system management department. </li>
                     <li> Troubleshooting and repair all malfunction computers. </li>
-                    <li> Make sure the internet is ok across the library.</li>
+                    <li> Make sure the internet works properly across the library.</li>
                     <li> Maintain and upgrade the necessary software on computers. </li>
                     <li> Install and reinstall the operating system and necessary software on computers. </li>
                 </ul>
