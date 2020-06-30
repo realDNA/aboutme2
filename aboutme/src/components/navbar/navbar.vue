@@ -13,7 +13,7 @@
                 </router-link>
             </div>
             <div class="nav-item"><router-link :to="aboutMe"> About </router-link></div>
-            <div class="nav-item"><router-link :to="workExperience"> Experience </router-link></div>
+            <div class="nav-item"><router-link :to="workExperience"> Experiences </router-link></div>
             <div class="nav-item"><router-link :to="skills"> Skills </router-link></div>
             <div class="nav-item last-nav-item"><router-link :to="projects"> Projects </router-link></div>
             <v-spacer></v-spacer>

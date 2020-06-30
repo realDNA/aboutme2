@@ -5,7 +5,7 @@
           <v-layout row wrap>
             <v-flex xs12 sm12 md6 lg6 xl6>
                 <div class="text-center experience-introduce">
-                    <h1 > Experience </h1>
+                    <h1 > Experiences </h1>
                     <div class="experience-introduce-sub">
                         Keep overcoming challenges and everything I experienced is meant to make me stronger and better.
                     </div>

@@ -35,12 +35,12 @@
                     <h1 class="text-center"> Who Am I </h1>
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
-                            <li>Having electrical engineering academic background and like programming.</li>
-                            <li>Having been a firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
+                            <li>Solid electrical engineering academic background and interested in programming.</li>
+                            <li>Had been a firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
                             <li>Enjoy providing robust software and firmware solutions very much.</li>
                             <li>An autodidact. Like to learn new knowledge and put it into practice.</li>
-                            <li>Having solid knowledge across hardware, firmware, and software.</li>
-                            <li>Having a master's degree in electrical engineering.</li>
+                            <li>Solid knowledge across hardware, firmware, and software.</li>
+                            <li>Master's degree in electrical engineering.</li>
                             <li>Come from Taiwan, a beautiful, democratic, and enthusiastic country.</li>
                         </ul>
                     </div>
@@ -53,7 +53,7 @@
         <v-container>
             <v-flex xs12 sm12 md12 lg12 xl12>
                 <div class="about-introduce">
-                    <h1 class="text-center"> What Have I Done </h1>
+                    <h1 class="text-center"> What Had I Done </h1>
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
                             <li> Develop on payment fraud detection product and scoring engine to prevent and catch fraud. </li>
