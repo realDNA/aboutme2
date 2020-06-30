@@ -95,7 +95,7 @@ export default {
                     <li> Developed by scala language with TDD (test-driven development). </li>
                     <li> CI/CD for the software development lifecycle. </li>
                     <li> Kafka and Alpakka for message streaming. </li>
-                    <li> AWS ECR, EKS, and MSK for Deployment. </li>
+                    <li> AWS ECR, EKS, and MS1K for Deployment. </li>
                     <li> Arango as multi-model database. </li>
                 </ul>
             </h3>
