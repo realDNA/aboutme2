@@ -121,11 +121,11 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Work as an intern in the NCKU library system management department. </li>
-                    <li> Troubleshooting and repair all malfunction computers. </li>
-                    <li> Make sure the internet works properly across the library.</li>
-                    <li> Maintain and upgrade the necessary software on computers. </li>
-                    <li> Install and reinstall the operating system and necessary software on computers. </li>
+                    <li> Worked as an intern in the NCKU library system management department. </li>
+                    <li> Troubleshooting and repaired all malfunction computers. </li>
+                    <li> Made sure the internet worked properly across the library.</li>
+                    <li> Maintained and upgraded the necessary software on computers. </li>
+                    <li> Installed and reinstalled the operating system and necessary software on computers. </li>
                 </ul>
             </h3>
             `
@@ -145,15 +145,15 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Having considerable close work experience with multinational corporation clients like Nikon, Panasonic to meet client's requirements. </li>
-                    <li> Having considerable close work experience with chip providers like iCatch and Ambarella(AMBA) with middleware improvement. </li>
-                    <li> Experience of benchmarking product on market and design specification with Nikon together. </li>
-                    <li> Design firmware architecture and conversion of abstract specifications into executable code by C language onto camera chips. </li>
+                    <li> Had considerable close work experience with multinational corporation clients like Nikon, Panasonic to meet client's requirements. </li>
+                    <li> Had considerable close work experience with chip providers like iCatch and Ambarella(AMBA) with middleware improvement. </li>
+                    <li> Experience of benchmarking product on market and designing specification with Nikon together. </li>
+                    <li> Designed firmware architecture and converted abstract specifications into executable code by C language onto camera chips. </li>
                     <li> Image processing by using OpenCV with C++ for a high-quality display of an image. </li>
-                    <li> Implement different functionality for images and videos like edit, display, and so on with good UX. </li>
-                    <li> Implement efficient algorithms to optimize speed for UI operation of cameras. </li>
-                    <li> Make load testing scripts and work closely with QA to make sure every functionality on camera passes over 10k times test. </li>
-                    <li> Strong troubleshooting ability to troubleshoot bug which appears in 1/10000 possibility across hardware and firmware. </li>
+                    <li> Implemented different functionality for images and videos like edit, display, and so on with good UX. </li>
+                    <li> Implemented efficient algorithms to optimize speed for UI operation of cameras. </li>
+                    <li> Made load testing scripts and worked closely with QA to make sure every functionality on camera passed over 10k times test. </li>
+                    <li> Strong troubleshooting ability to troubleshoot bugs which appeared in 1/10000 possibility across hardware and firmware. </li>
                 </ul>
             </h3>
             `
@@ -173,18 +173,18 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Develop and improve payment fraud detection system by following PCI-DSS and OWASP with CI/CD process and Scrum. </li>
-                    <li> Having considerable close work experience with Oceanpayment and gather client's requirements. </li>
+                    <li> Developing and improving payment fraud detection system by following PCI-DSS and OWASP with CI/CD process and Scrum. </li>
                     <li> Having considerable close work experience with NETS by delivering and deploying the payment fraud detection product at NETS under a severe security environment. </li>
-                    <li> Plan and Conduct of upgrading the production system with no downtime. </li>
-                    <li> Design and Implemented CQRS (Command Query Responsibility Segregation) by segregating the query model to an elasticsearch cluster improving the query performance of the system. </li>
-                    <li> Implement Kibana dashboards for monitoring fraudulent transaction trends and alerts. </li>
-                    <li> Provide solution for transaction laundering with 3 colleagues and make the idea adopted by the company. </li>
                     <li>
-                        Work closely with data engineer leader and implement a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker,
-                        multi-model Arangodb data cluster, and kubernetes which improved the overall performance of the system.
+                        Working closely with data engineer leader and implement a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker,
+                        multi-model Arangodb data cluster, and kubernetes which improves the overall performance of the system.
                     </li>
-                </u>
+                    <li> Had considerable close work experience with Oceanpayment and gather client's requirements. </li>
+                    <li> Planed and Conducted of upgrading the production system with no downtime. </li>
+                    <li> Designed and Implemented CQRS (Command Query Responsibility Segregation) by segregating the query model to an elasticsearch cluster improving the query performance of the system. </li>
+                    <li> Implemented Kibana dashboards for monitoring fraudulent transaction trends and alerts. </li>
+                    <li> Provided solution for transaction laundering with 3 colleagues and made the idea adopted by the company. </li>
+                </ul>
             </h3>
             `
           }
@@ -207,9 +207,9 @@ export default {
             <h3>
                 A cadre of Pop Dance Club - Education officer
                 <ul>
-                    <li> Coordinate and manage affairs for 300+ new members each year with other 10+ cadres. </li>
+                    <li> Coordinated and managed affairs for 300+ new members each year with other 10+ cadres. </li>
                     <li> Arranged educational programs and teaching for members. </li>
-                    <li> Hold large events like the end of the semester performance, public dance battle competitions, and so on. </li>
+                    <li> Held large events like the end of the semester performance, public dance battle competitions, and so on. </li>
                 </ul>
             </h3>
             `
@@ -225,7 +225,7 @@ export default {
                 title: "NCKU EE",
                 url: "https://www.ee.ncku.edu.tw/en/"
             },
-            detailCardTitle: "Ability",
+            detailCardTitle: "National Cheng Kung University",
             detailCardContent:
             `
             <h3>
@@ -234,7 +234,7 @@ export default {
                 <li> Thesis: Optimal Iterative-Learning Control with Disturbances </li>
                 &nbsp;&nbsp;&nbsp;&nbsp;- <a href="http://etds.lib.ncku.edu.tw/etdservice/view_metadata?etdun=U0026-2807201420214000&query_field1=&query_word1=Optimal%20Iterative-Learning%20Control%20with%20Disturbances" target="_blank"> Thesis abstract </a>
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Implemented to deal with steady-state error from a known or an unknown system with disturbances.
+                &nbsp;&nbsp;&nbsp;&nbsp;- OECILC is Implemented to deal with steady-state error from a known or an unknown system with disturbances.
                 <br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;- Design a prediction-based digital observer to estimate the states from the system and then apply OECILC.
                 <br/>

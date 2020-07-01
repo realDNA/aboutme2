@@ -35,12 +35,12 @@
                     <h1 class="text-center"> Who Am I </h1>
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
-                            <li>Solid electrical engineering academic background and interested in programming.</li>
-                            <li>Had been a firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
+                            <li>Strong Electrical Engineering academic background and interested in programming.</li>
+                            <li>Worked as a firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
                             <li>Enjoy providing robust software and firmware solutions very much.</li>
-                            <li>An autodidact. Like to learn new knowledge and put it into practice.</li>
+                            <li>An autodidact, who has enthusiasm for learning new knowledge and put it into practice.</li>
                             <li>Solid knowledge across hardware, firmware, and software.</li>
-                            <li>Master's degree in electrical engineering.</li>
+                            <li>Master degree in Electrical Engineering.</li>
                             <li>Come from Taiwan, a beautiful, democratic, and enthusiastic country.</li>
                         </ul>
                     </div>
@@ -53,15 +53,15 @@
         <v-container>
             <v-flex xs12 sm12 md12 lg12 xl12>
                 <div class="about-introduce">
-                    <h1 class="text-center"> What Had I Done </h1>
+                    <h1 class="text-center"> What Have I Done </h1>
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
-                            <li> Develop on payment fraud detection product and scoring engine to prevent and catch fraud. </li>
-                            <li> Develop and collaborate with Nikon / Panasonic on sport / digital cameras. </li>
-                            <li> Optimize performance and features for products to improve user experience. </li>
-                            <li> Deliver mission-critical and time-critical products. </li>
+                            <li> Developing on payment fraud detection product and scoring engine to prevent and catch fraud. </li>
+                            <li> Developed and collaborated with Nikon / Panasonic on sport / digital cameras. </li>
+                            <li> Keep optimizing performance and features of products to improve user experience. </li>
+                            <li> Delivered several mission-critical and time-critical products. </li>
                             <li> Self-motivated to learn new technologies and get hands dirty. </li>
-                            <li> Hold several large events. </li>
+                            <li> Held several large events. </li>
                         </ul>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                         <ul>
                             <li>Use my ability to contribute to the world and change the game.</li>
                             <li>Stay hungry, stay foolish. Lifetime learning is way important and keeps sticking to it.</li>
-                            <li>Mistakes is always a good teacher. Get hands dirty and try to fail as more as possible.</li>
-                            <li>Happiness comes from how much you can impact others, how much value you provide to others.</li>
+                            <li>Mistakes are always good teachers. Get hands dirty and try to fail as more as possible.</li>
+                            <li>Happiness comes from how you can impact others, and how much value you deliver to others.</li>
                             <li>Everyone is a genius if they are in the right position.</li>
                         </ul>
                     </div>
@@ -108,7 +108,7 @@ export default {
     softwareWorkSince: function () {
         let fromTime = moment("2017-12-15").diff(moment(), "milliseconds")
         let duration = moment.duration(fromTime)
-        let timeString = duration.years() / -1 + " years and " + duration.months() / -1 + " months"
+        let timeString = duration.years() / -1 + " years " + duration.months() / -1 + " months"
         return timeString
     }
   },

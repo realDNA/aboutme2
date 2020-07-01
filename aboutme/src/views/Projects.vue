@@ -77,7 +77,7 @@ export default {
                     <li> Apache2 as the webserver. </li>
                     <li> MongoDB as NoSQL database. </li>
                     <li> AWS EC2 and S3 for web hosting. </li>
-                    <li> Implement elasticsearch and kibana with CQRS as a search engine for transactions. </li>
+                    <li> Elasticsearch and Kibana are implemented with CQRS as a search engine for transactions. </li>
                 </ul>
             </h3>
             `
@@ -91,7 +91,7 @@ export default {
                 <ul>
                     <li> The payment fraud detection scoring engine follows PCI-DSS and OWASP. </li>
                     <li> Microservices structure to separate different functionality. </li>
-                    <li> Apply application container technology by using Docker and Kubernetes to make applications more portable and efficient. </li>
+                    <li> Application container technology is applied by using Docker and Kubernetes to make microservices more portable and efficient. </li>
                     <li> Developed by scala language with TDD (test-driven development). </li>
                     <li> CI/CD for the software development lifecycle. </li>
                     <li> Kafka and Alpakka for message streaming. </li>
@@ -112,7 +112,7 @@ export default {
                     <li> Personal side project. </li>
                     <li> News combines social media web application that people can discuss news and make friends. </li>
                     <li> Developed by Django python framework and python language following pep8. </li>
-                    <li> Apply application container technology by using docker and docker-compose to make applications more portable and efficient. </li>
+                    <li> Application container technology is applied by using docker and docker-compose to make application more portable and efficient. </li>
                     <li> Django-channel and WebSocket for the messaging system. </li>
                     <li> Natural language processing for the word cloud. </li>
                     <li> AWS EC2, S3, Route53 for web hosting. </li>
@@ -139,10 +139,10 @@ export default {
                     <li> Panasonic Product developed by Ability corp (ODM). </li>
                     <li> developed by C language. </li>
                     <li> Development on iCatch V50 chip. </li>
-                    <li> Closely work with iCatch chip vendor. </li>
-                    <li> performance-critical  product. Implement great methods and algorithms to optimize speed and memory. </li>
-                    <li> Charge in playback all functions on camera and the display on the monitor with HDMI. </li>
-                    <li> Manipulate image and video file data to achieve various functions like display, edit, and so on, all playback functions that can be found on the camera. </li>
+                    <li> Closely worked with iCatch chip vendor. </li>
+                    <li> performance-critical  product. Implemented great methods and algorithms to optimize speed and memory. </li>
+                    <li> Charged in playback all functions on camera and the display on the monitor with HDMI. </li>
+                    <li> Manipulated image and video file data to achieve various functions like display, edit, and so on, all playback functions that can be found on the camera. </li>
                     <li> Load test and highly troubleshooting skills for extremely strict quality assurance. </li>
                 </ul>
             </h3>
@@ -162,11 +162,11 @@ export default {
                     <li> Nikon Product developed by Ability corp (ODM). </li>
                     <li> Developed by C language. </li>
                     <li> Development on Ambarella Amba chip. </li>
-                    <li> Closely work with the Amba chip vendor. </li>
-                    <li> performance-critical  product. Implement great methods and algorithms to optimize speed and memory. </li>
-                    <li> Charge in playback all functions on camera and the display on the monitor with HDMI. </li>
-                    <li> Manipulate image and video file data to achieve various functions like display, edit, and so on, all playback functions that can be found on the camera. </li>
-                    <li> Closely design and discussion for spec with Nikon. </li>
+                    <li> Closely worked with the Amba chip vendor. </li>
+                    <li> performance-critical  product. Implemented great methods and algorithms to optimize speed and memory. </li>
+                    <li> Charged in playback all functions on camera and the display on the monitor with HDMI. </li>
+                    <li> Manipulated image and video file data to achieve various functions like display, edit, and so on, all playback functions that can be found on the camera. </li>
+                    <li> Closely designed and discussed for spec with Nikon. </li>
                     <li> Load test and highly troubleshooting skills for extremely strict quality assurance. </li>
                 </ul>
             </h3>
@@ -198,7 +198,7 @@ export default {
                     <li> A combat lego robot. </li>
                     <li> Project in university. </li>
                     <li> Developed by a paid SDK provided by the university (I forgot the SDK name, the programming language used like Matlab). </li>
-                    <li> Control sound, vision sensor and robot's logical activity. </li>
+                    <li> Controlled sound, vision sensor and robot's logical activity. </li>
                 </ul>
             </h3>
             `
