@@ -210,7 +210,7 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> <a href="https://youtu.be/9GhMWX2hOTw" target="_blank">Video url</a> </li>
+                    <li> <a href="https://www.youtube.com/watch?v=H1ym5zC1lZQ" target="_blank">Video url</a> </li>
                     <li> A combat lego robot. </li>
                     <li> Project in university. </li>
                     <li> Developed by a paid SDK provided by the university (I forgot the SDK name, the programming language used like Matlab). </li>
