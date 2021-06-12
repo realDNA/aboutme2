@@ -108,7 +108,7 @@ export default {
                         Backend Framework -
                         <strong style="color:red;">Django</strong>,
                         <strong style="color:red;">Flask</strong>,
-                        <strong style="color:red;">Dotnet</strong>
+                        <strong style="color:red;">.NET Core</strong>
                     </li>
 
                     <li>
