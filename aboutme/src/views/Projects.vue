@@ -63,6 +63,22 @@ export default {
   data() {
     return {
         projectsItems: [
+        {
+            name: 'Smart Factory',
+            imageSrc: "projects/smart-factory.jpeg",
+            projectDetailContent:
+            `
+            <h3>
+                <ul>
+                    <li> Project in GARMIN. </li>
+                    <li> Web application for integrating data from production lines to provide insight. </li>
+                    <li> Developed by .NET framework and C# language with Angular frontend framework. </li>
+                    <li> Micorservices architecture with Containers </li>
+                    <li> Microsoft SQL Server as SQL database. </li>
+                </ul>
+            </h3>
+            `
+          },
           {
             name: 'Fraud Wall',
             imageSrc: "projects/fraudwall.svg",
@@ -108,7 +124,7 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> <a href="https://otnhotnews.com/" target="_blank">Website url</a> </li>
+                    <li> <a href="https://otnhotnews.com/" target="_blank">Website url</a> （closed down already) </li>
                     <li> Personal side project. </li>
                     <li> News combines social media web application that people can discuss news and make friends. </li>
                     <li> Developed by Django python framework and python language following pep8. </li>

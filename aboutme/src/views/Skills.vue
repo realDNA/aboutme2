@@ -86,7 +86,8 @@ export default {
 
                     <li>
                         Frontend Framework -
-                        <strong style="color:red;">Vue.js</strong>
+                        <strong style="color:red;">Vue.js</strong>,
+                        <strong style="color:red;">Angular</strong>
                     </li>
 
                     <li>
@@ -99,13 +100,15 @@ export default {
                     <li>
                         Backend languages -
                         <strong style="color:red;">Python</strong>,
-                        <strong style="color:red;">Scala</strong>
+                        <strong style="color:red;">Scala</strong>,
+                        <strong style="color:red;">C#</strong>
                     </li>
 
                     <li>
                         Backend Framework -
                         <strong style="color:red;">Django</strong>,
-                        <strong style="color:red;">Flask</strong>
+                        <strong style="color:red;">Flask</strong>,
+                        <strong style="color:red;">Dotnet</strong>
                     </li>
 
                     <li>

@@ -163,7 +163,7 @@ export default {
             jobPosition: 'Software Engineer',
             imageSrc: "work-experience/jewel.svg",
             startTime: "2017 Dec",
-            period: "2017 Dec - Now",
+            period: "2017 Dec - 2020 Dec",
             urlDescription: {
                 title: "Jewel Paymentech",
                 url: "https://www.jewelpaymentech.com/"
@@ -173,10 +173,10 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Developing and improving payment fraud detection system by following PCI-DSS and OWASP with CI/CD process and Scrum. </li>
-                    <li> Having considerable close work experience with NETS by delivering and deploying the payment fraud detection product at NETS under a severe security environment. </li>
+                    <li> Developed and improved payment fraud detection system by following PCI-DSS and OWASP with CI/CD process and Scrum. </li>
+                    <li> Had considerable close work experience with NETS by delivering and deploying the payment fraud detection product at NETS under a severe security environment. </li>
                     <li>
-                        Working closely with data engineer leader and implement a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker,
+                        Worked closely with data engineer leader and implemented a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker,
                         multi-model Arangodb data cluster, and kubernetes which improves the overall performance of the system.
                     </li>
                     <li> Had considerable close work experience with Oceanpayment and gather client's requirements. </li>
@@ -184,6 +184,28 @@ export default {
                     <li> Designed and Implemented CQRS (Command Query Responsibility Segregation) by segregating the query model to an elasticsearch cluster improving the query performance of the system. </li>
                     <li> Implemented Kibana dashboards for monitoring fraudulent transaction trends and alerts. </li>
                     <li> Provided solution for transaction laundering with 3 colleagues and made the idea adopted by the company. </li>
+                </ul>
+            </h3>
+            `
+          },
+          {
+            name: 'GARMIN',
+            jobPosition: 'Software Engineer',
+            imageSrc: "work-experience/garmin.svg",
+            startTime: "2021 Jan",
+            period: "2021 Jan - Present",
+            urlDescription: {
+                title: "GARMIN",
+                url: "https://www.garmin.com/en-US/"
+            },
+            detailCardTitle: "GARMIN",
+            detailCardContent:
+            `
+            <h3>
+                <ul>
+                    <li> Developing and improving industry 4.0 web application which tracking production line machine status. </li>
+                    <li> Redesigning and improving software architecture to make project more maintainable and testable. </li>
+                    <li> Analyzing and integrating data to provide insight for decision makers. </li>
                 </ul>
             </h3>
             `
