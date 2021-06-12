@@ -203,7 +203,7 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Developing and improving industry 4.0 web application which tracking production line machine status. </li>
+                    <li> Developing  industry 4.0 web application which tracking the status of production line machines. </li>
                     <li> Redesigning and improving software architecture to make project more maintainable and testable. </li>
                     <li> Analyzing and integrating data to provide insight for decision makers. </li>
                 </ul>
