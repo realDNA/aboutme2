@@ -36,7 +36,7 @@
                     <div class="about-introduce-sub" v-scrollanimation>
                         <ul>
                             <li>Strong Electrical Engineering academic background and interested in programming.</li>
-                            <li>Worked as a firmware engineer for 3 years and software engineer for {{ softwareWorkSince }}.</li>
+                            <li>Have been working as a software engineer for {{ softwareWorkSince }}.</li>
                             <li>Enjoy providing robust software and firmware solutions very much.</li>
                             <li>An autodidact, who has enthusiasm for learning new knowledge and put it into practice.</li>
                             <li>Solid knowledge across hardware, firmware, and software.</li>
@@ -106,7 +106,7 @@ export default {
   },
   computed: {
     softwareWorkSince: function () {
-        let fromTime = moment("2017-12-15").diff(moment(), "milliseconds")
+        let fromTime = moment("2014-11-1").diff(moment(), "milliseconds")
         let duration = moment.duration(fromTime)
         let timeString = duration.years() / -1 + " years " + duration.months() / -1 + " months"
         return timeString
