@@ -190,7 +190,7 @@ export default {
           },
           {
             name: 'GARMIN',
-            jobPosition: 'Software Engineer',
+            jobPosition: 'Team Leader',
             imageSrc: "work-experience/garmin.svg",
             startTime: "2021 Jan",
             period: "2021 Jan - Present",
@@ -206,6 +206,7 @@ export default {
                     <li> Developing  industry 4.0 web application which tracking the status of production line machines. </li>
                     <li> Redesigning and improving software architecture to make project more maintainable and testable. </li>
                     <li> Analyzing and integrating data to provide insight for decision makers. </li>
+                    <li> Introduced and implementing OKR management system to department (around 100 staffs) which improves management process. </li>
                 </ul>
             </h3>
             `
