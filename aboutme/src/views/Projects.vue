@@ -124,7 +124,7 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> <a href="https://otnhotnews.com/" target="_blank">Website url</a> （closed down already) </li>
+                    <li> <a href="https://otnhotnews.com/" target="_blank">Website url</a> （Shut down already) </li>
                     <li> Personal side project. </li>
                     <li> News combines social media web application that people can discuss news and make friends. </li>
                     <li> Developed by Django python framework and python language following pep8. </li>
