@@ -61,7 +61,7 @@
                             <li> Keep optimizing performance and features of products to improve user experience. </li>
                             <li> Delivered several mission-critical and time-critical products. </li>
                             <li> Self-motivated to learn new technologies and get hands dirty. </li>
-                            <li> Held several large events. </li>
+                            <li> Team management as a team leader. </li>
                         </ul>
                     </div>
                 </div>
