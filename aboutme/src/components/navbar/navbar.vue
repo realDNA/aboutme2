@@ -18,10 +18,29 @@
           />
         </router-link>
       </div>
-      <div class="nav-item"><router-link :to="aboutMe"> About </router-link></div>
-      <div class="nav-item"><router-link :to="workExperience"> Experiences </router-link></div>
-      <div class="nav-item"><router-link :to="skills"> Skills </router-link></div>
-      <div class="nav-item last-nav-item"><router-link :to="projects"> Projects </router-link></div>
+      <div class="nav-item">
+        <router-link :to="aboutMe"> 
+            <v-icon v-if="isMobile">mdi-account</v-icon>
+            <span v-else>About</span>
+        </router-link>
+      </div>
+      <div class="nav-item">
+        <router-link :to="workExperience"> 
+            <v-icon v-if="isMobile">mdi-lan</v-icon>
+            <span v-else>Experiences</span>
+        </router-link>
+      </div>
+      <div class="nav-item">
+        <router-link :to="skills">    
+            <v-icon v-if="isMobile">mdi-account-group-outline</v-icon>
+            <span v-else>Skills</span>
+        </router-link></div>
+      <div class="nav-item last-nav-item">
+        <router-link :to="projects">
+            <v-icon  v-if="isMobile">mdi-checkbox-marked-outline</v-icon>
+            <span v-else>Projects</span>
+        </router-link>
+    </div>
       <v-spacer></v-spacer>
     </v-app-bar>
   </div>
@@ -44,16 +63,23 @@ export default {
     projects: { name: "Projects" },
     isScrolled: false,
     isHidden: false,
+    isMobile: false,
   }),
   mounted() {
     window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener("resize", this.checkIfMobile);
+    this.checkIfMobile();
   },
   beforeDestroy() {
     window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener("resize", this.checkIfMobile);
   },
   methods: {
     handleScroll() {
       this.isScrolled = window.scrollY > 0;
+    },
+    checkIfMobile() {
+      this.isMobile = window.innerWidth <= 600;
     },
   },
 };
