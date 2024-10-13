@@ -13,6 +13,7 @@
     <v-dialog
     v-model="dialog"
     max-width="1200"
+    scroll-strategy="none"
     >
         <v-card>
             <v-card-title class="justify-center">

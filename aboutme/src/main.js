@@ -1,16 +1,23 @@
-import Vue from "vue";
-import App from "./App.vue";
-import router from "./router";
-import vuetify from "./plugins/vuetify";
-import ScollAnimation from "./directives/scrollanimation"
+import { createApp } from 'vue'  // Import createApp for Vue 3
+import App from './App.vue'
+import router from './router'
+import vuetify from './plugins/vuetify'
+import ScollAnimation from './directives/scrollanimation'
 
-Vue.config.productionTip = false;
+// Import vue-moment as a plugin
+// import VueMoment from 'vue-moment'
 
-Vue.use(require('vue-moment'));
-Vue.directive("scrollanimation", ScollAnimation);
+const app = createApp(App)
 
-new Vue({
-  router,
-  vuetify,
-  render: h => h(App)
-}).$mount("#app");
+// Register vue-moment plugin
+// app.use(VueMoment)
+
+// Register the custom scroll animation directive
+app.directive('scrollanimation', ScollAnimation)
+
+// Use router and vuetify
+app.use(router)
+app.use(vuetify)
+
+// Mount the app to the #app element in your index.html
+app.mount('#app')

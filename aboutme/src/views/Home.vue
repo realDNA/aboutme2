@@ -2,8 +2,8 @@
   <div class="home">
 
     <v-container>
-      <v-layout row wrap>
-        <v-flex xs12 sm12 md6 lg6 xl6>
+      <v-row row wrap>
+        <v-col cols="12" sm="12" md="6" lg="6" xl="6">
             <div class="text-center home-introduce">
                 <div class="home-introduce-title">
 
@@ -80,28 +80,28 @@
                 </div>
                 <div id="home-social-icons">
                     <a href="https://www.linkedin.com/in/wei-hungyu-599454141/" target="_blank">
-                        <img src="@/assets/images/social-icon/linkedin.svg" alt="linkedin-logo" class="home-social-icon">
+                        <img :src="require('@/assets/images/social-icon/linkedin.svg')" alt="linkedin-logo" class="home-social-icon">
                     </a>
 
                     <a href="https://github.com/realDNA" target="_blank">
-                        <img src="@/assets/images/social-icon/github.svg" alt="github-logo" class="home-social-icon">
+                        <img :src="require('@/assets/images/social-icon/github.svg')" alt="github-logo" class="home-social-icon">
                     </a>
 
                     <a href="https://www.facebook.com/d.n.a.58" target="_blank">
-                        <img src="@/assets/images/social-icon/facebook.svg" alt="facebook-logo" class="home-social-icon">
+                        <img :src="require('@/assets/images/social-icon/facebook.svg')" alt="facebook-logo" class="home-social-icon">
                     </a>
 
                     <a href="mailto:e94971360@livemail.tw">
-                        <img src="@/assets/images/social-icon/gmail.svg" alt="gmail-logo" class="home-social-icon">
+                        <img :src="require('@/assets/images/social-icon/gmail.svg')" alt="gmail-logo" class="home-social-icon">
                     </a>
                 </div>
             </div>
-        </v-flex>
+        </v-col>
 
-        <v-flex xs12 sm12 md6 lg6 xl6>
-            <img src="@/assets/images/main/focus.svg" alt="about-me-logo">
-        </v-flex>
-      </v-layout>
+        <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+            <img :src="require('@/assets/images/main/focus.svg')" alt="about-me-logo">
+        </v-col>
+      </v-row>
     </v-container>
 
   </div>

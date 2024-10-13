@@ -1,12 +1,12 @@
 const config = {
     root: null,
-    threshold: 0.3,
-}
+    threshold: 0.9,
+};
 
 const animatedScrollObserver = new IntersectionObserver(
     (entries, animatedScrollObserver) => {
         entries.forEach((entry) => {
-            if(entry.isIntersecting) {
+            if (entry.isIntersecting) {
                 entry.target.classList.add('enter');
                 animatedScrollObserver.unobserve(entry.target);
             }
@@ -15,8 +15,11 @@ const animatedScrollObserver = new IntersectionObserver(
 );
 
 export default {
-    bind(el) {
+    mounted(el) { // Use 'mounted' instead of 'bind'
         el.classList.add('before-enter');
         animatedScrollObserver.observe(el);
+    },
+    unmounted(el) { // Clean up observer when element is removed from the DOM
+        animatedScrollObserver.unobserve(el);
     }
-}
+};

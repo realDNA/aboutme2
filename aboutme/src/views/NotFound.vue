@@ -1,8 +1,8 @@
 <template>
 <div class="not-found">
     <v-container>
-      <v-layout row wrap>
-        <v-flex xs12 sm12 md6 lg6 xl6>
+      <v-row row wrap>
+        <v-col cols="12" sm="12" md="6" lg="6" xl="6">
             <div class="text-center not-found-introduce">
                 <h1 > Page Not Found </h1>
                 <div class="not-found-introduce-sub">
@@ -12,14 +12,14 @@
                 </div>
                 <ScrollDownArrow/>
             </div>
-        </v-flex>
+        </v-col>
 
-        <v-flex xs12 sm12 md6 lg6 xl6>
-            <img src="@/assets/images/not-found/not-found.svg"
+        <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+            <img :src="require('@/assets/images/not-found/not-found.svg')"
             alt="not-found"
             :height="500">
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
 
     </v-container>
 </div>

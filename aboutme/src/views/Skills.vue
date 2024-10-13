@@ -3,8 +3,8 @@
 
     <div id="skills-landing">
         <v-container>
-          <v-layout row wrap>
-            <v-flex xs12 sm12 md6 lg6 xl6>
+          <v-row row wrap>
+            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
                 <div class="text-center skills-introduce">
                     <h1 > Skills </h1>
                     <div class="skills-introduce-sub">
@@ -12,37 +12,36 @@
                     </div>
                     <ScrollDownArrow/>
                 </div>
-            </v-flex>
+            </v-col>
 
-            <v-flex xs12 sm12 md6 lg6 xl6>
-                <img src="@/assets/images/skills/skills.svg" alt="skills">
-            </v-flex>
-          </v-layout>
+            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+                <img :src="require('@/assets/images/skills/skills.svg')" alt="skills">
+
+            </v-col>
+          </v-row>
         </v-container>
     </div>
 
-    <div class="skills-section-white" v-scrollanimation>
+    <div class="skills-section-white">
         <div id="app">
           <v-app id="inspire">
-            <v-row justify="center">
-                <v-container>
-                  <v-layout row wrap>
-                    <v-flex xs12 sm6 md4 lg4 xl4
+            <v-container>
+                <v-row>
+                    <v-col cols="12" sm="6" md="4" lg="4" xl="4"
                         v-for="skillItem in skillsItems"
                         :key="skillItem.name">
-                        <div class="text-center skills-introduce skill-item">
-                            <skillBox
-                            :skillBoxImage="skillItem.imageSrc"
-                            :skillBoxName="skillItem.name"
-                            :skillDetailTitle="skillItem.name"
-                            >
-                                <div v-html="skillItem.skillDetailContent"></div>
-                            </skillBox>
-                        </div>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-            </v-row>
+                    <div class="text-center skills-introduce skill-item" v-scrollanimation>
+                        <skillBox
+                        :skillBoxImage="skillItem.imageSrc"
+                        :skillBoxName="skillItem.name"
+                        :skillDetailTitle="skillItem.name"
+                        >
+                        <div v-html="skillItem.skillDetailContent"></div>
+                        </skillBox>
+                    </div>
+                    </v-col>
+                </v-row>
+            </v-container>
           </v-app>
         </div>
     </div>
