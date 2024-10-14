@@ -74,22 +74,22 @@
             <h1 class="text-center">What Have I Done</h1>
             <div class="about-introduce-sub" v-scrollanimation>
               <ul>
-                <li>
+                <li v-scrollanimation>
                   Developing on payment fraud detection product and scoring
                   engine to prevent and catch fraud.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Developed and collaborated with Nikon / Panasonic on sport /
                   digital cameras.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Keep optimizing performance and features of products to
                   improve user experience.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Delivered several mission-critical and time-critical products.
                 </li>
-                <li>Team management as a team leader.</li>
+                <li v-scrollanimation>Team management as a team leader.</li>
               </ul>
             </div>
           </div>
@@ -106,23 +106,23 @@
             <h1 class="text-center">What I Believe</h1>
             <div class="about-introduce-sub" v-scrollanimation>
               <ul>
-                <li>
+                <li v-scrollanimation>
                   Leverage my skills to drive meaningful change in the world and
                   become a game-changer.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Stay curious, stay bold. Embrace lifelong learning as an
                   adventure at every turn.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Mistakes are great teachers—embrace failure, get hands-on, and
                   learn as much as possible.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Happiness comes from the impact you create and the value you
                   bring to others.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Everyone has unique genius when placed in the right
                   environment.
                 </li>
