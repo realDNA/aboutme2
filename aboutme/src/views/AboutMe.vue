@@ -33,30 +33,30 @@
         <v-col cols="12" sm="12" md="12" lg="12" xl="12">
           <div class="about-introduce">
             <h1 class="text-center">Who Am I</h1>
-            <div class="about-introduce-sub" v-scrollanimation>
+            <div class="about-introduce-sub">
               <ul>
-                <li>
+                <li v-scrollanimation>
                   Master’s degree in Electrical Engineering with a strong
                   academic background and a passion for programming.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Over {{ softwareWorkSince }} of experience in software
                   development, project management, and team leadership,
                   delivering high-quality solutions.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Skilled in stakeholder communication, committed to providing
                   robust software solutions.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   A self-taught learner with enthusiasm for acquiring new
                   knowledge and applying it in practice.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   A self-driven software craftsman focused on clean code and
                   software best practices.
                 </li>
-                <li>
+                <li v-scrollanimation>
                   Come from Taiwan, a beautiful, democratic, and vibrant
                   country.
                 </li>
