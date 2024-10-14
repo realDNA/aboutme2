@@ -76,7 +76,7 @@
 
                  </div>
                 <div class="home-introduce-sub">
-                    Hi, I am Aaron, a software engineer with a strong love of learning, and want to contribute my ability to make the world better!
+                    Hi, I’m Aaron, a passionate learner committed to personal growth, driven to leverage my skills and experience to make a positive impact on the world.
                 </div>
                 <div id="home-social-icons">
                     <a href="https://www.linkedin.com/in/wei-hungyu-599454141/" target="_blank">

@@ -7,7 +7,7 @@
                 <div class="text-center experience-introduce">
                     <h1 > Experiences </h1>
                     <div class="experience-introduce-sub">
-                        Keep overcoming challenges and everything I experienced is meant to make me stronger and better.
+                        Taking on challenges, knowing every experience makes me stronger, wiser and better prepared for the future.
                     </div>
                     <ScrollDownArrow/>
                 </div>
@@ -60,7 +60,7 @@
         </v-container>
 
         <v-container class="experience-education-timeline-section">
-            <v-row row wrap align-center>
+            <v-row align-center>
                 <v-row align="center"
                 justify="center"
                 class="experience-timeline-work-title">
@@ -117,11 +117,34 @@ export default {
     return {
         workExperienceItems: [
           {
+            name: 'Mediatek',
+            jobPosition: 'Senior Software Developer',
+            imageSrc: "work-experience/mediatek.svg",
+            startTime: "2022 May",
+            period: "2022 May - Present",
+            urlDescription: {
+                title: "Mediatek",
+                url: "https://www.mediatek.com/"
+            },
+            detailCardTitle: "Mediatek",
+            detailCardContent:
+            `
+            <h3>
+                <ul>
+                    <li> Developing  industry 4.0 web application which tracking the status of production line machines. </li>
+                    <li> Redesigning and improving software architecture to make project more maintainable and testable. </li>
+                    <li> Analyzing and integrating data to provide insight for decision makers. </li>
+                    <li> Introduced and implementing OKR management system to department (around 100 staffs) which improves management process. </li>
+                </ul>
+            </h3>
+            `
+          },
+          {
             name: 'GARMIN',
             jobPosition: 'Team Leader',
             imageSrc: "work-experience/garmin.svg",
             startTime: "2021 Jan",
-            period: "2021 Jan - Present",
+            period: "2021 Jan - 2022 Apr",
             urlDescription: {
                 title: "GARMIN",
                 url: "https://www.garmin.com/en-US/"
@@ -131,6 +154,7 @@ export default {
             `
             <h3>
                 <ul>
+                    <li> Manage web development team. </li>
                     <li> Developing  industry 4.0 web application which tracking the status of production line machines. </li>
                     <li> Redesigning and improving software architecture to make project more maintainable and testable. </li>
                     <li> Analyzing and integrating data to provide insight for decision makers. </li>

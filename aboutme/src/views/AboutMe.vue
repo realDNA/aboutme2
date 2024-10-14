@@ -36,27 +36,28 @@
             <div class="about-introduce-sub" v-scrollanimation>
               <ul>
                 <li>
-                  Strong Electrical Engineering academic background and
-                  interested in programming.
+                  Master’s degree in Electrical Engineering with a strong
+                  academic background and a passion for programming.
                 </li>
                 <li>
-                  Have been working as a software engineer for
-                  {{ softwareWorkSince }}.
+                  Over {{ softwareWorkSince }} of experience in software
+                  development, project management, and team leadership,
+                  delivering high-quality solutions.
                 </li>
                 <li>
-                  Enjoy providing robust software and firmware solutions very
-                  much.
+                  Skilled in stakeholder communication, committed to providing
+                  robust software solutions.
                 </li>
                 <li>
-                  An autodidact, who has enthusiasm for learning new knowledge
-                  and put it into practice.
+                  A self-taught learner with enthusiasm for acquiring new
+                  knowledge and applying it in practice.
                 </li>
                 <li>
-                  Solid knowledge across hardware, firmware, and software.
+                  A self-driven software craftsman focused on clean code and
+                  software best practices.
                 </li>
-                <li>Master degree in Electrical Engineering.</li>
                 <li>
-                  Come from Taiwan, a beautiful, democratic, and enthusiastic
+                  Come from Taiwan, a beautiful, democratic, and vibrant
                   country.
                 </li>
               </ul>
@@ -88,9 +89,6 @@
                 <li>
                   Delivered several mission-critical and time-critical products.
                 </li>
-                <li>
-                  Self-motivated to learn new technologies and get hands dirty.
-                </li>
                 <li>Team management as a team leader.</li>
               </ul>
             </div>
@@ -109,21 +107,25 @@
             <div class="about-introduce-sub" v-scrollanimation>
               <ul>
                 <li>
-                  Use my ability to contribute to the world and change the game.
+                  Leverage my skills to drive meaningful change in the world and
+                  become a game-changer.
                 </li>
                 <li>
-                  Stay hungry, stay foolish. Lifetime learning is way important
-                  and keeps sticking to it.
+                  Stay curious, stay bold. Embrace lifelong learning as an
+                  adventure at every turn.
                 </li>
                 <li>
-                  Mistakes are always good teachers. Get hands dirty and try to
-                  fail as more as possible.
+                  Mistakes are great teachers—embrace failure, get hands-on, and
+                  learn as much as possible.
                 </li>
                 <li>
-                  Happiness comes from how you can impact others, and how much
-                  value you deliver to others.
+                  Happiness comes from the impact you create and the value you
+                  bring to others.
                 </li>
-                <li>Everyone is a genius if they are in the right position.</li>
+                <li>
+                  Everyone has unique genius when placed in the right
+                  environment.
+                </li>
               </ul>
             </div>
           </div>
@@ -155,8 +157,9 @@ export default {
     softwareWorkSince: function() {
       let fromTime = moment("2014-11-01").diff(moment(), "milliseconds");
       let duration = moment.duration(fromTime);
-      let timeString =
-        duration.years() / -1 + " years " + duration.months() / -1 + " months";
+      //   let timeString =
+      //     duration.years() / -1 + " years " + duration.months() / -1 + " months";
+      let timeString = duration.years() / -1 + " years ";
       return timeString;
     },
   },
