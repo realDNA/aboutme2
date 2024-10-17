@@ -7,8 +7,8 @@
             <div class="text-center about-introduce">
               <h1>About</h1>
               <div class="about-introduce-sub">
-                I am from Taiwan and like to explore the world. My knowledge is
-                across hardware, firmware, and software in the area of IT.
+                I’m a passionate software engineer committed to delivering
+                impactful solutions through leadership and continuous learning.
               </div>
               <ScrollDownArrow />
             </div>
@@ -75,21 +75,29 @@
             <div class="about-introduce-sub" v-scrollanimation>
               <ul>
                 <li v-scrollanimation>
-                  Developing on payment fraud detection product and scoring
-                  engine to prevent and catch fraud.
+                  Lead and manage web application team to ensure smooth project
+                  execution.
                 </li>
                 <li v-scrollanimation>
-                  Developed and collaborated with Nikon / Panasonic on sport /
-                  digital cameras.
+                  Design systems for high stability, availability, and
+                  scalability in web applications.
                 </li>
                 <li v-scrollanimation>
-                  Keep optimizing performance and features of products to
-                  improve user experience.
+                  Introduce OKR management at the executive level to enhance
+                  focus and alignment.
                 </li>
                 <li v-scrollanimation>
-                  Delivered several mission-critical and time-critical products.
+                  Manage mission-critical and time-sensitive projects to ensure
+                  successful delivery.
                 </li>
-                <li v-scrollanimation>Team management as a team leader.</li>
+                <li v-scrollanimation>
+                  Continuously optimize the performance and features of products
+                  to meet user expectations.
+                </li>
+                <li v-scrollanimation>
+                  Redesign and restructure legacy systems to enhance scalability
+                  and ensure maintainability
+                </li>
               </ul>
             </div>
           </div>

@@ -8,7 +8,7 @@
                 <div class="text-center projects-introduce">
                     <h1 > Projects </h1>
                     <div class="projects-introduce-sub">
-                        Never stop believing and striving to make things better, make the world better, and make the game changed.
+                        Keep believing and striving to make things better, positively impact the world, and change the game for the better.
                     </div>
                     <ScrollDownArrow/>
                 </div>
