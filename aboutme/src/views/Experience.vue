@@ -131,10 +131,21 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Developing  industry 4.0 web application which tracking the status of production line machines. </li>
-                    <li> Redesigning and improving software architecture to make project more maintainable and testable. </li>
-                    <li> Analyzing and integrating data to provide insight for decision makers. </li>
-                    <li> Introduced and implementing OKR management system to department (around 100 staffs) which improves management process. </li>
+                    <li>
+                        <span style="color: blue;">System Architecture Design</span>: Specialize in microservice architecture using Domain-Driven Design (DDD) and microservice design patterns.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Fullstack Development</span>: Build scalable and highly available microservices with Django, React, Oracle, Redis, Celery, RabbitMQ, Nginx, Gunicorn, and Docker.
+                    </li>
+                    <li>
+                        <span style="color: blue;">DevOps</span>: Automate and streamline deployments using Kubernetes and Jenkins as part of the DevOps strategy.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Application Lifecycle Management (ALM)</span>: Implement ALM processes aligned with the V-Model for automotive projects.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Proof of Concept (PoC) Development</span>: Explore and build PoCs for auto-generating web applications through ChatGPT integration.
+                    </li>
                 </ul>
             </h3>
             `
@@ -154,11 +165,21 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Manage web development team. </li>
-                    <li> Developing  industry 4.0 web application which tracking the status of production line machines. </li>
-                    <li> Redesigning and improving software architecture to make project more maintainable and testable. </li>
-                    <li> Analyzing and integrating data to provide insight for decision makers. </li>
-                    <li> Introduced and implementing OKR management system to department (around 100 staffs) which improves management process. </li>
+                    <li>
+                      <span style="color: blue;">Team Leadership</span>: Manage the web development team to ensure smooth project execution and collaboration.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Industry 4.0 Application Development</span>: Develop real-time web applications to track production line machine statuses.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Software Architecture Redesign</span>: Optimize software architecture for better maintainability, scalability, and testability.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Data Analysis and Integration</span>: Integrate data and deliver actionable insights to support decision-making.
+                    </li>
+                    <li>
+                        <span style="color: blue;">OKR System Implementation</span>: Implement OKR management across a 100-staff department, enhancing transparency and process efficiency.
+                    </li>
                 </ul>
             </h3>
             `
@@ -173,22 +194,29 @@ export default {
                 title: "ADVANCE.BizQ",
                 url: "https://www.jewelpaymentech.com/"
             },
-            detailCardTitle: "Jewel Paymentech",
+            detailCardTitle: "ADVANCE.BizQ (Jewel Paymentech)",
             detailCardContent:
             `
             <h3>
                 <ul>
-                    <li> Developed and improved payment fraud detection system by following PCI-DSS and OWASP with CI/CD process and Scrum. </li>
-                    <li> Had considerable close work experience with NETS by delivering and deploying the payment fraud detection product at NETS under a severe security environment. </li>
                     <li>
-                        Worked closely with data engineer leader and implemented a scalable pluggable multi-model scoring engine for payment fraud detection using microservices with Kafka message broker,
-                        multi-model Arangodb data cluster, and kubernetes which improves the overall performance of the system.
+                        <span style="color: blue;">Payment Fraud Detection System Development</span>: Developed and enhanced a payment fraud detection system following PCI-DSS and OWASP standards, integrated with CI/CD pipelines, and implemented within a Scrum framework.
                     </li>
-                    <li> Had considerable close work experience with Oceanpayment and gather client's requirements. </li>
-                    <li> Planed and Conducted of upgrading the production system with no downtime. </li>
-                    <li> Designed and Implemented CQRS (Command Query Responsibility Segregation) by segregating the query model to an elasticsearch cluster improving the query performance of the system. </li>
-                    <li> Implemented Kibana dashboards for monitoring fraudulent transaction trends and alerts. </li>
-                    <li> Provided solution for transaction laundering with 3 colleagues and made the idea adopted by the company. </li>
+                    <li>
+                        <span style="color: blue;">Scalable Scoring Engine Implementation</span>: Collaborated with the data engineering lead to design and implement a scalable, pluggable multi-model scoring engine using microservices architecture with Kafka, a multi-model ArangoDB data cluster, and Kubernetes, significantly improving system performance. , with development driven by Test-Driven Development (TDD).
+                    </li>
+                    <li>
+                        <span style="color: blue;">Client Engagement</span>: Partnered with Oceanpayment to gather and translate client requirements into actionable deliverables. Worked closely with NETS to deploy the fraud detection product under strict security conditions, ensuring smooth delivery and operational compliance.
+                    </li>
+                    <li>
+                        <span style="color: blue;">CQRS Architecture Design</span>: Designed and implemented a CQRS architecture by segregating the query model into an Elasticsearch cluster, enhancing query performance.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Fraud Monitoring with Kibana Dashboards</span>: Developed Kibana dashboards to monitor fraudulent transaction trends and trigger alerts in real time.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Solution for Transaction Laundering</span>: Collaborated with three colleagues to design an innovative solution for transaction laundering, which was successfully adopted by the company.
+                    </li>
                 </ul>
             </h3>
             `
@@ -208,15 +236,33 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Had considerable close work experience with multinational corporation clients like Nikon, Panasonic to meet client's requirements. </li>
-                    <li> Had considerable close work experience with chip providers like iCatch and Ambarella(AMBA) with middleware improvement. </li>
-                    <li> Experience of benchmarking product on market and designing specification with Nikon together. </li>
-                    <li> Designed firmware architecture and converted abstract specifications into executable code by C language onto camera chips. </li>
-                    <li> Image processing by using OpenCV with C++ for a high-quality display of an image. </li>
-                    <li> Implemented different functionality for images and videos like edit, display, and so on with good UX. </li>
-                    <li> Implemented efficient algorithms to optimize speed for UI operation of cameras. </li>
-                    <li> Made load testing scripts and worked closely with QA to make sure every functionality on camera passed over 10k times test. </li>
-                    <li> Strong troubleshooting ability to troubleshoot bugs which appeared in 1/10000 possibility across hardware and firmware. </li>
+                    <li>
+                        <span style="color: blue;">Collaboration with Clients</span>: Worked closely with clients such as Nikon and Panasonic to meet the product expectation.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Partnership with Chip Providers</span>: Collaborated with iCatch and Ambarella (AMBA) on middleware improvements.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Product Benchmarking and Specification Design</span>: Benchmarked products against the market and co-designed product specifications with Nikon.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Firmware Architecture and Development</span>: Designed firmware architecture and translated abstract specifications into executable code in C for camera chips.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Image Processing with OpenCV</span>: Developed high-quality image display solutions using OpenCV with C++.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Image and Video Functionality Development</span>: Implemented editing, display, and other media functionalities with a focus on delivering a good user experience (UX).
+                    </li>
+                    <li>
+                        <span style="color: blue;">Algorithm Optimization for UI Performance</span>: Designed efficient algorithms to optimize camera UI operations for speed and performance.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Load Testing and QA Collaboration</span>: Created load testing scripts and worked closely with QA to ensure all camera functionalities passed over 10,000 test cycles.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Advanced Troubleshooting Across Hardware and Firmware</span>: Demonstrated strong debugging skills, resolving rare bugs occurring with a 1 in 10,000 probability across hardware and firmware components.
+                    </li>
                 </ul>
             </h3>
             `
@@ -236,11 +282,21 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Worked as an intern in the NCKU library system management department. </li>
-                    <li> Troubleshooting and repaired all malfunction computers. </li>
-                    <li> Made sure the internet worked properly across the library.</li>
-                    <li> Maintained and upgraded the necessary software on computers. </li>
-                    <li> Installed and reinstalled the operating system and necessary software on computers. </li>
+                    <li>
+                        <span style="color: blue;">Internship at NCKU Library System Management Department</span>: Gained hands-on experience in IT support and system management.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Computer Troubleshooting and Repair</span>: Diagnosed and resolved issues across all malfunctioning computers.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Network Maintenance</span>: Ensured stable internet connectivity throughout the library.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Software Maintenance and Upgrades</span>: Maintained and upgraded essential software on library computers.
+                    </li>
+                    <li>
+                        <span style="color: blue;">OS Installation and Configuration</span>: Installed, reinstalled, and configured operating systems along with necessary software.
+                    </li>
                 </ul>
             </h3>
             `
@@ -263,21 +319,21 @@ export default {
             `
             <h3>
                 <ul>
-                <li> Major in Control engineering. </li>
-                <li> Thesis: Optimal Iterative-Learning Control with Disturbances </li>
-                &nbsp;&nbsp;&nbsp;&nbsp;- <a href="http://etds.lib.ncku.edu.tw/etdservice/view_metadata?etdun=U0026-2807201420214000&query_field1=&query_word1=Optimal%20Iterative-Learning%20Control%20with%20Disturbances" target="_blank"> Thesis abstract </a>
+                <li> <span style="color: blue;"> Major in Control engineering. </span> </li>
+                <li> <span style="color: blue;">Thesis: Optimal Iterative-Learning Control with Disturbances </span> </li>
+                &nbsp;&nbsp;&nbsp;&nbsp;- <a href="https://thesis.lib.ncku.edu.tw/thesis/detail/ac2e4d059c3bee45cf1ce35c468fca25/?seq=1" target="_blank"> Thesis abstract </a>
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- OECILC is Implemented to deal with steady-state error from a known or an unknown system with disturbances.
+                &nbsp;&nbsp;&nbsp;&nbsp;- OECILC is implemented to handle steady-state error from known or unknown systems with disturbances.
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Design a prediction-based digital observer to estimate the states from the system and then apply OECILC.
+                &nbsp;&nbsp;&nbsp;&nbsp;- Designed a prediction-based digital observer to estimate system states and applied OECILC.
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Apply Observer/Kalman filter identification to deal with unknown systems (a black box system with only known input and output).
+                &nbsp;&nbsp;&nbsp;&nbsp;- Applied Observer/Kalman filter identification to handle unknown systems (black-box systems with only known inputs and outputs).
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Digital redesign to design the controller to improve performance.
+                &nbsp;&nbsp;&nbsp;&nbsp;- Performed digital redesign of the controller to enhance performance.
                 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;- Lower degree system model from OKID to control higher degree real system with OECILC.
+                &nbsp;&nbsp;&nbsp;&nbsp;- Developed a lower-degree system model using OKID to control higher-degree real systems with OECILC.
                 <br/>
-                <li> The Tool used - Matlab, Simulink. </li>
+                <li> <span style="color: blue;"> The Tool used </span> - Matlab, Simulink. </li>
                 </ul>
             </h3>
             `
@@ -297,11 +353,19 @@ export default {
             detailCardContent:
             `
             <h3>
-                A cadre of Pop Dance Club - Education officer
                 <ul>
-                    <li> Coordinated and managed affairs for 300+ new members each year with other 10+ cadres. </li>
-                    <li> Arranged educational programs and teaching for members. </li>
-                    <li> Held large events like the end of the semester performance, public dance battle competitions, and so on. </li>
+                    <li>
+                        <span style="color: blue;">Pop Dance Club Cadre – Education Officer</span>: Served as the education officer in a leadership role.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Coordination and Management</span>: Managed affairs for over 300 new members annually, collaborating with 10+ other cadres.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Educational Programs and Teaching</span>: Organized and arranged educational programs, workshops, and dance lessons for members.
+                    </li>
+                    <li>
+                        <span style="color: blue;">Event Planning and Execution</span>: Organized large-scale events, including end-of-semester performances and public dance battles.
+                    </li>
                 </ul>
             </h3>
             `

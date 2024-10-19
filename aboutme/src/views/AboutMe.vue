@@ -7,7 +7,7 @@
             <div class="text-center about-introduce">
               <h1>About</h1>
               <div class="about-introduce-sub">
-                I’m a passionate software engineer committed to delivering
+                I’m a motivated software engineer committed to delivering
                 impactful solutions through leadership and continuous learning.
               </div>
               <ScrollDownArrow />
