@@ -15,11 +15,11 @@
     max-width="1200"
     scroll-strategy="none"
     >
-        <v-card>
-            <v-card-title class="justify-center">
+        <v-card class="elevation-2">
+            <v-card-title class="text-center card-title">
                 <h4> {{skillDetailTitle}} </h4>
             </v-card-title>
-
+            <v-divider/>
             <v-card-text>
                 <div class="skill-detail-text">
                     <div class="skill-detail-content-item">

@@ -36,7 +36,7 @@
                 <v-btn color="#6b63ff" dark v-bind="props"> Read More </v-btn>
               </template>
               <v-card>
-                <v-card-title class="justify-center">
+                <v-card-title class="text-center card-title">
                   <h4> {{ detailCardTitle }} </h4>
                 </v-card-title>
                 <v-divider/>
@@ -106,12 +106,6 @@ export default {
 /* Ensure the button has proper margins */
 .education-experience-read-more-button {
   margin-top: 10px;
-  margin-right: 0px;
-}
-
-/* Ensure that the card title has spacing */
-.card-title {
-  margin-bottom: 30px;
 }
 
 /* Make the image responsive */

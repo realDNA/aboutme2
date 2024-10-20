@@ -68,65 +68,65 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Full-stack development refers to the development of both front end and back end portions of an application.
-                This web development process involves all three-layer: The presentation layer(front end part that deals with the user interface),
-                Business Logic Layer(back end part that deals with data validation), and the Database Layer.
+                Full-Stack Development involves building both the front-end (user interface) and back-end (server-side logic) of an application. It requires addressing all aspects of the software, from designing intuitive visual interfaces to managing infrastructure, APIs, databases, and business logic. This holistic approach ensures seamless integration between components, resulting in a functional, scalable, and efficient application.
                 <br/><br/>
-                The tools involved are :
+                The tools and technologies I work with include:
                 <br/>
                 <ul>
                     <li>
                         Frontend languages -
-                        <strong style="color:red;">HTML</strong>,
-                        <strong style="color:red;">CSS</strong>,
-                        <strong style="color:red;">Javascript</strong>,
-                        <strong style="color:red;">Jquery</strong>
+                        <strong style="color:blue;">HTML</strong>,
+                        <strong style="color:blue;">CSS</strong>,
+                        <strong style="color:blue;">Javascript</strong>,
+                        <strong style="color:blue;">Jquery</strong>
                     </li>
 
                     <li>
                         Frontend Framework -
-                        <strong style="color:red;">Vue.js</strong>,
-                        <strong style="color:red;">Angular</strong>
+                        <strong style="color:blue;">React</strong>,
+                        <strong style="color:blue;">Angular</strong>,
+                        <strong style="color:blue;">Vue</strong>,
                     </li>
 
                     <li>
                         Frontend Design tools -
-                        <strong style="color:red;">Adobe Illustrator</strong>,
-                        <strong style="color:red;">Adobe XD</strong>,
-                        <strong style="color:red;">Adobe Photoshop</strong>
+                        <strong style="color:blue;">Adobe Illustrator</strong>,
+                        <strong style="color:blue;">Adobe XD</strong>,
+                        <strong style="color:blue;">Adobe Photoshop</strong>
                     </li>
 
                     <li>
                         Backend languages -
-                        <strong style="color:red;">Python</strong>,
-                        <strong style="color:red;">Scala</strong>,
-                        <strong style="color:red;">C#</strong>
+                        <strong style="color:blue;">Python</strong>,
+                        <strong style="color:blue;">Scala</strong>,
+                        <strong style="color:blue;">C#</strong>
                     </li>
 
                     <li>
                         Backend Framework -
-                        <strong style="color:red;">Django</strong>,
-                        <strong style="color:red;">Flask</strong>,
-                        <strong style="color:red;">.NET Core</strong>
+                        <strong style="color:blue;">Django</strong>,
+                        <strong style="color:blue;">Flask</strong>,
+                        <strong style="color:blue;">.NET Core</strong>
                     </li>
 
                     <li>
                         DataBase -
-                        <strong style="color:red;">Mongo</strong>,
-                        <strong style="color:red;">Arango</strong>,
-                        <strong style="color:red;">Postgres</strong>
+                        <strong style="color:blue;">Oracle</strong>,
+                        <strong style="color:blue;">Mongo</strong>,
+                        <strong style="color:blue;">Arango</strong>,
+                        <strong style="color:blue;">Postgres</strong>
                     </li>
 
                     <li>
-                        Webserver - <strong style="color:red;">Nginx</strong>
+                        Webserver - <strong style="color:blue;">Nginx</strong>
                     </li>
 
                     <li>
-                        WSGI server - <strong style="color:red;">Gunicorn</strong>
+                        WSGI server - <strong style="color:blue;">Gunicorn</strong>
                     </li>
 
                     <li>
-                        Web Hosting - <strong style="color:red;">AWS</strong>
+                        Web Hosting - <strong style="color:blue;">AWS</strong>
                     </li>
                 </ul>
             </h3>
@@ -138,21 +138,20 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Data engineering is to develop the architecture that helps analyze and process data
-                in the way the organization needs it, and make sure those systems are performing smoothly.
+                Data engineering focuses on designing and building the architecture that allows organizations to efficiently collect, process, and analyze data. It ensures data flows smoothly through various systems, supporting data-driven decision-making and optimal system performance.
                 <br/><br/>
-                The tool involved are :
+                The tools and technologies I work with include:
                 <br/>
                 <ul>
                     <li>
                         Big data tool -
-                        <strong style="color:red;">ELK Stack</strong> (
-                        <strong style="color:red;">Elasticsearch</strong>,
-                        <strong style="color:red;">Kibana</strong>,
-                        <strong style="color:red;">Logstash</strong> )
+                        <strong style="color:blue;">ELK Stack</strong> (
+                        <strong style="color:blue;">Elasticsearch</strong>,
+                        <strong style="color:blue;">Kibana</strong>,
+                        <strong style="color:blue;">Logstash</strong> )
                     </li>
                     <li>
-                        Messaging system - <strong style="color:red;">Apache Kafka</strong>
+                        Messaging system - <strong style="color:blue;">Apache Kafka</strong>
                     </li>
                 </ul>
             </h3>
@@ -164,23 +163,22 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Firmware means a software running inside an application-specific chip (like microcontroller).
-                So the development of such software is firmware development.
+                Firmware is specialized software designed to run on specific hardware, such as microcontrollers and application-specific integrated circuits (ASICs). It provides low-level control for the device, ensuring it performs its intended functions reliably. Firmware development involves programming and optimizing this software to work efficiently within the constraints of the hardware.
                 <br/><br/>
-                The tool involved are :
+                The tools and technologies I work with include:
                 <ul>
                     <li>
                         Chips used -
-                        <strong style="color:red;">Microcontroller 8051</strong>,
-                        <strong style="color:red;">iCatch V35</strong>,
-                        <strong style="color:red;">iCatch V50</strong>,
-                        <strong style="color:red;">Ambrella Amba chip</strong>
+                        <strong style="color:blue;">Microcontroller 8051</strong>,
+                        <strong style="color:blue;">iCatch V35</strong>,
+                        <strong style="color:blue;">iCatch V50</strong>,
+                        <strong style="color:blue;">Ambrella Amba chip</strong>
                     </li>
 
                     <li>
                         Programming language -
-                        <strong style="color:red;">C</strong>,
-                        <strong style="color:red;">C++</strong>
+                        <strong style="color:blue;">C</strong>,
+                        <strong style="color:blue;">C++</strong>
                     </li>
                 </ul>
             </h3>
@@ -192,52 +190,51 @@ export default {
             skillDetailContent:
             `
             <h3>
-                DevOps is a software development methodology which improves the collaboration between developers and
-                operations team using various automation tools. The process includes :
+               DevOps is a methodology that unites development (Dev) and operations (Ops) teams, leveraging automation tools to streamline workflows and enhance delivery speed and reliability throughout the software lifecycle. It involves the following phases:
                 <br/><br/>
-                Dev -
+                Development (Dev) -
                 <br/>
-                1. Continuous Development: Plan, Code
+                1. Continuous Development: Plan and code the software.
                 <br/>
-                2. Continuous Testing: Build, Test
+                2. Continuous Testing: Build and test the software.
 
                 <br/><br/>
-                Ops -
+                Operations (Ops) -
                 <br/>
-                1. Continuous Deployment: Release, Deploy
+                1. Continuous Deployment: Release and deploy to production.
                 <br/>
-                2. Continuous Monitoring: Operate, Monitor
+                2. Continuous Monitoring: Operate and monitor systems for stability and performance.
                 <br/><br/>
-                and Continuous Integration sits between Dev and Ops.
+                Continuous Integration bridges Dev and Ops by automating code integration and testing.
                 <br/><br/>
-                The tools involved in each phase are:
+                The tools and technologies I work with in each phase include:
 
                 <ul>
                     <li>
-                        Continuous Development - <strong style="color:red;">Git</strong>
+                        Continuous Development - <strong style="color:blue;">Git  (version control)</strong>
                     </li>
                     <li>
                         Continuous Integration -
-                        <strong style="color:red;">Jenkins</strong>,
-                        <strong style="color:red;">Travis</strong>
+                        <strong style="color:blue;">Jenkins</strong>,
+                        <strong style="color:blue;">Travis CI</strong>
                     </li>
                     <li>
                         Continuous Deployment -
                         <br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;- Virtualization & Containerization -
-                            <strong style="color:red;">Docker</strong>,
-                            <strong style="color:red;">Docker Compose</strong>,
-                            <strong style="color:red;">Kubernetes</strong>,
-                            <strong style="color:red;">Virtual Machine</strong>
+                            <strong style="color:blue;">Docker</strong>,
+                            <strong style="color:blue;">Docker Compose</strong>,
+                            <strong style="color:blue;">Kubernetes</strong>,
+                            <strong style="color:blue;">Virtual Machine</strong>
                             <br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;- Configuration Management - <strong style="color:red;">Ansible</strong>
+                            &nbsp;&nbsp;&nbsp;&nbsp;- Configuration Management - <strong style="color:blue;">Ansible</strong>
                             <br/>
                     </li>
                     <li>
-                        Continuous Monitoring - <strong style="color:red;">Zabbix</strong>
+                        Continuous Testing: <strong style="color:blue;">Selenium</strong>
                     </li>
                     <li>
-                        Continuous Testing: <strong style="color:red;">Selenium</strong>
+                        Continuous Monitoring - <strong style="color:blue;">Zabbix</strong>
                     </li>
                 </ul>
             </h3>
@@ -249,19 +246,18 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Web scraping is a technique to automatically access and extracts large amounts of information
-                from a website. This information is collected and then exported into a format that is more useful for the user.
+                Web scraping is a technique used to automatically extract large amounts of data from websites. This data is collected and transformed into a structured format, such as CSV or JSON, making it more accessible and useful for analysis.
                 <br/><br/>
-                The tool involved are :
+                The tools and technologies I work with include:
                 <ul>
                     <li>
-                        Web driver - <strong style="color:red;">Selenium web driver</strong>
+                        Web driver - <strong style="color:blue;">Selenium</strong>
                     </li>
                     <li>
-                        HTML parser - <strong style="color:red;">BeautifulSoup</strong>
+                        HTML parser - <strong style="color:blue;">BeautifulSoup</strong>
                     </li>
                     <li>
-                        Programming language - <strong style="color:red;">Python</strong>
+                        Programming language - <strong style="color:blue;">Python</strong>
                     </li>
                 </ul>
             </h3>
@@ -273,35 +269,43 @@ export default {
             skillDetailContent:
             `
             <h3>
-                Artificial intelligence is a science like mathematics or biology. It studies ways to build intelligent programs and machines that can creatively solve problems.
-                <br/>
-                People usually heard of Machine learning and Deep learning, what are them?
-                <br/>
-                Machine learning is a subset of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience.
-                <br/>
-                Deep learning, is a subset of machine learning, which uses the neural networks to analyze different factors with a structure that is similar to the human neural system.
+                AI enables machines to mimic human intelligence by understanding language, identifying patterns, and making decisions autonomously. It drives innovations like ChatGPT, autonomous vehicles, and personalized recommendation systems, transforming how we interact with technology and enhancing automation across industries.
                 <br/><br/>
-                There are three main types of tasks in Machine learning and Deep learning :
+                Machine Learning (ML): A core part of AI where systems learn from data to improve over time without explicit programming.
+                <br/><br/>
+                Deep Learning: A specialized branch of ML using neural networks to process complex data (e.g., text, images) similar to how the human brain works.
+                
+                <br/><br/>
+                Key Learning Approaches:
                 <ul>
                     <li>
-                        Supervised learning - We need to label data, and the process of an algorithm learning from the training dataset.
+                        Supervised Learning: Learns from labeled datasets to make predictions.
                     </li>
                     <li>
-                        Unsupervised learning - We do not need to label data, and the process of an algorithm learning will work on its own to discover information.
+                        Unsupervised Learning: Discovers hidden patterns in unlabeled data.
                     </li>
                     <li>
-                        Semi-supervised learning - similar to supervised learning, but it only combines a small amount of labeled data with a large amount of unlabeled data during training.
+                        Semi-supervised Learning: Mixes labeled and unlabeled data for training.
+                    </li>
+                    <li>
+                        Reinforcement Learning: Adapts behavior through feedback to maximize rewards, as seen in AlphaGo or robotics.
                     </li>
                 </ul>
-                Moreover, there is also Reinforcement learning dynamically learning by adjusting actions based on continuous feedback to maximize a reward. for example, Alpha Go.
+                
                 <br/><br/>
-                The tool involved is :
+                The tools and technologies I work with include:
                 <ul>
                     <li>
-                        Neural-network library: <strong style="color:red;">Keras</strong>
+                        Neural network library: <strong style="color:blue;">Keras</strong>
                     </li>
                     <li>
-                        Programming language: <strong style="color:red;">R</strong>
+                        Programming language: <strong style="color:blue;">R</strong>
+                    </li>
+                    <li>
+                        Conversational AI: <strong style="color:blue;">ChatGpt</strong>
+                    </li>
+                    <li>
+                        AI Application Framework: <strong style="color:blue;">LangChain</strong>
                     </li>
                 </ul>
             </h3>

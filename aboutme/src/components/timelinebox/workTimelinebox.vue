@@ -2,7 +2,7 @@
   <div class="timelinebox">
     <section>
       <v-card>
-        <v-card-title class="justify-center align-center text-center">
+        <v-card-title class="text-center">
             <h4> {{timeLineCardTitle}} </h4>
         </v-card-title>
         <v-card-text>
@@ -37,7 +37,7 @@
                 <v-btn color="#6b63ff" dark v-bind="props"> Read More </v-btn>
               </template>
               <v-card>
-                <v-card-title class="justify-center">
+                <v-card-title class="text-center card-title">
                   <h4>{{ detailCardTitle }}</h4>
                 </v-card-title>
                 <v-divider />
@@ -101,10 +101,6 @@ export default {
 <style scoped>
 .work-experience-read-more-button {
   margin-top: 10px;
-}
-
-.card-title {
-  margin-bottom: 20px;
 }
 
 .card-content {

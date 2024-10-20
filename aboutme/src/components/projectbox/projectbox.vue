@@ -16,10 +16,10 @@
     scroll-strategy="none"
     >
         <v-card>
-            <v-card-title class="justify-center">
+            <v-card-title class="text-center card-title">
                 <h4> {{projectDetailTitle}} </h4>
             </v-card-title>
-
+            <v-divider/>
             <v-card-text>
                 <div class="project-detail-text">
                     <div class="project-detail-content-item">

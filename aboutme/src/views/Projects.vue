@@ -149,7 +149,7 @@ export default {
             <h3>
                 <ul>
                     <li>
-                        <a href="https://www.panasonic.com/uk/consumer/cameras-camcorders/lumix-digital-cameras/tough-compact-cameras/dc-ft7.html" target="_blank">Website url</a> /
+                        <a href="https://www.panasonic.com/mea/en/consumer/cameras-camcorders/lumix-g-micro-four-thirds-system/cameras/dc-ft7.html" target="_blank">Website url</a> /
                         <a href="https://www.youtube.com/watch?v=5MLdQKI6DSM" target="_blank">Video url</a>
                     </li>
                     <li> Panasonic Product developed by Ability corp (ODM). </li>
@@ -172,7 +172,7 @@ export default {
             <h3>
                 <ul>
                     <li>
-                        <a href="http://www.nikon.com.sg/en_SG/product/action-cameras/keymission-170" target="_blank">Website url</a> /
+                        <a href="https://www.nikon-image.com/products/action/lineup/170/" target="_blank">Website url</a> /
                         <a href="https://www.youtube.com/watch?v=sbGPTOa6USI" target="_blank">Video url</a>
                     </li>
                     <li> Nikon Product developed by Ability corp (ODM). </li>
