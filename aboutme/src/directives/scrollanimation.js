@@ -1,6 +1,6 @@
 const config = {
     root: null,
-    threshold: 0.9,
+    threshold: 0.3,
 };
 
 const animatedScrollObserver = new IntersectionObserver(
