@@ -70,11 +70,11 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Project in GARMIN. </li>
-                    <li> Web application for integrating data from production lines to provide insight. </li>
-                    <li> Developed by .NET framework and C# language with Angular frontend framework. </li>
-                    <li> Micorservices architecture with Containers </li>
-                    <li> Microsoft SQL Server as SQL database. </li>
+                    <li> Project at GARMIN. </li>
+                    <li> A web application that integrates production line data to deliver actionable insights. </li>
+                    <li> Built with the .NET framework and C#, using Angular for the frontend. </li>
+                    <li> Designed with a microservices architecture running in containers. </li>
+                    <li> Microsoft SQL Server used as the database. </li>
                 </ul>
             </h3>
             `
@@ -86,14 +86,14 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> Product in Jewelpaymentech. </li>
-                    <li> Payment fraud detection product follows PCI-DSS and OWASP. </li>
-                    <li> Developed by flask python framework and python language following pep8. </li>
-                    <li> CI/CD (Git, Ansible, Jenkins, Travis, Sonarqube, Zabbix) for the software development lifecycle. </li>
-                    <li> Apache2 as the webserver. </li>
-                    <li> MongoDB as NoSQL database. </li>
-                    <li> AWS EC2 and S3 for web hosting. </li>
-                    <li> Elasticsearch and Kibana are implemented with CQRS as a search engine for transactions. </li>
+                    <li> Product at Jewelpaymentech. </li>
+                    <li> A payment fraud detection solution compliant with PCI-DSS and OWASP standards. </li>
+                    <li> Built with the Flask Python framework, following PEP8 guidelines. </li>
+                    <li> CI/CD pipeline includes Git, Ansible, Jenkins, Travis, SonarQube, and Zabbix. </li>
+                    <li> Apache2 used as the web server. </li>
+                    <li> MongoDB serves as the NoSQL database. </li>
+                    <li> AWS EC2 and S3 provide hosting and storage. </li>
+                    <li> Elasticsearch and Kibana implemented with CQRS architecture to power the transaction search engine. </li>
                 </ul>
             </h3>
             `
@@ -105,14 +105,14 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> The payment fraud detection scoring engine follows PCI-DSS and OWASP. </li>
-                    <li> Microservices structure to separate different functionality. </li>
-                    <li> Application container technology is applied by using Docker and Kubernetes to make microservices more portable and efficient. </li>
-                    <li> Developed by scala language with TDD (test-driven development). </li>
-                    <li> CI/CD for the software development lifecycle. </li>
+                    <li> Payment Fraud Detection Scoring Engine compliant with PCI-DSS and OWASP standards. </li>
+                    <li> Built with microservices architecture to modularize functionality. </li>
+                    <li> Docker for containerization and Kubernetes for orchestration, enhancing application portability and operational efficiency. </li>
+                    <li> Developed with Scala following Test-Driven Development (TDD) principles. </li>
+                    <li> CI/CD pipeline integrated into the software lifecycle. </li>
                     <li> Kafka and Alpakka for message streaming. </li>
-                    <li> AWS ECR, EKS, and MSK for Deployment. </li>
-                    <li> Arango as multi-model database. </li>
+                    <li> AWS ECR, EKS, and MSK used for deployment. </li>
+                    <li> ArangoDB serves as the multi-model database. </li>
                 </ul>
             </h3>
             `
@@ -124,19 +124,18 @@ export default {
             `
             <h3>
                 <ul>
-                    <li> <a href="https://otnhotnews.com/" target="_blank">Website url</a> （Shut down already) </li>
-                    <li> Personal side project. </li>
-                    <li> News combines social media web application that people can discuss news and make friends. </li>
-                    <li> Developed by Django python framework and python language following pep8. </li>
-                    <li> Application container technology is applied by using docker and docker-compose to make application more portable and efficient. </li>
-                    <li> Django-channel and WebSocket for the messaging system. </li>
-                    <li> Natural language processing for the word cloud. </li>
-                    <li> AWS EC2, S3, Route53 for web hosting. </li>
-                    <li> Nginx + gunicorn as the webserver. </li>
-                    <li> Postgres as SQL database. </li>
-                    <li> WSGI for receiving normal requests, Asgi for receiving messages. </li>
-                    <li> Redis as a message broker. </li>
-                    <li> Google Analytics for tracking website traffic. </li>
+                    <li> Personal side project - <a href="https://otnhotnews.com/" target="_blank">Website url</a> （now shut down) </li>
+                    <li> A social news platform where users could discuss current events and connect with others. </li>
+                    <li> Built with the Django Python framework, following PEP8 coding standards. </li>
+                    <li> Docker and Docker Compose applied for containerization, improving portability and efficiency. </li>
+                    <li> Django Channels and WebSocket enabled real-time messaging. </li>
+                    <li> Natural Language Processing (NLP) powered the word cloud feature. </li>
+                    <li> Hosted on AWS EC2, with S3 for storage and Route53 for domain management. </li>
+                    <li> Nginx and Gunicorn served as the web server. </li>
+                    <li> PostgreSQL used as the SQL database. </li>
+                    <li> WSGI handled HTTP requests, while ASGI managed real-time messaging. </li>
+                    <li> Redis operated as the message broker. </li>
+                    <li> Google Analytics tracked website traffic. </li>
                 </ul>
             </h3>
             `
@@ -153,13 +152,12 @@ export default {
                         <a href="https://www.youtube.com/watch?v=5MLdQKI6DSM" target="_blank">Video url</a>
                     </li>
                     <li> Panasonic Product developed by Ability corp (ODM). </li>
-                    <li> developed by C language. </li>
-                    <li> Development on iCatch V50 chip. </li>
-                    <li> Closely worked with iCatch chip vendor. </li>
-                    <li> performance-critical  product. Implemented great methods and algorithms to optimize speed and memory. </li>
-                    <li> Charged in playback all functions on camera and the display on the monitor with HDMI. </li>
-                    <li> Manipulated image and video file data to achieve various functions like display, edit, and so on, all playback functions that can be found on the camera. </li>
-                    <li> Load test and highly troubleshooting skills for extremely strict quality assurance. </li>
+                    <li> Programmed in C language on the iCatch V50 chip platform. </li>
+                    <li> Collaborated closely with the iCatch chip vendor to optimize integration and performance. </li>
+                    <li> Focused on a performance-critical product, implementing advanced algorithms to enhance speed and minimize memory usage. </li>
+                    <li> Responsible for all playback functions on the camera and HDMI monitor display. </li>
+                    <li> Manipulated image and video data to enable features like display, editing, and playback, ensuring full camera functionality. </li>
+                    <li> Conducted load testing and applied extensive troubleshooting techniques to meet strict quality assurance standards. </li>
                 </ul>
             </h3>
             `
@@ -176,14 +174,13 @@ export default {
                         <a href="https://www.youtube.com/watch?v=sbGPTOa6USI" target="_blank">Video url</a>
                     </li>
                     <li> Nikon Product developed by Ability corp (ODM). </li>
-                    <li> Developed by C language. </li>
-                    <li> Development on Ambarella Amba chip. </li>
-                    <li> Closely worked with the Amba chip vendor. </li>
-                    <li> performance-critical  product. Implemented great methods and algorithms to optimize speed and memory. </li>
-                    <li> Charged in playback all functions on camera and the display on the monitor with HDMI. </li>
-                    <li> Manipulated image and video file data to achieve various functions like display, edit, and so on, all playback functions that can be found on the camera. </li>
-                    <li> Closely designed and discussed for spec with Nikon. </li>
-                    <li> Load test and highly troubleshooting skills for extremely strict quality assurance. </li>
+                    <li> Programmed in C language on the Ambarella Amba chip. </li>
+                    <li> Collaborated closely with the Amba chip vendor to ensure seamless integration and performance optimization. </li>
+                    <li> Designed and discussed product specifications directly with Nikon. </li>
+                    <li> Developed a performance-critical product, implementing advanced algorithms to enhance speed and memory efficiency. </li>
+                    <li> Managed all playback functions on the camera and HDMI monitor display. </li>
+                    <li> Manipulated image and video data to support features like display, editing, and playback, ensuring comprehensive camera functionality. </li>
+                    <li> Conducted load testing and applied extensive troubleshooting to meet Nikon’s stringent quality assurance standards. </li>
                 </ul>
             </h3>
             `
@@ -197,8 +194,8 @@ export default {
                 <ul>
                 <li> <a href="https://www.kaggle.com/c/aerial-cactus-identification/" target="_blank"> A competition on Kaggle </a> </li>
                 <li> Neural network with kekas was used. </li>
-                <li> Accuracy 0.9998. </li>
-                <li> Rank 480 out of 1225 teams. </li>
+                <li> Achieved an accuracy of 99.98%. </li>
+                <li> Ranked 480th out of 1,225 teams. </li>
                 </ul>
             </h3>
             `
@@ -211,10 +208,10 @@ export default {
             <h3>
                 <ul>
                     <li> <a href="https://www.youtube.com/watch?v=H1ym5zC1lZQ" target="_blank">Video url</a> </li>
-                    <li> A combat lego robot. </li>
-                    <li> Project in university. </li>
-                    <li> Developed by a paid SDK provided by the university (I forgot the SDK name, the programming language used like Matlab). </li>
-                    <li> Controlled sound, vision sensor and robot's logical activity. </li>
+                    <li> A combat Lego robot project at university. </li>
+                    <li> Developed using a paid SDK provided by the university. </li>
+                    <li> Controlled sound sensors, vision sensors, and the robot’s logical operations. </li>
+                    <li> Focused on integrating multiple inputs to achieve responsive and intelligent behavior. </li>
                 </ul>
             </h3>
             `

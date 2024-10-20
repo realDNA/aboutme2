@@ -8,7 +8,7 @@
                 <div class="text-center skills-introduce">
                     <h1 > Skills </h1>
                     <div class="skills-introduce-sub">
-                       Life is a journey of endless learning, and I’m committed to staying relevant. Learn, practice, and master—always.
+                       Learning is a lifelong journey, with growth fueled by acquiring, applying, and refining skills to thrive in a changing world.
                     </div>
                     <ScrollDownArrow/>
                 </div>
