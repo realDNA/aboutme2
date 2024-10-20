@@ -17,7 +17,7 @@
           <v-col cols="12" sm="12" md="6" lg="6" xl="6" class="avatar-section">
             <div class="text-center about-image">
               <v-avatar size="300">
-                <img
+                <v-img
                   :src="require('@/assets/images/aboutme/avatar.jpg')"
                   alt="avatar"
                 />
