@@ -79,6 +79,10 @@
                   execution.
                 </li>
                 <li v-scrollanimation>
+                  Mentor and coach team members to foster growth and a
+                  collaborative team culture.
+                </li>
+                <li v-scrollanimation>
                   Design systems for high stability, availability, and
                   scalability in web applications.
                 </li>
