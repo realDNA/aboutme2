@@ -110,6 +110,13 @@ export default {
                     </li>
 
                     <li>
+                        Distributed messaging Systems - 
+                        <strong style="color:blue;">Redis</strong>,
+                        <strong style="color:blue;">RabbitMQ</strong>,
+                        <strong style="color:blue;">Celery</strong>
+                    </li>
+
+                    <li>
                         DataBase -
                         <strong style="color:blue;">Oracle</strong>,
                         <strong style="color:blue;">Mongo</strong>,
