@@ -64,6 +64,25 @@ export default {
     return {
         projectsItems: [
         {
+            name: 'Software Owner Finder',
+            imageSrc: "projects/sof.png",
+            projectDetailContent:
+            `
+            <h3>
+                <ul>
+                    <li> Project at Mediatek. </li>
+                    <li> A company-wide service to efficiently discover and manage diverse software modules from multiple internal data sources, utilizing customized rule-based processing for enhanced flexibility and adaptability. </li>
+                    <li> Built with microservices architecture to modularize functionality. </li>
+                    <li> Docker for containerization and Kubernetes for orchestration, enhancing application portability and operational efficiency. </li>
+                    <li> React and Django for fullstack development. </li>
+                    <li> Redis, Celery, RabbitMQ for messaging and task management. </li>
+                    <li> Nginx and Gunicorn served as the web server stack. </li>
+                    <li> Oracle for secure and reliable data management. </li>
+                </ul>
+            </h3>
+            `
+        },
+        {
             name: 'Smart Factory',
             imageSrc: "projects/smart-factory.jpeg",
             projectDetailContent:
