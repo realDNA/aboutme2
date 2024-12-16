@@ -57,8 +57,7 @@
                   software best practices.
                 </li>
                 <li v-scrollanimation>
-                  Come from Taiwan, a beautiful, democratic, and vibrant
-                  country.
+                  Come from Taiwan, a beautiful, democratic, and vibrant place.
                 </li>
               </ul>
             </div>
