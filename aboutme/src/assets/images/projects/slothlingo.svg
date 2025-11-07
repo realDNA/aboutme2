@@ -1,0 +1,26 @@
+<svg viewBox="60 45 80 70" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head (lighter than body) -->
+  <circle cx="100" cy="80" r="35" fill="#C9B6A0" />
+
+  <!-- Face patch -->
+  <ellipse cx="100" cy="90" rx="22" ry="18" fill="#FFF8F2" />
+
+  <!-- Eye patches -->
+  <ellipse cx="85" cy="87" rx="8" ry="10" fill="#8A6B57" />
+  <ellipse cx="115" cy="87" rx="8" ry="10" fill="#8A6B57" />
+
+  <!-- Eyes -->
+  <circle cx="87" cy="87" r="4" fill="#4B3528" />
+  <circle cx="113" cy="87" r="4" fill="#4B3528" />
+
+  <!-- Eye sparkles -->
+  <circle cx="86.5" cy="86.5" r="1.2" fill="#FFFFFF" />
+  <circle cx="113.5" cy="86.5" r="1.2" fill="#FFFFFF" />
+
+  <!-- Blush -->
+  <circle cx="82" cy="101" r="3" fill="#F5B2C0" />
+  <circle cx="118" cy="101" r="3" fill="#F5B2C0" />
+
+  <!-- Smile -->
+  <path d="M93,100 Q100,107 107,100" stroke="#4B3528" stroke-width="2" fill="none" stroke-linecap="round" />
+</svg>

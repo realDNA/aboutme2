@@ -1,53 +1,64 @@
 <template>
-<div class="projects">
-
+  <div class="projects">
     <div id="projects-landing">
-        <v-container>
-          <v-row row wrap>
-            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                <div class="text-center projects-introduce">
-                    <h1 > Projects </h1>
-                    <div class="projects-introduce-sub">
-                        Keep believing and striving to make things better, positively impact the world, and change the game for the better.
-                    </div>
-                    <ScrollDownArrow/>
-                </div>
-            </v-col>
+      <v-container>
+        <v-row row wrap>
+          <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+            <div class="text-center projects-introduce">
+              <h1>Projects</h1>
+              <div class="projects-introduce-sub">
+                Keep believing and striving to make things better, positively
+                impact the world, and change the game for the better.
+              </div>
+              <ScrollDownArrow />
+            </div>
+          </v-col>
 
-            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                <img :src="require('@/assets/images/projects/projects.svg')" alt="projects">
-            </v-col>
-          </v-row>
-        </v-container>
+          <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+            <img
+              :src="require('@/assets/images/projects/projects.svg')"
+              alt="projects"
+            />
+          </v-col>
+        </v-row>
+      </v-container>
     </div>
 
     <div class="projects-section-white">
-        <div id="app">
-          <v-app id="inspire">
-            <v-row justify="center">
-                <v-container>
-                  <v-row row wrap>
-                    <v-col cols="12" sm="6" md="4" lg="4" xl="4"
-                        v-for="projectItem in projectsItems"
-                        :key="projectItem.name">
-                        <div class="text-center projects-introduce project-item" v-scrollanimation>
-                            <projectBox
-                            :projectBoxImage="projectItem.imageSrc"
-                            :projectBoxName="projectItem.name"
-                            :projectDetailTitle="projectItem.name"
-                            >
-                                <div v-html="projectItem.projectDetailContent"></div>
-                            </projectBox>
-                        </div>
-                    </v-col>
-                  </v-row>
-                </v-container>
-            </v-row>
-          </v-app>
-        </div>
+      <div id="app">
+        <v-app id="inspire">
+          <v-row justify="center">
+            <v-container>
+              <v-row row wrap>
+                <v-col
+                  cols="12"
+                  sm="6"
+                  md="4"
+                  lg="4"
+                  xl="4"
+                  v-for="projectItem in projectsItems"
+                  :key="projectItem.name"
+                >
+                  <div
+                    class="text-center projects-introduce project-item"
+                    v-scrollanimation
+                  >
+                    <projectBox
+                      :projectBoxImage="projectItem.imageSrc"
+                      :projectBoxName="projectItem.name"
+                      :projectDetailTitle="projectItem.name"
+                    >
+                      <div v-html="projectItem.projectDetailContent"></div>
+                    </projectBox>
+                  </div>
+                </v-col>
+              </v-row>
+            </v-container>
+          </v-row>
+        </v-app>
+      </div>
     </div>
-
-</div>
+  </div>
 </template>
 
 <script>
@@ -55,19 +66,38 @@ import ScrollDownArrow from "@/components/scrolldown/scrolldown.vue";
 import projectBox from "@/components/projectbox/projectbox.vue";
 
 export default {
-  "name": 'projects',
+  name: "projects",
   components: {
     ScrollDownArrow,
     projectBox,
   },
   data() {
     return {
-        projectsItems: [
+      projectsItems: [
         {
-            name: 'Software Owner Finder',
-            imageSrc: "projects/sof.png",
-            projectDetailContent:
-            `
+          name: "Sloth Lingo",
+          imageSrc: "projects/slothlingo.svg",
+          projectDetailContent: `
+            <h3>
+                <ul>
+                    <li>Personal side project — <a href="https://slothlingo.com/" target="_blank">Website</a></li>
+                    <li>An English-learning platform focused on steady, sustainable progress.</li>
+                    <li>Microservice architecture for scalability and fault tolerance.</li>
+                    <li>Frontend built with Next.js + MUI: responsive UI, SSR, and code-splitting.</li>
+                    <li>Backend services built with Django, orchestrated as microservices behind an API gateway.</li>
+                    <li>Containerized with Docker and Docker Compose for portable, efficient deployments.</li>  
+                    <li>PostgreSQL as the primary database, with Redis for caching.</li>
+                    <li>Caddy and OpenResty as reverse proxies; Gunicorn as the app server.</li>
+                    <li>Kafka as the event streaming platform.</li>
+                    <li>Hosted on AWS EC2, with S3 for object storage and Route 53 for DNS.</li>
+                    <li>Google Analytics 4 for traffic and usage insights.</li>
+            </h3>
+            `,
+        },
+        {
+          name: "Software Owner Finder",
+          imageSrc: "projects/sof.png",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li> Project at Mediatek. </li>
@@ -80,13 +110,12 @@ export default {
                     <li> Oracle for secure and reliable data management. </li>
                 </ul>
             </h3>
-            `
+            `,
         },
         {
-            name: 'Smart Factory',
-            imageSrc: "projects/smart-factory.jpeg",
-            projectDetailContent:
-            `
+          name: "Smart Factory",
+          imageSrc: "projects/smart-factory.jpeg",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li> Project at GARMIN. </li>
@@ -96,13 +125,12 @@ export default {
                     <li> Microsoft SQL Server used as the database. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Fraud Wall',
-            imageSrc: "projects/fraudwall.svg",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Fraud Wall",
+          imageSrc: "projects/fraudwall.svg",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li> Product at Jewelpaymentech. </li>
@@ -115,13 +143,12 @@ export default {
                     <li> Elasticsearch and Kibana implemented with CQRS architecture to power the transaction search engine. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Quick Silver',
-            imageSrc: "projects/quicksilver.png",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Quick Silver",
+          imageSrc: "projects/quicksilver.png",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li> Payment Fraud Detection Scoring Engine compliant with PCI-DSS and OWASP standards. </li>
@@ -134,13 +161,12 @@ export default {
                     <li> ArangoDB serves as the multi-model database. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'OTN Hot News',
-            imageSrc: "projects/otnhotnews.png",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "OTN Hot News",
+          imageSrc: "projects/otnhotnews.png",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li> Personal side project - <a href="https://otnhotnews.com/" target="_blank">Website url</a> （now shut down) </li>
@@ -157,13 +183,12 @@ export default {
                     <li> Google Analytics tracked website traffic. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Lumix-FT7',
-            imageSrc: "projects/lumix-FT7.png",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Lumix-FT7",
+          imageSrc: "projects/lumix-FT7.png",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li>
@@ -179,13 +204,12 @@ export default {
                     <li> Conducted load testing and applied extensive troubleshooting techniques to meet strict quality assurance standards. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'KeyMission170',
-            imageSrc: "projects/keyMission170.png",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "KeyMission170",
+          imageSrc: "projects/keyMission170.png",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li>
@@ -202,13 +226,12 @@ export default {
                     <li> Conducted load testing and applied extensive troubleshooting to meet Nikon’s stringent quality assurance standards. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Cactus Identification',
-            imageSrc: "projects/cactus.png",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Cactus Identification",
+          imageSrc: "projects/cactus.png",
+          projectDetailContent: `
             <h3>
                 <ul>
                 <li> <a href="https://www.kaggle.com/c/aerial-cactus-identification/" target="_blank"> A competition on Kaggle </a> </li>
@@ -217,13 +240,12 @@ export default {
                 <li> Ranked 480th out of 1,225 teams. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Lego Robot',
-            imageSrc: "projects/lego.png",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Lego Robot",
+          imageSrc: "projects/lego.png",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li> <a href="https://www.youtube.com/watch?v=H1ym5zC1lZQ" target="_blank">Video url</a> </li>
@@ -233,13 +255,12 @@ export default {
                     <li> Focused on integrating multiple inputs to achieve responsive and intelligent behavior. </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'And More ...',
-            imageSrc: "projects/more.svg",
-            projectDetailContent:
-            `
+            `,
+        },
+        {
+          name: "And More ...",
+          imageSrc: "projects/more.svg",
+          projectDetailContent: `
             <h3>
                 <ul>
                     <li> <a href="https://dna-31494.herokuapp.com/" target="_blank">NodeJs practice</a> </li>
@@ -260,51 +281,47 @@ export default {
                     <li> <a href="https://github.com/realWHY/Deep_learning" target="_blank">Deep learning practice</a> </li>
                 </ul>
             </h3>
-            `
-          },
-        ]
-    }
+            `,
+        },
+      ],
+    };
   },
-  methods: {
-
-  },
-  mounted() {
-
-  },
-}
+  methods: {},
+  mounted() {},
+};
 </script>
 
 <style scoped>
 .projects-introduce {
-    margin: 50px;
-    margin-top: 150px;
+  margin: 50px;
+  margin-top: 150px;
 }
 
 .projects-introduce-sub {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.5em;
 }
 
 .projects-section-white {
-    background-color: white;
-    padding-bottom:50px;
+  background-color: white;
+  padding-bottom: 50px;
 }
 
 .project-item {
-    transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.project-item:hover  {
-    transform: scale(1.15);
-    cursor: pointer;
+.project-item:hover {
+  transform: scale(1.15);
+  cursor: pointer;
 }
 
 .project-title {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #projects-landing {
-    padding-bottom:150px;
+  padding-bottom: 150px;
 }
 </style>

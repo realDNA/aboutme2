@@ -1,103 +1,118 @@
 <template>
   <div class="experience">
-
-        <v-container>
-          <v-row>
-            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                <div class="text-center experience-introduce">
-                    <h1 > Experiences </h1>
-                    <div class="experience-introduce-sub">
-                        Taking on challenges, knowing every experience makes me stronger, wiser and better prepared for the future.
-                    </div>
-                    <ScrollDownArrow/>
-                </div>
-            </v-col>
-
-            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                <img :src="require('@/assets/images/work-experience/workchat.svg')" alt="work-experience">
-            </v-col>
-          </v-row>
-
-        </v-container>
-
-
-        <v-container class="experience-work-timeline-section">
-            <v-row align-center>
-                <v-row align="center"
-                justify="center"
-                class="experience-timeline-work-title">
-                    <h2> Work </h2>
-                </v-row>
-            </v-row>
-
-            <div class="experience-timeline">
-              <v-timeline style="grid-template-columns: minmax(0, 7fr) minmax(0, 1fr) minmax(0, 7fr)">
-                <v-timeline-item class="mx-auto"
-                  v-for="item in workExperienceItems"
-                  :key="item.name+item.jobPosition"
-                  dot-color="#dbdcff"
-                >
-                  <template v-slot:opposite>
-                    <div
-                      :class="`pt-1 headline font-weight-bold`"
-                      v-text="item.startTime"
-                    ></div>
-                  </template>
-                  <workTimelinebox
-                    :timeLineCardTitle="item.name"
-                    :timeLineCardImage="item.imageSrc"
-                    :timeLineCardJob="item.jobPosition"
-                    :timeLineCardPeriod="item.period"
-                    :timeLineCardUrlDescription="item.urlDescription"
-                    :detailCardTitle="item.detailCardTitle"
-                    v-scrollanimation
-                  >
-                    <div v-html="item.detailCardContent"></div>
-                  </workTimelinebox>
-                </v-timeline-item>
-              </v-timeline>
+    <v-container>
+      <v-row>
+        <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+          <div class="text-center experience-introduce">
+            <h1>Experiences</h1>
+            <div class="experience-introduce-sub">
+              Taking on challenges, knowing every experience makes me stronger,
+              wiser and better prepared for the future.
             </div>
-        </v-container>
+            <ScrollDownArrow />
+          </div>
+        </v-col>
 
-        <v-container class="experience-education-timeline-section">
-            <v-row align-center>
-                <v-row align="center"
-                justify="center"
-                class="experience-timeline-work-title">
-                    <h2> Education </h2>
-                </v-row>
-            </v-row>
+        <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+          <img
+            :src="require('@/assets/images/work-experience/workchat.svg')"
+            alt="work-experience"
+          />
+        </v-col>
+      </v-row>
+    </v-container>
 
-            <div class="experience-timeline">
-              <v-timeline reverse style="grid-template-columns: minmax(0, 7fr) minmax(0, 1fr) minmax(0, 7fr)">
-                <v-timeline-item class="mx-auto"
-                  v-for="item in educationExperienceItems"
-                  :key="item.name+item.degree"
-                  dot-color="#dbdcff"
-                >
-                  <template v-slot:opposite>
-                    <div
-                      :class="`pt-1 headline font-weight-bold`"
-                      v-text="item.startTime"
-                    ></div>
-                  </template>
-                  <educationTimelinebox
-                    :timeLineCardTitle="item.name"
-                    :timeLineCardImage="item.imageSrc"
-                    :timeLineCardDegree="item.degree"
-                    :timeLineCardDepartment="item.department"
-                    :timeLineCardPeriod="item.period"
-                    :timeLineCardUrlDescription="item.urlDescription"
-                    :detailCardTitle="item.detailCardTitle"
-                    v-scrollanimation
-                  >
-                    <div v-html="item.detailCardContent"></div>
-                  </educationTimelinebox>
-                </v-timeline-item>
-              </v-timeline>
-            </div>
-        </v-container>
+    <v-container class="experience-work-timeline-section">
+      <v-row align-center>
+        <v-row
+          align="center"
+          justify="center"
+          class="experience-timeline-work-title"
+        >
+          <h2>Work</h2>
+        </v-row>
+      </v-row>
 
+      <div class="experience-timeline">
+        <v-timeline
+          style="
+            grid-template-columns: minmax(0, 7fr) minmax(0, 1fr) minmax(0, 7fr);
+          "
+        >
+          <v-timeline-item
+            class="mx-auto"
+            v-for="item in workExperienceItems"
+            :key="item.name + item.jobPosition"
+            dot-color="#dbdcff"
+          >
+            <template v-slot:opposite>
+              <div
+                :class="`pt-1 headline font-weight-bold`"
+                v-text="item.startTime"
+              ></div>
+            </template>
+            <workTimelinebox
+              :timeLineCardTitle="item.name"
+              :timeLineCardImage="item.imageSrc"
+              :timeLineCardJob="item.jobPosition"
+              :timeLineCardPeriod="item.period"
+              :timeLineCardUrlDescription="item.urlDescription"
+              :detailCardTitle="item.detailCardTitle"
+              v-scrollanimation
+            >
+              <div v-html="item.detailCardContent"></div>
+            </workTimelinebox>
+          </v-timeline-item>
+        </v-timeline>
+      </div>
+    </v-container>
+
+    <v-container class="experience-education-timeline-section">
+      <v-row align-center>
+        <v-row
+          align="center"
+          justify="center"
+          class="experience-timeline-work-title"
+        >
+          <h2>Education</h2>
+        </v-row>
+      </v-row>
+
+      <div class="experience-timeline">
+        <v-timeline
+          reverse
+          style="
+            grid-template-columns: minmax(0, 7fr) minmax(0, 1fr) minmax(0, 7fr);
+          "
+        >
+          <v-timeline-item
+            class="mx-auto"
+            v-for="item in educationExperienceItems"
+            :key="item.name + item.degree"
+            dot-color="#dbdcff"
+          >
+            <template v-slot:opposite>
+              <div
+                :class="`pt-1 headline font-weight-bold`"
+                v-text="item.startTime"
+              ></div>
+            </template>
+            <educationTimelinebox
+              :timeLineCardTitle="item.name"
+              :timeLineCardImage="item.imageSrc"
+              :timeLineCardDegree="item.degree"
+              :timeLineCardDepartment="item.department"
+              :timeLineCardPeriod="item.period"
+              :timeLineCardUrlDescription="item.urlDescription"
+              :detailCardTitle="item.detailCardTitle"
+              v-scrollanimation
+            >
+              <div v-html="item.detailCardContent"></div>
+            </educationTimelinebox>
+          </v-timeline-item>
+        </v-timeline>
+      </div>
+    </v-container>
   </div>
 </template>
 
@@ -107,28 +122,27 @@ import workTimelinebox from "@/components/timelinebox/workTimelinebox.vue";
 import educationTimelinebox from "@/components/timelinebox/educationTimelinebox.vue";
 
 export default {
-  "name": 'workExperience',
+  name: "workExperience",
   components: {
     ScrollDownArrow,
     workTimelinebox,
-    educationTimelinebox
+    educationTimelinebox,
   },
   data() {
     return {
-        workExperienceItems: [
-          {
-            name: 'Mediatek',
-            jobPosition: 'Senior Software Developer',
-            imageSrc: "work-experience/mediatek.svg",
-            startTime: "2022 May",
-            period: "2022 May - Present",
-            urlDescription: {
-                title: "Mediatek",
-                url: "https://www.mediatek.com/"
-            },
-            detailCardTitle: "Mediatek",
-            detailCardContent:
-            `
+      workExperienceItems: [
+        {
+          name: "Mediatek",
+          jobPosition: "Technical Manager",
+          imageSrc: "work-experience/mediatek.svg",
+          startTime: "2022 May",
+          period: "2022 May - Present",
+          urlDescription: {
+            title: "Mediatek",
+            url: "https://www.mediatek.com/",
+          },
+          detailCardTitle: "Mediatek",
+          detailCardContent: `
             <h3>
                 <ul>
                     <li>
@@ -148,21 +162,20 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
+            `,
+        },
+        {
+          name: "GARMIN",
+          jobPosition: "Team Leader",
+          imageSrc: "work-experience/garmin.svg",
+          startTime: "2021 Jan",
+          period: "2021 Jan - 2022 Apr",
+          urlDescription: {
+            title: "GARMIN",
+            url: "https://www.garmin.com/en-US/",
           },
-          {
-            name: 'GARMIN',
-            jobPosition: 'Team Leader',
-            imageSrc: "work-experience/garmin.svg",
-            startTime: "2021 Jan",
-            period: "2021 Jan - 2022 Apr",
-            urlDescription: {
-                title: "GARMIN",
-                url: "https://www.garmin.com/en-US/"
-            },
-            detailCardTitle: "GARMIN",
-            detailCardContent:
-            `
+          detailCardTitle: "GARMIN",
+          detailCardContent: `
             <h3>
                 <ul>
                     <li>
@@ -182,21 +195,20 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
+            `,
+        },
+        {
+          name: "ADVANCE.BizQ (Jewel Paymentech)",
+          jobPosition: "Software Engineer",
+          imageSrc: "work-experience/jewel.svg",
+          startTime: "2017 Dec",
+          period: "2017 Dec - 2020 Dec",
+          urlDescription: {
+            title: "ADVANCE.BizQ",
+            url: "https://www.jewelpaymentech.com/",
           },
-          {
-            name: 'ADVANCE.BizQ (Jewel Paymentech)',
-            jobPosition: 'Software Engineer',
-            imageSrc: "work-experience/jewel.svg",
-            startTime: "2017 Dec",
-            period: "2017 Dec - 2020 Dec",
-            urlDescription: {
-                title: "ADVANCE.BizQ",
-                url: "https://www.jewelpaymentech.com/"
-            },
-            detailCardTitle: "ADVANCE.BizQ (Jewel Paymentech)",
-            detailCardContent:
-            `
+          detailCardTitle: "ADVANCE.BizQ (Jewel Paymentech)",
+          detailCardContent: `
             <h3>
                 <ul>
                     <li>
@@ -219,21 +231,20 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
+            `,
+        },
+        {
+          name: "Ability",
+          jobPosition: "Firmware Engineer",
+          imageSrc: "work-experience/camera.svg",
+          startTime: "2014 Nov",
+          period: "2014 Nov - 2017 Oct",
+          urlDescription: {
+            title: "Ability",
+            url: "http://www.abilitycorp.com.tw/html/index.php",
           },
-          {
-            name: 'Ability',
-            jobPosition: 'Firmware Engineer',
-            imageSrc: "work-experience/camera.svg",
-            startTime: "2014 Nov",
-            period: "2014 Nov - 2017 Oct",
-            urlDescription: {
-                title: "Ability",
-                url: "http://www.abilitycorp.com.tw/html/index.php"
-            },
-            detailCardTitle: "Ability",
-            detailCardContent:
-            `
+          detailCardTitle: "Ability",
+          detailCardContent: `
             <h3>
                 <ul>
                     <li>
@@ -265,21 +276,20 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
+            `,
+        },
+        {
+          name: "National Cheng Kung University",
+          imageSrc: "work-experience/ncku.svg",
+          jobPosition: "Intern",
+          startTime: "2012 Nov",
+          period: "2012 Nov - 2014 Jun",
+          urlDescription: {
+            title: "NCKU",
+            url: "https://web.ncku.edu.tw/",
           },
-          {
-            name: 'National Cheng Kung University',
-            imageSrc: "work-experience/ncku.svg",
-            jobPosition: 'Intern',
-            startTime: "2012 Nov",
-            period: "2012 Nov - 2014 Jun",
-            urlDescription: {
-                title: "NCKU",
-                url: "https://web.ncku.edu.tw/"
-            },
-            detailCardTitle: "National Cheng Kung University",
-            detailCardContent:
-            `
+          detailCardTitle: "National Cheng Kung University",
+          detailCardContent: `
             <h3>
                 <ul>
                     <li>
@@ -299,24 +309,23 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
+            `,
+        },
+      ],
+      educationExperienceItems: [
+        {
+          name: "National Cheng Kung University",
+          imageSrc: "education-experience/nckuee.svg",
+          degree: "Master",
+          department: "Electrical Engineering",
+          startTime: "2012 Sep",
+          period: "2012 Sep - 2014 July",
+          urlDescription: {
+            title: "NCKU EE",
+            url: "https://www.ee.ncku.edu.tw/en/",
           },
-        ],
-        educationExperienceItems: [
-          {
-            name: 'National Cheng Kung University',
-            imageSrc: "education-experience/nckuee.svg",
-            degree: 'Master',
-            department: 'Electrical Engineering',
-            startTime: "2012 Sep",
-            period: "2012 Sep - 2014 July",
-            urlDescription: {
-                title: "NCKU EE",
-                url: "https://www.ee.ncku.edu.tw/en/"
-            },
-            detailCardTitle: "National Cheng Kung University",
-            detailCardContent:
-            `
+          detailCardTitle: "National Cheng Kung University",
+          detailCardContent: `
             <h3>
                 <ul>
                 <li> <span style="color: blue;"> Major in Control engineering. </span> </li>
@@ -336,22 +345,21 @@ export default {
                 <li> <span style="color: blue;"> The Tool used </span> - Matlab, Simulink. </li>
                 </ul>
             </h3>
-            `
+            `,
+        },
+        {
+          name: "National Cheng Kung University",
+          imageSrc: "education-experience/nckues.svg",
+          degree: "Bachelor",
+          department: "Engineering Science",
+          startTime: "2008 Sep",
+          period: "2008 Sep - 2012 Jun",
+          urlDescription: {
+            title: "NCKU ES",
+            url: "http://www.es.ncku.edu.tw/esncku/en/",
           },
-          {
-            name: 'National Cheng Kung University',
-            imageSrc: "education-experience/nckues.svg",
-            degree: 'Bachelor',
-            department: 'Engineering Science',
-            startTime: "2008 Sep",
-            period: "2008 Sep - 2012 Jun",
-            urlDescription: {
-                title: "NCKU ES",
-                url: "http://www.es.ncku.edu.tw/esncku/en/"
-            },
-            detailCardTitle: "National Cheng Kung University",
-            detailCardContent:
-            `
+          detailCardTitle: "National Cheng Kung University",
+          detailCardContent: `
             <h3>
                 <ul>
                     <li>
@@ -368,46 +376,41 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
-          },
-        ]
-    }
+            `,
+        },
+      ],
+    };
   },
-  methods: {
-
-  },
-  mounted() {
-
-  },
-}
+  methods: {},
+  mounted() {},
+};
 </script>
 
 <style scoped>
 .experience-introduce {
-    margin: 50px;
-    margin-top: 150px;
+  margin: 50px;
+  margin-top: 150px;
 }
 
 .experience-introduce-sub {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.5em;
 }
 
 .experience-work-timeline-section {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .experience-education-timeline-section {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .experience-timeline {
-    padding:0px 0px 100px 0px;
+  padding: 0px 0px 100px 0px;
 }
 
 .experience-timeline-work-title {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
-
 </style>
