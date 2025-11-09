@@ -1,52 +1,62 @@
 <template>
-<div class="skills">
-
+  <div class="skills">
     <div id="skills-landing">
-        <v-container>
-          <v-row row wrap>
-            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                <div class="text-center skills-introduce">
-                    <h1 > Skills </h1>
-                    <div class="skills-introduce-sub">
-                       Learning is a lifelong journey, with growth fueled by acquiring, applying, and refining skills to thrive in a changing world.
-                    </div>
-                    <ScrollDownArrow/>
-                </div>
-            </v-col>
+      <v-container>
+        <v-row row wrap>
+          <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+            <div class="text-center skills-introduce">
+              <h1>Skills</h1>
+              <div class="skills-introduce-sub">
+                Learning is a lifelong journey, with growth fueled by acquiring,
+                applying, and refining skills to thrive in a changing world.
+              </div>
+              <ScrollDownArrow />
+            </div>
+          </v-col>
 
-            <v-col cols="12" sm="12" md="6" lg="6" xl="6">
-                <img :src="require('@/assets/images/skills/skills.svg')" alt="skills">
-
-            </v-col>
-          </v-row>
-        </v-container>
+          <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+            <img
+              :src="require('@/assets/images/skills/skills.svg')"
+              alt="skills"
+            />
+          </v-col>
+        </v-row>
+      </v-container>
     </div>
 
     <div class="skills-section-white">
-        <div id="app">
-          <v-app id="inspire">
-            <v-container>
-                <v-row>
-                    <v-col cols="12" sm="6" md="4" lg="4" xl="4"
-                        v-for="skillItem in skillsItems"
-                        :key="skillItem.name">
-                    <div class="text-center skills-introduce skill-item" v-scrollanimation>
-                        <skillBox
-                        :skillBoxImage="skillItem.imageSrc"
-                        :skillBoxName="skillItem.name"
-                        :skillDetailTitle="skillItem.name"
-                        >
-                        <div v-html="skillItem.skillDetailContent"></div>
-                        </skillBox>
-                    </div>
-                    </v-col>
-                </v-row>
-            </v-container>
-          </v-app>
-        </div>
+      <div id="app">
+        <v-app id="inspire">
+          <v-container>
+            <v-row>
+              <v-col
+                cols="12"
+                sm="6"
+                md="4"
+                lg="4"
+                xl="4"
+                v-for="skillItem in skillsItems"
+                :key="skillItem.name"
+              >
+                <div
+                  class="text-center skills-introduce skill-item"
+                  v-scrollanimation
+                >
+                  <skillBox
+                    :skillBoxImage="skillItem.imageSrc"
+                    :skillBoxName="skillItem.name"
+                    :skillDetailTitle="skillItem.name"
+                  >
+                    <div v-html="skillItem.skillDetailContent"></div>
+                  </skillBox>
+                </div>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-app>
+      </div>
     </div>
-
-</div>
+  </div>
 </template>
 
 <script>
@@ -54,19 +64,18 @@ import ScrollDownArrow from "@/components/scrolldown/scrolldown.vue";
 import skillBox from "@/components/skillbox/skillbox.vue";
 
 export default {
-  "name": 'skills',
+  name: "skills",
   components: {
     ScrollDownArrow,
     skillBox,
   },
   data() {
     return {
-        skillsItems: [
-          {
-            name: 'Full-Stack Web Development',
-            imageSrc: "skills/web.svg",
-            skillDetailContent:
-            `
+      skillsItems: [
+        {
+          name: "Full-Stack Web Development",
+          imageSrc: "skills/web.svg",
+          skillDetailContent: `
             <h3>
                 Full-Stack Development involves building both the front-end (user interface) and back-end (server-side logic) of an application. It requires addressing all aspects of the software, from designing intuitive visual interfaces to managing infrastructure, APIs, databases, and business logic. This holistic approach ensures seamless integration between components, resulting in a functional, scalable, and efficient application.
                 <br/><br/>
@@ -85,7 +94,8 @@ export default {
                         Frontend Framework -
                         <strong style="color:blue;">React</strong>,
                         <strong style="color:blue;">Angular</strong>,
-                        <strong style="color:blue;">Vue</strong>,
+                        <strong style="color:blue;">Vue.js</strong>,
+                        <strong style="color:blue;">Next.js</strong>,
                     </li>
 
                     <li>
@@ -137,13 +147,12 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Data Engineering',
-            imageSrc: "skills/data.svg",
-            skillDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Data Engineering",
+          imageSrc: "skills/data.svg",
+          skillDetailContent: `
             <h3>
                 Data engineering focuses on designing and building the architecture that allows organizations to efficiently collect, process, and analyze data. It ensures data flows smoothly through various systems, supporting data-driven decision-making and optimal system performance.
                 <br/><br/>
@@ -162,13 +171,12 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Firmware Development',
-            imageSrc: "skills/firmware.svg",
-            skillDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Firmware Development",
+          imageSrc: "skills/firmware.svg",
+          skillDetailContent: `
             <h3>
                 Firmware is specialized software designed to run on specific hardware, such as microcontrollers and application-specific integrated circuits (ASICs). It provides low-level control for the device, ensuring it performs its intended functions reliably. Firmware development involves programming and optimizing this software to work efficiently within the constraints of the hardware.
                 <br/><br/>
@@ -189,13 +197,12 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'DevOps',
-            imageSrc: "skills/devops.svg",
-            skillDetailContent:
-            `
+            `,
+        },
+        {
+          name: "DevOps",
+          imageSrc: "skills/devops.svg",
+          skillDetailContent: `
             <h3>
                DevOps is a methodology that unites development (Dev) and operations (Ops) teams, leveraging automation tools to streamline workflows and enhance delivery speed and reliability throughout the software lifecycle. It involves the following phases:
                 <br/><br/>
@@ -245,13 +252,12 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Web Scraping',
-            imageSrc: "skills/spider.svg",
-            skillDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Web Scraping",
+          imageSrc: "skills/spider.svg",
+          skillDetailContent: `
             <h3>
                 Web scraping is a technique used to automatically extract large amounts of data from websites. This data is collected and transformed into a structured format, such as CSV or JSON, making it more accessible and useful for analysis.
                 <br/><br/>
@@ -268,13 +274,12 @@ export default {
                     </li>
                 </ul>
             </h3>
-            `
-          },
-          {
-            name: 'Artificial Intelligence',
-            imageSrc: "skills/ai.svg",
-            skillDetailContent:
-            `
+            `,
+        },
+        {
+          name: "Artificial Intelligence",
+          imageSrc: "skills/ai.svg",
+          skillDetailContent: `
             <h3>
                 AI enables machines to mimic human intelligence by understanding language, identifying patterns, and making decisions autonomously. It drives innovations like ChatGPT, autonomous vehicles, and personalized recommendation systems, transforming how we interact with technology and enhancing automation across industries.
                 <br/><br/>
@@ -314,53 +319,52 @@ export default {
                     <li>
                         AI Application Framework: <strong style="color:blue;">LangChain</strong>
                     </li>
+                    <li>
+                        AI orchestration & agents: <strong style="color:blue;">Semantic Kernel + MCP (Model Context Protocol)</strong>
+                    </li>
                 </ul>
             </h3>
-            `
-          },
-        ]
-    }
+            `,
+        },
+      ],
+    };
   },
-  methods: {
-
-  },
-  mounted() {
-
-  },
-}
+  methods: {},
+  mounted() {},
+};
 </script>
 
 <style scoped>
 .skills-introduce {
-    margin: 50px;
-    margin-top: 150px;
+  margin: 50px;
+  margin-top: 150px;
 }
 
 .skills-introduce-sub {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 1.5em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.5em;
 }
 
 .skills-section-white {
-    background-color: white;
-    padding-bottom:50px;
+  background-color: white;
+  padding-bottom: 50px;
 }
 
 .skill-item {
-    transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.skill-item:hover  {
-    transform: scale(1.15);
-    cursor: pointer;
+.skill-item:hover {
+  transform: scale(1.15);
+  cursor: pointer;
 }
 
 .skill-title {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #skills-landing {
-    padding-bottom:150px;
+  padding-bottom: 150px;
 }
 </style>

@@ -91,6 +91,29 @@ export default {
                     <li>Kafka as the event streaming platform.</li>
                     <li>Hosted on AWS EC2, with S3 for object storage and Route 53 for DNS.</li>
                     <li>Google Analytics 4 for traffic and usage insights.</li>
+                </ul>
+            </h3>
+            `,
+        },
+        {
+          name: "Automotive ALM",
+          imageSrc: "projects/ALM.png",
+          projectDetailContent: `
+            <h3>
+                <ul>
+                    <li>
+                        Project at MediaTek in cooperation with NVIDIA
+                        (<a href="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/mediatek/" target="_blank">
+                        Cooperation information
+                    </a>).
+                    </li>
+                    <li>Focused on compliance with ISO 26262, ISO 21434, and ASPICE.</li>
+                    <li>Application lifecycle management (ALM) to ensure product safety and full traceability.</li>
+                    <li>Process digitalization owner for hardware development processes.</li>
+                    <li>Process digitalization owner for third-party IP management.</li>
+                    <li>Developed integrations between multiple MediaTek in-house systems and the automotive ALM platform.</li>
+                    <li>Built AI assistants using Semantic Kernel and MCP to guide users through compliance procedures.</li>
+                </ul>
             </h3>
             `,
         },
