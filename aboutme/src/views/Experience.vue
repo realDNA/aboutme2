@@ -146,19 +146,19 @@ export default {
             <h3>
                 <ul>
                     <li>
-                        <span style="color: blue;">System Architecture Design</span>: Specialize in microservice architecture using Domain-Driven Design (DDD) and microservice design patterns.
+                        <span style="color: blue;">System Architecture Design</span>: Architected enterprise-scale microservice ecosystems using Domain-Driven Design (DDD) principles, establishing robust design patterns that improved system modularity and reduced deployment complexity.
                     </li>
                     <li>
-                        <span style="color: blue;">Fullstack Development</span>: Build scalable and highly available microservices with Django, React, Oracle, Redis, Celery, RabbitMQ, Nginx, Gunicorn, and Docker.
+                        <span style="color: blue;">Fullstack Development</span>: Engineered high-performance applications with Django, React, Oracle, Redis, Celery, RabbitMQ, and Docker, delivering system that serve the entire company and handle high volumes of API requests.
                     </li>
                     <li>
-                        <span style="color: blue;">DevOps</span>: Automate and streamline deployments using Kubernetes and Jenkins as part of the DevOps strategy.
+                        <span style="color: blue;">DevOps Excellence</span>: Automated infrastructure using Kubernetes and Jenkins CI/CD pipelines, reducing deployment time from hours to minutes while improving system stability and high availability.
                     </li>
                     <li>
-                        <span style="color: blue;">Application Lifecycle Management (ALM)</span>: Implement ALM processes aligned with the V-Model for automotive projects.
+                        <span style="color: blue;">Automotive Compliance & ALM</span>: Led a joint MediaTek–NVIDIA automotive project as process digitalization owner, implementing ISO 26262 / ISO 21434 / ASPICE–compliant ALM workflows.
                     </li>
                     <li>
-                        <span style="color: blue;">Proof of Concept (PoC) Development</span>: Explore and build PoCs for auto-generating web applications through ChatGPT integration.
+                        <span style="color: blue;">AI-Powered Innovation</span>: Developed Semantic Kernel + MCP–based AI assistants that guide users through compliance steps and significantly reduce operation time.
                     </li>
                 </ul>
             </h3>
@@ -179,19 +179,19 @@ export default {
             <h3>
                 <ul>
                     <li>
-                      <span style="color: blue;">Team Leadership</span>: Led a web development team, ensuring smooth project execution and effective cross-functional collaboration.
+                      <span style="color: blue;">Engineering Leadership</span>: Led a 3-person web development team, delivering projects across multiple product lines and fostering strong collaboration and innovation.
                     </li>
                     <li>
-                        <span style="color: blue;">Industry 4.0 Application Development</span>: Built real-time web applications to monitor and track production-line machine status and performance.
+                      <span style="color: blue;">OKR System Implementation</span>: Led 6 cross-functional teams in adopting an OKR system for a 100-person department, boosting transparency, alignment, and process efficiency.
                     </li>
                     <li>
-                        <span style="color: blue;">Software Architecture Redesign</span>: Redesigned core software architecture to improve maintainability, scalability, and automated test coverage.
+                        <span style="color: blue;">Software Architecture Transformation</span>: Redesigned a legacy monolith into a microservices architecture, improving maintainability and scalability while achieving over 80% automated test coverage.
                     </li>
                     <li>
-                        <span style="color: blue;">Data Analysis and Integration</span>: Integrated production and business data to deliver actionable insights that support operational and management decisions.
+                        <span style="color: blue;">Data Infrastructure & Analytics</span>: Integrated disparate production and business systems, creating unified dashboards that enabled data-driven decision making for C-level executives.
                     </li>
                     <li>
-                        <span style="color: blue;">OKR System Implementation</span>: Implemented an OKR management system for a 100-staff department, enhancing transparency, alignment, and process efficiency.
+                        <span style="color: blue;">Real-time Monitoring Platforms</span>: Built Industry 4.0 applications tracking production-line performance, improving operational efficiency.
                     </li>
                 </ul>
             </h3>
