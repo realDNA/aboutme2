@@ -166,7 +166,7 @@ export default {
         },
         {
           name: "GARMIN",
-          jobPosition: "Team Leader",
+          jobPosition: "Lead Developer",
           imageSrc: "work-experience/garmin.svg",
           startTime: "2021 Jan",
           period: "2021 Jan - 2022 Apr",
@@ -179,19 +179,19 @@ export default {
             <h3>
                 <ul>
                     <li>
-                      <span style="color: blue;">Team Leadership</span>: Manage the web development team to ensure smooth project execution and collaboration.
+                      <span style="color: blue;">Team Leadership</span>: Led a web development team, ensuring smooth project execution and effective cross-functional collaboration.
                     </li>
                     <li>
-                        <span style="color: blue;">Industry 4.0 Application Development</span>: Develop real-time web applications to track production line machine statuses.
+                        <span style="color: blue;">Industry 4.0 Application Development</span>: Built real-time web applications to monitor and track production-line machine status and performance.
                     </li>
                     <li>
-                        <span style="color: blue;">Software Architecture Redesign</span>: Optimize software architecture for better maintainability, scalability, and testability.
+                        <span style="color: blue;">Software Architecture Redesign</span>: Redesigned core software architecture to improve maintainability, scalability, and automated test coverage.
                     </li>
                     <li>
-                        <span style="color: blue;">Data Analysis and Integration</span>: Integrate data and deliver actionable insights to support decision-making.
+                        <span style="color: blue;">Data Analysis and Integration</span>: Integrated production and business data to deliver actionable insights that support operational and management decisions.
                     </li>
                     <li>
-                        <span style="color: blue;">OKR System Implementation</span>: Implement OKR management across a 100-staff department, enhancing transparency and process efficiency.
+                        <span style="color: blue;">OKR System Implementation</span>: Implemented an OKR management system for a 100-staff department, enhancing transparency, alignment, and process efficiency.
                     </li>
                 </ul>
             </h3>
