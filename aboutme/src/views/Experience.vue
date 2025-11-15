@@ -149,7 +149,7 @@ export default {
                         <span style="color: blue;">System Architecture Design</span>: Architected enterprise-scale microservice ecosystems using Domain-Driven Design (DDD) principles, establishing robust design patterns that improved system modularity and reduced deployment complexity.
                     </li>
                     <li>
-                        <span style="color: blue;">Fullstack Development</span>: Engineered high-performance applications with Django, React, Oracle, Redis, Celery, RabbitMQ, and Docker, delivering system that serve the entire company and handle high volumes of API requests.
+                        <span style="color: blue;">Fullstack Development</span>: Engineered high-performance applications using Django, React, Oracle, Redis, Celery, RabbitMQ, and Kubernetes, delivering systems that serve company-wide traffic and mission-critical workflows.
                     </li>
                     <li>
                         <span style="color: blue;">DevOps Excellence</span>: Automated infrastructure using Kubernetes and Jenkins CI/CD pipelines, reducing deployment time from hours to minutes while improving system stability and high availability.
@@ -179,7 +179,7 @@ export default {
             <h3>
                 <ul>
                     <li>
-                      <span style="color: blue;">Engineering Leadership</span>: Led a 3-person web development team, delivering projects across multiple product lines and fostering strong collaboration and innovation.
+                      <span style="color: blue;">Engineering Leadership</span>: Led a 5-person web development team, delivering projects across multiple product lines and fostering strong collaboration and innovation.
                     </li>
                     <li>
                       <span style="color: blue;">OKR System Implementation</span>: Led 6 cross-functional teams in adopting an OKR system for a 100-person department, boosting transparency, alignment, and process efficiency.
@@ -188,10 +188,10 @@ export default {
                         <span style="color: blue;">Software Architecture Transformation</span>: Redesigned a legacy monolith into a microservices architecture, improving maintainability and scalability while achieving over 80% automated test coverage.
                     </li>
                     <li>
-                        <span style="color: blue;">Data Infrastructure & Analytics</span>: Integrated disparate production and business systems, creating unified dashboards that enabled data-driven decision making for C-level executives.
+                        <span style="color: blue;">Real-time Monitoring Platforms</span>: Built Industry 4.0 applications to track production-line performance, costs, and efficiency, improving overall operational effectiveness.
                     </li>
                     <li>
-                        <span style="color: blue;">Real-time Monitoring Platforms</span>: Built Industry 4.0 applications tracking production-line performance, improving operational efficiency.
+                        <span style="color: blue;">Data Infrastructure & Analytics</span>: Integrated disparate production and business systems, creating unified dashboards that enabled data-driven decision making for C-level executives.
                     </li>
                 </ul>
             </h3>
@@ -212,22 +212,22 @@ export default {
             <h3>
                 <ul>
                     <li>
-                        <span style="color: blue;">Payment Fraud Detection System Development</span>: Developed and enhanced a payment fraud detection system following PCI-DSS and OWASP standards, integrated with CI/CD pipelines, and implemented within a Scrum framework.
+                        <span style="color: blue;">Scalable Payment Systems</span>: Developed enterprise fraud detection system for banks and payment processors, processing millions of transactions daily and ensuring compliance with PCI-DSS and OWASP security standards.
                     </li>
                     <li>
-                        <span style="color: blue;">Scalable Scoring Engine Implementation</span>: Collaborated with the data engineering lead to design and implement a scalable, pluggable multi-model scoring engine using microservices architecture with Kafka, a multi-model ArangoDB data cluster, and Kubernetes, significantly improving system performance. , with development driven by Test-Driven Development (TDD).
+                        <span style="color: blue;">Distributed Systems Architecture</span>: Architected multi-model scoring engine using Kafka event streaming, ArangoDB clustering, and Kubernetes orchestration, improving fraud detection performance 30% and scalability.
                     </li>
                     <li>
-                        <span style="color: blue;">Client Engagement</span>: Partnered with Oceanpayment to gather and translate client requirements into actionable deliverables. Worked closely with NETS to deploy the fraud detection product under strict security conditions, ensuring smooth delivery and operational compliance.
+                        <span style="color: blue;">CQRS Implementation</span>: Designed and implemented Command Query Responsibility Segregation architecture with Elasticsearch optimization, reducing database load and improving dashboard query performance by 15 times.
                     </li>
                     <li>
-                        <span style="color: blue;">CQRS Architecture Design</span>: Designed and implemented a CQRS architecture by segregating the query model into an Elasticsearch cluster, enhancing query performance.
+                        <span style="color: blue;">Real-time Monitoring System</span>: Implement fraud detection visualization monitoring using Kibana dashboards, enabling instant detection and alerting for suspicious transaction patterns.
                     </li>
                     <li>
-                        <span style="color: blue;">Fraud Monitoring with Kibana Dashboards</span>: Developed Kibana dashboards to monitor fraudulent transaction trends and trigger alerts in real time.
+                        <span style="color: blue;">Cross-team Innovation</span>: Co-designed transaction laundering detection solution that achieved company-wide adoption.
                     </li>
                     <li>
-                        <span style="color: blue;">Solution for Transaction Laundering</span>: Collaborated with three colleagues to design an innovative solution for transaction laundering, which was successfully adopted by the company.
+                        <span style="color: blue;">Strategic Client Delivery</span>: Partnered with Oceanpayment and NETS to deploy fraud detection system under strict security protocols.
                     </li>
                 </ul>
             </h3>
@@ -248,31 +248,19 @@ export default {
             <h3>
                 <ul>
                     <li>
-                        <span style="color: blue;">Collaboration with Clients</span>: Worked closely with clients such as Nikon and Panasonic to meet the product expectation.
+                        <span style="color: blue;">Embedded Systems Development</span>: Implemented C/C++ firmware and software modules on camera SoCs, improving UI responsiveness through efficient memory use and targeted algorithm optimizations.
                     </li>
                     <li>
-                        <span style="color: blue;">Partnership with Chip Providers</span>: Collaborated with iCatch and Ambarella (AMBA) on middleware improvements.
+                        <span style="color: blue;">Computer Vision Engineering</span>: Built advanced image processing solutions using OpenCV and C++, delivering superior visual quality and effect on camera products.
                     </li>
                     <li>
-                        <span style="color: blue;">Product Benchmarking and Specification Design</span>: Benchmarked products against the market and co-designed product specifications with Nikon.
+                        <span style="color: blue;">Quality Assurance Leadership</span>: Established comprehensive testing frameworks ensuring 99.99% reliability across 10,000+ test cycles through collaboration with QA teams.
                     </li>
                     <li>
-                        <span style="color: blue;">Firmware Architecture and Development</span>: Designed firmware architecture and translated abstract specifications into executable code in C for camera chips.
+                        <span style="color: blue;">Complex Problem Solving</span>: Resolved critical system integration issues with 1-in-10,000 occurrence rates, preventing project delays and cost overruns.
                     </li>
                     <li>
-                        <span style="color: blue;">Image Processing with OpenCV</span>: Developed high-quality image display solutions using OpenCV with C++.
-                    </li>
-                    <li>
-                        <span style="color: blue;">Image and Video Functionality Development</span>: Implemented editing, display, and other media functionalities with a focus on delivering a good user experience (UX).
-                    </li>
-                    <li>
-                        <span style="color: blue;">Algorithm Optimization for UI Performance</span>: Designed efficient algorithms to optimize camera UI operations for speed and performance.
-                    </li>
-                    <li>
-                        <span style="color: blue;">Load Testing and QA Collaboration</span>: Created load testing scripts and worked closely with QA to ensure all camera functionalities passed over 10,000 test cycles.
-                    </li>
-                    <li>
-                        <span style="color: blue;">Advanced Troubleshooting Across Hardware and Firmware</span>: Demonstrated strong debugging skills, resolving rare bugs occurring with a 1 in 10,000 probability across hardware and firmware components.
+                        <span style="color: blue;">Product Strategy Collaboration</span>: Attend market analysis and co-designed specifications with customers(Nikon, Panasonic), influencing multi-million dollar product roadmap decisions.
                     </li>
                 </ul>
             </h3>
