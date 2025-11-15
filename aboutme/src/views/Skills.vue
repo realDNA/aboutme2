@@ -77,21 +77,21 @@ export default {
           imageSrc: "skills/web.svg",
           skillDetailContent: `
             <h3>
-                Full-Stack Development involves building both the front-end (user interface) and back-end (server-side logic) of an application. It requires addressing all aspects of the software, from designing intuitive visual interfaces to managing infrastructure, APIs, databases, and business logic. This holistic approach ensures seamless integration between components, resulting in a functional, scalable, and efficient application.
-                <br/><br/>
-                The tools and technologies I work with include:
+                Full-stack development means building both the front end (what users see) and the back end (server-side logic and data) of an application. I handle the entire stack—from designing intuitive user interfaces to managing infrastructure, APIs, databases, and business logic. Owning the full lifecycle helps me keep all parts well integrated, scalable, and efficient.
+                <br/><br/><hr/><br/>
+                Tools & Technologies:
                 <br/>
                 <ul>
                     <li>
                         Frontend languages -
                         <strong style="color:blue;">HTML</strong>,
                         <strong style="color:blue;">CSS</strong>,
-                        <strong style="color:blue;">Javascript</strong>,
-                        <strong style="color:blue;">Jquery</strong>
+                        <strong style="color:blue;">JavaScript</strong>,
+                        <strong style="color:blue;">jQuery</strong>
                     </li>
 
                     <li>
-                        Frontend Framework -
+                        Frontend frameworks -
                         <strong style="color:blue;">React</strong>,
                         <strong style="color:blue;">Angular</strong>,
                         <strong style="color:blue;">Vue.js</strong>,
@@ -99,7 +99,7 @@ export default {
                     </li>
 
                     <li>
-                        Frontend Design tools -
+                        Design tools -
                         <strong style="color:blue;">Adobe Illustrator</strong>,
                         <strong style="color:blue;">Adobe XD</strong>,
                         <strong style="color:blue;">Adobe Photoshop</strong>
@@ -113,37 +113,42 @@ export default {
                     </li>
 
                     <li>
-                        Backend Framework -
+                        Backend frameworks -
                         <strong style="color:blue;">Django</strong>,
                         <strong style="color:blue;">Flask</strong>,
                         <strong style="color:blue;">.NET Core</strong>
                     </li>
 
                     <li>
-                        Distributed messaging Systems - 
+                        Messaging & background processing - 
                         <strong style="color:blue;">Redis</strong>,
                         <strong style="color:blue;">RabbitMQ</strong>,
                         <strong style="color:blue;">Celery</strong>
                     </li>
 
                     <li>
-                        DataBase -
+                        Databases -
                         <strong style="color:blue;">Oracle</strong>,
-                        <strong style="color:blue;">Mongo</strong>,
-                        <strong style="color:blue;">Arango</strong>,
-                        <strong style="color:blue;">Postgres</strong>
+                        <strong style="color:blue;">MongoDB</strong>,
+                        <strong style="color:blue;">ArangoDB</strong>,
+                        <strong style="color:blue;">PostgreSQL</strong>
                     </li>
 
                     <li>
-                        Webserver - <strong style="color:blue;">Nginx</strong>
+                        Web / reverse proxy servers - 
+                        <strong style="color:blue;">Nginx</strong>,
+                        <strong style="color:blue;">Caddy</strong>,
+                        <strong style="color:blue;">OpenResty</strong>
                     </li>
 
                     <li>
-                        WSGI server - <strong style="color:blue;">Gunicorn</strong>
+                        Application servers - 
+                        <strong style="color:blue;">Gunicorn (WSGI)</strong>,
+                        <strong style="color:blue;">Django Channels (ASGI)</strong>
                     </li>
 
                     <li>
-                        Web Hosting - <strong style="color:blue;">AWS</strong>
+                        Cloud & hosting - <strong style="color:blue;">AWS</strong>
                     </li>
                 </ul>
             </h3>
@@ -154,13 +159,13 @@ export default {
           imageSrc: "skills/data.svg",
           skillDetailContent: `
             <h3>
-                Data engineering focuses on designing and building the architecture that allows organizations to efficiently collect, process, and analyze data. It ensures data flows smoothly through various systems, supporting data-driven decision-making and optimal system performance.
-                <br/><br/>
-                The tools and technologies I work with include:
+                Data engineering means designing and building the data infrastructure that lets organizations reliably collect, move, and transform information at scale. I handle end-to-end data flows—from ingestion and streaming pipelines to storage, indexing, and monitoring—so data stays accurate, traceable, and ready for analysis.
+                <br/><br/><hr/><br/>
+                Tools & Technologies:
                 <br/>
                 <ul>
                     <li>
-                        Big data tool -
+                        Big data / logging -
                         <strong style="color:blue;">ELK Stack</strong> (
                         <strong style="color:blue;">Elasticsearch</strong>,
                         <strong style="color:blue;">Kibana</strong>,
@@ -178,20 +183,21 @@ export default {
           imageSrc: "skills/firmware.svg",
           skillDetailContent: `
             <h3>
-                Firmware is specialized software designed to run on specific hardware, such as microcontrollers and application-specific integrated circuits (ASICs). It provides low-level control for the device, ensuring it performs its intended functions reliably. Firmware development involves programming and optimizing this software to work efficiently within the constraints of the hardware.
-                <br/><br/>
-                The tools and technologies I work with include:
+                Firmware development means creating low-level software that runs directly on specific hardware, such as microcontrollers and application-specific integrated circuits (ASICs). I handle things from driver-level code to application logic and performance tuning under tight memory and timing constraints, ensuring devices behave reliably in real-world conditions.
+                <br/><br/><hr/><br/>
+                Tools & Technologies:
+                <br/>
                 <ul>
                     <li>
-                        Chips used -
+                        Chips -
                         <strong style="color:blue;">Microcontroller 8051</strong>,
                         <strong style="color:blue;">iCatch V35</strong>,
                         <strong style="color:blue;">iCatch V50</strong>,
-                        <strong style="color:blue;">Ambrella Amba chip</strong>
+                        <strong style="color:blue;">Ambrella Amba chips</strong>
                     </li>
 
                     <li>
-                        Programming language -
+                        Programming languages -
                         <strong style="color:blue;">C</strong>,
                         <strong style="color:blue;">C++</strong>
                     </li>
@@ -204,51 +210,36 @@ export default {
           imageSrc: "skills/devops.svg",
           skillDetailContent: `
             <h3>
-               DevOps is a methodology that unites development (Dev) and operations (Ops) teams, leveraging automation tools to streamline workflows and enhance delivery speed and reliability throughout the software lifecycle. It involves the following phases:
-                <br/><br/>
-                Development (Dev) -
+               DevOps focuses on unifying development (Dev) and operations (Ops) by using automation, CI/CD, and monitoring to streamline workflows and make releases faster and more reliable. I handle the full lifecycle—from version control and continuous integration to deployment and production monitoring—so systems stay stable while shipping changes frequently.
+                <br/><br/><hr/><br/>
+                Tools & Technologies:
                 <br/>
-                1. Continuous Development: Plan and code the software.
-                <br/>
-                2. Continuous Testing: Build and test the software.
-
-                <br/><br/>
-                Operations (Ops) -
-                <br/>
-                1. Continuous Deployment: Release and deploy to production.
-                <br/>
-                2. Continuous Monitoring: Operate and monitor systems for stability and performance.
-                <br/><br/>
-                Continuous Integration bridges Dev and Ops by automating code integration and testing.
-                <br/><br/>
-                The tools and technologies I work with in each phase include:
-
                 <ul>
                     <li>
-                        Continuous Development - <strong style="color:blue;">Git  (version control)</strong>
+                        Continuous development - <strong style="color:blue;">Git  (version control)</strong>
                     </li>
                     <li>
-                        Continuous Integration -
+                        Continuous integration -
                         <strong style="color:blue;">Jenkins</strong>,
                         <strong style="color:blue;">Travis CI</strong>
                     </li>
                     <li>
-                        Continuous Deployment -
+                        Continuous Deployment:
                         <br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;- Virtualization & Containerization -
+                            &nbsp;&nbsp;&nbsp;&nbsp;- Virtualization & containerization -
                             <strong style="color:blue;">Docker</strong>,
                             <strong style="color:blue;">Docker Compose</strong>,
                             <strong style="color:blue;">Kubernetes</strong>,
-                            <strong style="color:blue;">Virtual Machine</strong>
+                            <strong style="color:blue;">Virtual Machines</strong>
                             <br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;- Configuration Management - <strong style="color:blue;">Ansible</strong>
+                            &nbsp;&nbsp;&nbsp;&nbsp;- Configuration management - <strong style="color:blue;">Ansible</strong>
                             <br/>
                     </li>
                     <li>
-                        Continuous Testing: <strong style="color:blue;">Selenium</strong>
+                        Continuous testing - <strong style="color:blue;">Selenium</strong>
                     </li>
                     <li>
-                        Continuous Monitoring - <strong style="color:blue;">Zabbix</strong>
+                        Continuous monitoring - <strong style="color:blue;">Zabbix</strong>
                     </li>
                 </ul>
             </h3>
@@ -259,12 +250,13 @@ export default {
           imageSrc: "skills/spider.svg",
           skillDetailContent: `
             <h3>
-                Web scraping is a technique used to automatically extract large amounts of data from websites. This data is collected and transformed into a structured format, such as CSV or JSON, making it more accessible and useful for analysis.
-                <br/><br/>
-                The tools and technologies I work with include:
+                Web scraping focuses on automatically extracting data from websites and turning it into structured formats such as CSV or JSON, making it easier to reuse for analysis, automation, or integration with other systems. I also use browser automation for end-to-end testing, ensuring scraped data and web flows behave as expected.
+                <br/><br/><hr/><br/>
+                Tools & Technologies:
+                <br/>
                 <ul>
                     <li>
-                        Web driver - <strong style="color:blue;">Selenium</strong>
+                        Web automation & driver - <strong style="color:blue;">Selenium (for scraping & testing)</strong>
                     </li>
                     <li>
                         HTML parser - <strong style="color:blue;">BeautifulSoup</strong>
@@ -281,31 +273,12 @@ export default {
           imageSrc: "skills/ai.svg",
           skillDetailContent: `
             <h3>
-                AI enables machines to mimic human intelligence by understanding language, identifying patterns, and making decisions autonomously. It drives innovations like ChatGPT, autonomous vehicles, and personalized recommendation systems, transforming how we interact with technology and enhancing automation across industries.
-                <br/><br/>
-                Machine Learning (ML): A core part of AI where systems learn from data to improve over time without explicit programming.
-                <br/><br/>
-                Deep Learning: A specialized branch of ML using neural networks to process complex data (e.g., text, images) similar to how the human brain works.
-                
-                <br/><br/>
-                Key Learning Approaches:
-                <ul>
-                    <li>
-                        Supervised Learning: Learns from labeled datasets to make predictions.
-                    </li>
-                    <li>
-                        Unsupervised Learning: Discovers hidden patterns in unlabeled data.
-                    </li>
-                    <li>
-                        Semi-supervised Learning: Mixes labeled and unlabeled data for training.
-                    </li>
-                    <li>
-                        Reinforcement Learning: Adapts behavior through feedback to maximize rewards, as seen in AlphaGo or robotics.
-                    </li>
-                </ul>
-                
-                <br/><br/>
-                The tools and technologies I work with include:
+                Artificial intelligence (AI) enables machines to approximate human intelligence by understanding language, recognizing patterns, and making decisions autonomously. It powers applications like ChatGPT, autonomous driving, and recommendation systems, transforming how we interact with software and automating complex tasks across industries.
+                <br/>
+                I apply AI in enterprise environments by integrating LLMs and ML workflows into automotive ALM processes, building assistants that guide users through ISO 26262, ISO 21434, and ASPICE–compliant workflows and significantly reduce manual effort and operation time.
+                <br/><br/><hr/><br/>
+                Tools & Technologies:
+                <br/>
                 <ul>
                     <li>
                         Neural network library: <strong style="color:blue;">Keras</strong>
@@ -314,10 +287,12 @@ export default {
                         Programming language: <strong style="color:blue;">R</strong>
                     </li>
                     <li>
-                        Conversational AI: <strong style="color:blue;">ChatGpt</strong>
+                        Conversational AI & LLM APIs -
+                         <strong style="color:blue;">ChatGPT</strong>
+                         <strong style="color:blue;">ChatGPT API</strong>
                     </li>
                     <li>
-                        AI Application Framework: <strong style="color:blue;">LangChain</strong>
+                        AI application framework: <strong style="color:blue;">LangChain</strong>
                     </li>
                     <li>
                         AI orchestration & agents: <strong style="color:blue;">Semantic Kernel + MCP (Model Context Protocol)</strong>
