@@ -149,6 +149,9 @@ export default {
                         <span style="color: blue;">System Architecture Design</span>: Architected enterprise-scale microservice ecosystems using Domain-Driven Design (DDD) principles, establishing robust design patterns that improved system modularity and reduced deployment complexity.
                     </li>
                     <li>
+                        <span style="color: blue;">Project management</span>: Managed and developed 5 company-wide web services for task progress and status tracking, improving project visibility and reducing manual operations by 30%.
+                    </li>
+                    <li>
                         <span style="color: blue;">Fullstack Development</span>: Engineered high-performance applications using Django, React, Oracle, Redis, Celery, RabbitMQ, and Kubernetes, delivering systems that serve company-wide traffic and mission-critical workflows.
                     </li>
                     <li>
