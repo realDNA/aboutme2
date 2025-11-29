@@ -146,22 +146,25 @@ export default {
             <h3>
                 <ul>
                     <li>
-                        <span style="color: blue;">System Architecture Design</span>: Architected enterprise-scale microservice ecosystems using Domain-Driven Design (DDD) principles, establishing robust design patterns that improved system modularity and reduced deployment complexity.
+                        <span style="color: blue;">Automotive Compliance & ALM</span>: Led a joint MediaTek–NVIDIA automotive project as process digitalization owner, implementing ISO 26262 / ISO 21434 / ASPICE–compliant ALM workflows.
                     </li>
                     <li>
                         <span style="color: blue;">Project management</span>: Managed and developed 5 company-wide web services for task progress and status tracking, improving project visibility and reducing manual operations by 30%.
                     </li>
                     <li>
+                        <span style="color: blue;">System Architecture Design</span>: Architected enterprise-scale microservice ecosystems using Domain-Driven Design (DDD) principles, establishing robust design patterns that improved system modularity and reduced deployment complexity.
+                    </li>
+                    <li>
                         <span style="color: blue;">Fullstack Development</span>: Engineered high-performance applications using Django, React, Oracle, Redis, Celery, RabbitMQ, and Kubernetes, delivering systems that serve company-wide traffic and mission-critical workflows.
+                    </li>
+                    <li>
+                        <span style="color: blue;">AI-Powered Innovation</span>: Developed Semantic Kernel + MCP–based AI assistants that guide users through compliance steps and significantly reduce operation time.
                     </li>
                     <li>
                         <span style="color: blue;">DevOps Excellence</span>: Automated infrastructure using Kubernetes and Jenkins CI/CD pipelines, reducing deployment time from hours to minutes while improving system stability and high availability.
                     </li>
                     <li>
-                        <span style="color: blue;">Automotive Compliance & ALM</span>: Led a joint MediaTek–NVIDIA automotive project as process digitalization owner, implementing ISO 26262 / ISO 21434 / ASPICE–compliant ALM workflows.
-                    </li>
-                    <li>
-                        <span style="color: blue;">AI-Powered Innovation</span>: Developed Semantic Kernel + MCP–based AI assistants that guide users through compliance steps and significantly reduce operation time.
+                        <span style="color: blue;">MediaTek vAwards</span>: Honored with vAwards each year from 2022–2025 in recognition of consistently demonstrating the company’s core values.
                     </li>
                 </ul>
             </h3>
