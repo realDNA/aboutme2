@@ -241,7 +241,7 @@ export default {
         },
         {
           name: "Ability",
-          jobPosition: "Firmware Engineer",
+          jobPosition: "Software Engineer",
           imageSrc: "work-experience/camera.svg",
           startTime: "2014 Nov",
           period: "2014 Nov - 2017 Oct",
