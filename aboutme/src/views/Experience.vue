@@ -185,7 +185,7 @@ export default {
             <h3>
                 <ul>
                     <li>
-                      <span style="color: blue;">Engineering Leadership</span>: Led a 5-person web development team, delivering projects across multiple product lines and fostering strong collaboration and innovation.
+                      <span style="color: blue;">Engineering Leadership</span>: Led a web development team, delivering projects across multiple product lines and fostering strong collaboration and innovation.
                     </li>
                     <li>
                       <span style="color: blue;">OKR System Implementation</span>: Led 6 cross-functional teams in adopting an OKR system for a 100-person department, boosting transparency, alignment, and process efficiency.
