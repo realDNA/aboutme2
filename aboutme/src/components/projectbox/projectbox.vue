@@ -1,40 +1,38 @@
 <template>
-<div class="projectBox"
-@click.stop="dialog = true">
-    <img :src="require(`@/assets/images/${projectBoxImage}`)"
-    alt="projects"
-    height="100px"
+  <div class="projectBox" @click.stop="dialog = true">
+    <img
+      :src="require(`@/assets/images/${projectBoxImage}`)"
+      alt="projects"
+      height="100px"
     />
 
     <div class="project-title">
-        <h3> {{projectBoxName}} </h3>
+      <h3>{{ projectBoxName }}</h3>
     </div>
 
-    <v-dialog
-    v-model="dialog"
-    max-width="1000"
-    scroll-strategy="none"
-    >
-        <v-card>
-            <v-card-title class="text-center card-title">
-                <h4> {{projectDetailTitle}} </h4>
-            </v-card-title>
-            <v-divider/>
-            <v-card-text>
-                <div class="project-detail-text">
-                    <div class="project-detail-content-item">
-                        <slot></slot>
-                     </div>
-                </div>
-            </v-card-text>
+    <v-dialog v-model="dialog" max-width="1000" scroll-strategy="none">
+      <v-card class="project-dialog-card">
+        <v-card-title class="text-center card-title project-dialog-title">
+          <h4>{{ projectDetailTitle }}</h4>
+        </v-card-title>
+        <v-divider />
+        <v-card-text class="project-dialog-body">
+          <div class="project-detail-text">
+            <div class="project-detail-content-item">
+              <slot></slot>
+            </div>
+          </div>
+        </v-card-text>
 
-            <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn color="red darken-1" text @click="dialog = false"> Close </v-btn>
-            </v-card-actions>
-        </v-card>
+        <v-card-actions class="project-dialog-actions">
+          <v-spacer></v-spacer>
+          <v-btn color="red darken-1" text @click="dialog = false">
+            Close
+          </v-btn>
+        </v-card-actions>
+      </v-card>
     </v-dialog>
-</div>
+  </div>
 </template>
 
 <script>
@@ -64,10 +62,100 @@
 
 <style scoped>
 .project-detail-text {
-    padding: 15px;
+  padding: 24px 26px 28px;
 }
 
 .project-detail-content-item {
-    line-height: 30px;
+  line-height: 1.7;
+  color: #2f3b4a;
+}
+
+.project-dialog-card {
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(24, 43, 78, 0.25);
+}
+
+.project-dialog-title {
+  background: linear-gradient(135deg, #f7fbff 0%, #eef4ff 55%, #f6f1ff 100%);
+  padding: 20px 22px;
+  border-bottom: 1px solid #e1ebf6;
+}
+
+.project-dialog-title h4 {
+  font-size: 1.25rem;
+  letter-spacing: 0.2px;
+}
+
+.project-dialog-body {
+  padding: 0;
+  background: radial-gradient(
+      120% 140% at 0% 0%,
+      #f7f9ff 0%,
+      #ffffff 45%,
+      #f9f6ff 100%
+    );
+}
+
+.project-dialog-actions {
+  background: linear-gradient(180deg, #f9fbff 0%, #f3f7ff 100%);
+  border-top: 1px solid #eef3fb;
+  padding: 10px 18px 16px;
+}
+
+.project-detail-content-item ul {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.project-detail-content-item li {
+  position: relative;
+  padding: 0.8rem 1.1rem 0.8rem 2.1rem;
+  border-radius: 14px;
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+    linear-gradient(120deg, #dbe6ff, #f1e6ff) border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 10px 22px rgba(24, 43, 78, 0.08);
+}
+
+.project-detail-content-item li::before {
+  content: "";
+  position: absolute;
+  left: 0.8rem;
+  top: 1.05rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #4b74ff, #7b59ff);
+  transform: rotate(45deg);
+  box-shadow: 0 6px 14px rgba(75, 116, 255, 0.3);
+}
+
+.project-detail-content-item ul ul {
+  margin-top: 0.6rem;
+  padding-left: 0;
+}
+
+.project-detail-content-item a {
+  color: #1f49c7;
+  font-weight: 600;
+  text-decoration: none;
+  background-image: linear-gradient(
+    120deg,
+    rgba(75, 116, 255, 0.15),
+    rgba(123, 89, 255, 0.15)
+  );
+  background-size: 100% 0.35em;
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+  border-bottom: 1px solid rgba(31, 73, 199, 0.15);
+  padding-bottom: 1px;
+}
+
+.project-detail-content-item a:hover {
+  border-bottom-color: rgba(31, 73, 199, 0.6);
 }
 </style>
