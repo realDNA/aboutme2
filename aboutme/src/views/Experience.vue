@@ -185,7 +185,10 @@ export default {
             <h3>
                 <ul>
                     <li>
-                      <span style="color: blue;">Engineering Leadership</span>: Led a web development team, delivering projects across multiple product lines and fostering strong collaboration and innovation.
+                      <span style="color: blue;">Engineering Leadership</span>: Led a web development team delivering manufacturing monitoring and digital transformation solutions across multiple Garmin product lines (e.g., Forerunner, Venu, fēnix).
+                    </li>
+                    <li>
+                      <span style="color: blue;">Operational Transformation</span>: Drove executive alignment to close a 5-year workflow digitalization adoption gap at one plant, increasing adoption from 20% → 95%.
                     </li>
                     <li>
                       <span style="color: blue;">OKR System Implementation</span>: Led 6 cross-functional teams in adopting an OKR system for a 100-person department, boosting transparency, alignment, and process efficiency.
