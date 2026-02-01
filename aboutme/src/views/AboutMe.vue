@@ -71,7 +71,7 @@
       <v-container>
         <v-col cols="12" sm="12" md="12" lg="12" xl="12">
           <div class="about-introduce">
-            <h1 class="text-center">What Have I Done</h1>
+            <h1 class="text-center">What I Have Done</h1>
             <div class="about-introduce-sub" v-scrollanimation>
               <ul>
                 <li v-scrollanimation>
