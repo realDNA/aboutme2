@@ -7,8 +7,9 @@
             <div class="text-center about-introduce">
               <h1>About</h1>
               <div class="about-introduce-sub">
-                I’m a motivated software engineer committed to delivering
-                impactful solutions through leadership and continuous learning.
+                I’m a motivated Technical manager and software engineer
+                committed to delivering impactful solutions through leadership
+                and continuous learning.
               </div>
               <ScrollDownArrow />
             </div>
@@ -74,6 +75,10 @@
             <div class="about-introduce-sub" v-scrollanimation>
               <ul>
                 <li v-scrollanimation>
+                  Managed automotive compliance processes aligned with ISO
+                  21434, ISO 26262, and ASPICE.
+                </li>
+                <li v-scrollanimation>
                   Lead and manage web application team to ensure smooth project
                   execution.
                 </li>
@@ -82,12 +87,12 @@
                   collaborative team culture.
                 </li>
                 <li v-scrollanimation>
-                  Design systems for high stability, availability, and
-                  scalability in web applications.
-                </li>
-                <li v-scrollanimation>
                   Introduce OKR management at the executive level to enhance
                   focus and alignment.
+                </li>
+                <li v-scrollanimation>
+                  Design systems for high stability, availability, and
+                  scalability in web applications.
                 </li>
                 <li v-scrollanimation>
                   Manage mission-critical and time-sensitive projects to ensure
@@ -141,7 +146,7 @@
             </div>
           </div>
           <v-row justify-end>
-            <v-col shrink style="text-align: right;">
+            <v-col shrink style="text-align: right">
               <img
                 :src="require('@/assets/images/aboutme/book.svg')"
                 id="about-book"
@@ -165,7 +170,7 @@ export default {
     ScrollDownArrow,
   },
   computed: {
-    softwareWorkSince: function() {
+    softwareWorkSince: function () {
       let fromTime = moment("2014-11-01").diff(moment(), "milliseconds");
       let duration = moment.duration(fromTime);
       //   let timeString =
