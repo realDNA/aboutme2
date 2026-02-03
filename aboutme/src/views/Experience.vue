@@ -207,7 +207,7 @@ export default {
             `,
         },
         {
-          name: "ADVANCE.BizQ (Jewel Paymentech)",
+          name: "ADVANCE.AI",
           jobPosition: "Software Engineer",
           imageSrc: "work-experience/jewel.svg",
           startTime: "2017 Dec",
